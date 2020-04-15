@@ -3,48 +3,94 @@ import gym
 import random
 from collections import deque
 import time
+import os
+import json
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import load_model
-
+from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DO_TRAINING = False
+DIR_PATH = "./experiments/CartPole-v1_10"
+DO_TRAINING = True
 
 ENV_NAME = "CartPole-v1"
-
-MODEL_PATH = "./scores/model.HDF5"
 
 MEMORY_SIZE = 1000000
 
 EXPLORATION_MAX = 1.0
 EXPLORATION_MIN = 0.1
-EXPLORATION_DECAY = 0.995
+EXPLORATION_DECAY = 0.9985
 
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
-GAMMA = 0.98
+GAMMA = 0.95
+
+WINDOW_SIZE = 100
+AVG_SCORE_TO_SOLVE = 425
+
+SEED = 0
 
 class DQNAgent:
-    def __init__(self, model_path=None):
-        self.env = gym.make(ENV_NAME)
-        self.observation_space_size = self.env.observation_space.shape[0]
-        self.action_space_size = self.env.action_space.n
-        self.exploration_rate = EXPLORATION_MAX
-        self.memory = deque(maxlen=MEMORY_SIZE)
+    def __init__(self, dir_path=None):
 
-        if model_path is None:
+        def initialize():
+            # create environment and initial parameters
+            self.env = gym.make(self.env_name)
+            self.env.seed(self.seed)
+            self.observation_space_size = self.env.observation_space.shape[0]
+            self.action_space_size = self.env.action_space.n
+            self.exploration_rate = self.exloration_max
+            self.memory = deque(maxlen=self.memory_size)
+
+            # create ScoreLogger
+            self.score_logger = ScoreLogger(self.dir_path, self.window_size, self.avg_score_to_solve)
+
+        if dir_path is None:
+            # settings
+            self.env_name = ENV_NAME
+            self.exloration_max = EXPLORATION_MAX
+            self.exploration_min = EXPLORATION_MIN
+            self.exploration_decay = EXPLORATION_DECAY
+            self.memory_size = MEMORY_SIZE
+            self.batch_size = BATCH_SIZE
+            self.learning_rate = LEARNING_RATE
+            self.gamma = GAMMA
+            self.window_size = WINDOW_SIZE
+            self.avg_score_to_solve = AVG_SCORE_TO_SOLVE
+            self.seed = SEED
+
+            # create new directory to store settings and results
+            run = 0
+            while True:
+                run += 1
+                if not os.path.exists(f"./experiments/{ENV_NAME}_{run}"):
+                    self.dir_path = f"./experiments/{ENV_NAME}_{run}"
+                    os.mkdir(self.dir_path)
+                    break
+
+            # save settings
+            with open(os.path.join(self.dir_path, "settings.json"), "w") as file:
+                json.dump(self.__dict__, file)
+
+            initialize()
+            self.score_logger.log(f"Results of experiments stored in: {self.dir_path}")
+
+            # create model and store model and visualization
             self.model = Sequential()
             self.model.add(Dense(256, input_shape=(self.observation_space_size,), activation='relu'))
             self.model.add(Dense(self.action_space_size, activation='linear'))
-            self.model.compile(loss='mse', optimizer=Adam(learning_rate=LEARNING_RATE))
-
-            self.score_logger = ScoreLogger(ENV_NAME)
+            self.model.compile(loss='mse', optimizer=Adam(learning_rate=self.learning_rate))
+            self.model.save(os.path.join(self.dir_path, "model.HDF5"))
+            plot_model(self.model, to_file=os.path.join(self.dir_path, "model.png"), show_shapes=True)
         else:
-            self.model = load_model(model_path)
-        
-        #self.env.seed(5)
+            with open(os.path.join(dir_path, "settings.json"), "r") as file:
+                self.__dict__ = json.load(file)
+            
+            initialize()
+
+            self.model = load_model(os.path.join(self.dir_path, "model.HDF5"))
 
     def train(self):
         episode = 0
@@ -56,14 +102,14 @@ class DQNAgent:
             while True:
                 action = self.act(state, off_policy=True)
                 state_new, reward, done, info = self.env.step(action)
-                score += int(reward)
+                score += reward
                 state_new = np.reshape(state_new, (1, self.observation_space_size))
                 self.memory.append((state, action, reward, state_new, done))
                 self.experience_replay()
                 state = state_new
                 if done:
-                    self.model.save(MODEL_PATH)
-                    print(f"Episode: {episode}, exploration: {self.exploration_rate}, score: {score}")
+                    self.model.save(os.path.join(self.dir_path, "model.HDF5"))
+                    self.score_logger.log(f"Episode: {episode}, exploration: {self.exploration_rate}, score: {score}")
                     self.score_logger.add_score(score, episode)
                     break
         self.env.close()
@@ -76,17 +122,17 @@ class DQNAgent:
         return np.argmax(q_values[0])
     
     def experience_replay(self):
-        if len(self.memory) < BATCH_SIZE:
+        if len(self.memory) < self.batch_size:
             return
-        batch = random.sample(self.memory, BATCH_SIZE)
+        batch = random.sample(self.memory, self.batch_size)
         for state, action, reward, state_new, done in batch:
             target = self.model.predict(state)
             if done:
                 target[0][action] = reward
             else:
-                target[0][action] = reward + GAMMA*np.amax(self.model.predict(state_new)[0])
+                target[0][action] = reward + self.gamma*np.amax(self.model.predict(state_new)[0])
             self.model.fit(state, target, verbose=0)
-        self.exploration_rate = np.amax((self.exploration_rate*EXPLORATION_DECAY, EXPLORATION_MIN))
+        self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
 
     def simulate(self):
         state = self.env.reset()
@@ -96,11 +142,11 @@ class DQNAgent:
             self.env.render()
             action = self.act(state, off_policy=False)
             state, reward, done, info = self.env.step(action)
-            score += int(reward)
+            score += reward
             state = np.reshape(state, (1, self.observation_space_size))
             time.sleep(0.05)
             if done:
-                print(f"Episode finished, score: {score}")
+                self.score_logger.log(f"Episode finished, score: {score}")
                 break
         self.env.close()
 
@@ -109,16 +155,17 @@ def train_model():
     dqn_agent.train()
 
 def simulate_model():
-    dqn_agent = DQNAgent(MODEL_PATH)
+    dqn_agent = DQNAgent(DIR_PATH)
     dqn_agent.simulate()
 
 if __name__ == "__main__":
     if DO_TRAINING:
         train_model()
     
-    simulate_model()
+    #simulate_model()
 
 
 # ToDo:
 #manual play
 #estimated action-value function Q
+#One-hot encoding

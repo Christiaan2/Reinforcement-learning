@@ -6,75 +6,61 @@ from collections import deque
 import os
 import csv
 
-SCORES_CSV_PATH = "./scores/scores.csv"
-SCORES_PNG_PATH = "./scores/scores.png"
-SOLVED_CSV_PATH = "./scores/solved.csv"
-SOLVED_PNG_PATH = "./scores/solved.png"
-AVERAGE_SCORE_TO_SOLVE = 195
-CONSECUTIVE_EPISODES_TO_SOLVE = 100
-
 class ScoreLogger:
-    def __init__(self, env_name):
-        self.scores = deque(maxlen=CONSECUTIVE_EPISODES_TO_SOLVE)
-        self.env_name = env_name
-
-        if os.path.exists(SCORES_PNG_PATH):
-            os.remove(SCORES_PNG_PATH)
-        if os.path.exists(SCORES_CSV_PATH):
-            os.remove(SCORES_CSV_PATH)
+    def __init__(self, dir_path, window_size, avg_score_to_solve):
+        self.log_path = os.path.join(dir_path, "logs.txt")
+        self.scores_csv_path = os.path.join(dir_path, "scores.csv")
+        self.scores_png_path = os.path.join(dir_path, "scores.png")
+        self.window_size = window_size
+        self.avg_score_to_solve = avg_score_to_solve
+        self.scores = deque(maxlen=self.window_size)
         
     def add_score(self, score, episode):
-        self._save_csv(SCORES_CSV_PATH, score)
-        self._save_png(input_path=SCORES_CSV_PATH,
-                       output_path=SCORES_PNG_PATH,
+        self.scores.append(score)
+        score_min = np.min(self.scores)
+        score_avg = np.mean(self.scores)
+        score_max = np.max(self.scores)
+        self.log(f"Scores: (min: {score_min}, avg: {score_avg}, max: {score_max})\n")
+        
+        self._save_csv(score, score_min, score_avg, score_max)
+        self._save_png(input_path=self.scores_csv_path,
+                       output_path=self.scores_png_path,
                        x_label="episode",
                        y_label="scores",
-                       average_of_n_last=CONSECUTIVE_EPISODES_TO_SOLVE,
+                       average_of_n_last=self.window_size,
                        show_goal=True,
                        show_trend=True,
                        show_legend=True)
-        self.scores.append(score)
-        print(f"Scores: (min: {np.min(self.scores)}, avg: {np.mean(self.scores)}, max: {np.max(self.scores)})\n")
-        if np.mean(self.scores) >= AVERAGE_SCORE_TO_SOLVE and len(self.scores) >= CONSECUTIVE_EPISODES_TO_SOLVE:
-            solve_score = episode - CONSECUTIVE_EPISODES_TO_SOLVE
-            print(f"Solved in {solve_score} episodes, {episode} total episodes.")
-            self._save_csv(SOLVED_CSV_PATH, solve_score)
-            self._save_png(input_path=SOLVED_CSV_PATH,
-                           output_path=SOLVED_PNG_PATH,
-                           x_label="trials",
-                           y_label="episode before solve",
-                           average_of_n_last=None,
-                           show_goal=False,
-                           show_trend=False,
-                           show_legend=False)
+
+        
+        if score_avg >= self.avg_score_to_solve and len(self.scores) >= self.window_size:
+            self.log(f"Solved in {episode} episodes.")
             exit()
 
     def _save_png(self, input_path, output_path, x_label, y_label, average_of_n_last, show_goal, show_trend, show_legend):
         x = []
         y = []
-        with open(input_path, "r") as scores:
-            reader = csv.reader(scores)
-            data = list(reader)
-            for i in range(len(data)):
+        with open(input_path, "r") as scores_file:
+            reader = csv.reader(scores_file)
+            for i, scores in enumerate(reader):
                 x.append(int(i))
-                y.append(int(data[i][0]))
-        
-        plt.subplots()
-        plt.plot(x, y, label="score per episode")
+                y.append([float(score) for score in scores])
+        x = np.array(x)
+        y = np.array(y)
 
-        average_range = average_of_n_last if average_of_n_last is not None else len(x)
-        plt.plot(x[-average_range:], [np.mean(y[-average_range:])] * len(y[-average_range:]), linestyle="--", label=f"last {average_range} episodes average")
+        plt.subplots()
+        plt.plot(x, y[:,0], label="score per episode")
+        plt.plot(x, y[:,2], label=f"last {self.window_size} episodes avg")
 
         if show_goal:
-            plt.plot(x, [AVERAGE_SCORE_TO_SOLVE] * len(x), linestyle=":", label=f"{AVERAGE_SCORE_TO_SOLVE} score average goal")
+            plt.plot(x, [self.avg_score_to_solve] * len(x), linestyle=":", label=f"{self.avg_score_to_solve} score avg goal")
 
         if show_trend and len(x) > 1:
-            trend_x = x[1:]
-            z = np.polyfit(np.array(trend_x), np.array(y[1:]), 1)
+            z = np.polyfit(x, y[:,0], 1)
             p = np.poly1d(z)
-            plt.plot(trend_x, p(trend_x), linestyle="-.",  label="trend")
+            plt.plot(x, p(x), linestyle="-.",  label="trend")
 
-        plt.title(self.env_name)
+        plt.title(self.scores_png_path)
         plt.xlabel(x_label)
         plt.ylabel(y_label)
 
@@ -84,12 +70,12 @@ class ScoreLogger:
         plt.savefig(output_path, bbox_inches="tight")
         plt.close()
 
-    def _save_csv(self, path, score):
-        if not os.path.exists(path):
-            with open(path, "w"):
-                pass
-        scores_file = open(path, "a")
-        with scores_file:
+    def _save_csv(self, score, score_min, score_avg, score_max):
+        with open(self.scores_csv_path, "a") as scores_file:
             writer = csv.writer(scores_file)
-            writer.writerow([score])
-            
+            writer.writerow([score, score_min, score_avg, score_max])
+
+    def log(self, message):
+        print(message)
+        with open(self.log_path, "a") as log_file:
+            log_file.write(message + "\n")
