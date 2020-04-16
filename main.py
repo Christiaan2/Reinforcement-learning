@@ -12,7 +12,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DIR_PATH = "./experiments/CartPole-v1_3"
+DIR_PATH = "./experiments/CartPole-v1_4"
 DO_TRAINING = False
 
 ENV_NAME = "CartPole-v1"
@@ -20,11 +20,11 @@ ENV_NAME = "CartPole-v1"
 MEMORY_SIZE = 1000000
 
 EXPLORATION_MAX = 1.0
-EXPLORATION_MIN = 0.15
+EXPLORATION_MIN = 0.12
 EXPLORATION_DECAY = 0.99975
 
 BATCH_SIZE = 32
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0005
 GAMMA = 0.95
 
 WINDOW_SIZE = 100
@@ -91,7 +91,7 @@ class DQNAgent:
             
             initialize()
 
-            self.model = load_model(os.path.join(self.dir_path, "model.HDF5"))
+            self.model = load_model(os.path.join(self.dir_path, "model_best.HDF5"))
 
     def train(self):
         episode = 0
@@ -112,6 +112,10 @@ class DQNAgent:
                     self.model.save(os.path.join(self.dir_path, "model.HDF5"))
                     self.score_logger.log(f"Episode: {episode}, exploration: {self.exploration_rate}, score: {score}")
                     self.score_logger.add_score(score, episode)
+                    if self.score_logger.save_best_model:
+                        self.model.save(os.path.join(self.dir_path, "model_best.HDF5"))
+                        self.score_logger.save_best_model = False
+                        self.score_logger.log("Best model replaced")
                     break
         self.env.close()
     
@@ -135,13 +139,16 @@ class DQNAgent:
             self.model.fit(state, target, verbose=0)
         self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
 
-    def simulate(self):
+    def simulate(self, verbose=False):
         state = self.env.reset()
         state = np.reshape(state, (1, self.observation_space_size))
         score = 0
         while True:
             self.env.render()
             action = self.act(state, off_policy=False)
+            if verbose:
+                with np.printoptions(precision=5, sign=' ', floatmode='fixed', suppress=True):
+                    self.score_logger.log(f"State: {state[0]}, Output model: {self.model.predict(state)[0]}, Action: {action}, score: {score}")
             state, reward, done, info = self.env.step(action)
             score += reward
             state = np.reshape(state, (1, self.observation_space_size))
@@ -157,7 +164,7 @@ def train_model():
 
 def simulate_model():
     dqn_agent = DQNAgent(DIR_PATH)
-    dqn_agent.simulate()
+    dqn_agent.simulate(verbose=True)
 
 if __name__ == "__main__":
     if DO_TRAINING:

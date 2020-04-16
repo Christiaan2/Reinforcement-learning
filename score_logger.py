@@ -14,6 +14,8 @@ class ScoreLogger:
         self.window_size = window_size
         self.avg_score_to_solve = avg_score_to_solve
         self.scores = deque(maxlen=self.window_size)
+        self.avg_score_max = -np.inf
+        self.save_best_model = False
         
     def add_score(self, score, episode):
         self.scores.append(score)
@@ -32,6 +34,10 @@ class ScoreLogger:
                        show_trend=True,
                        show_legend=True)
 
+        if score_avg >= self.avg_score_max and len(self.scores) >= self.window_size:
+            self.avg_score_max = score_avg
+            if score >= self.avg_score_to_solve:
+                self.save_best_model = True
         
         if score_avg >= self.avg_score_to_solve and len(self.scores) >= self.window_size:
             self.log(f"Solved in {episode} episodes.")
