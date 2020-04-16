@@ -12,16 +12,16 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DIR_PATH = "./experiments/CartPole-v1_10"
-DO_TRAINING = True
+DIR_PATH = "./experiments/CartPole-v1_3"
+DO_TRAINING = False
 
 ENV_NAME = "CartPole-v1"
 
 MEMORY_SIZE = 1000000
 
 EXPLORATION_MAX = 1.0
-EXPLORATION_MIN = 0.1
-EXPLORATION_DECAY = 0.9985
+EXPLORATION_MIN = 0.15
+EXPLORATION_DECAY = 0.99975
 
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
@@ -38,7 +38,8 @@ class DQNAgent:
         def initialize():
             # create environment and initial parameters
             self.env = gym.make(self.env_name)
-            self.env.seed(self.seed)
+            if DO_TRAINING:
+                self.env.seed(self.seed)
             self.observation_space_size = self.env.observation_space.shape[0]
             self.action_space_size = self.env.action_space.n
             self.exploration_rate = self.exloration_max
@@ -144,7 +145,7 @@ class DQNAgent:
             state, reward, done, info = self.env.step(action)
             score += reward
             state = np.reshape(state, (1, self.observation_space_size))
-            time.sleep(0.05)
+            time.sleep(0.1)
             if done:
                 self.score_logger.log(f"Episode finished, score: {score}")
                 break
@@ -162,7 +163,7 @@ if __name__ == "__main__":
     if DO_TRAINING:
         train_model()
     
-    #simulate_model()
+    simulate_model()
 
 
 # ToDo:
