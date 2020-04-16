@@ -91,7 +91,9 @@ class DQNAgent:
             
             initialize()
 
-            self.model = load_model(os.path.join(self.dir_path, "model_best.HDF5"))
+            model_name = "model.HDF5"
+            self.model = load_model(os.path.join(self.dir_path, model_name))
+            self.score_logger.log(f"{os.path.join(self.dir_path, model_name)} loaded")
 
     def train(self):
         episode = 0
@@ -152,7 +154,7 @@ class DQNAgent:
             state, reward, done, info = self.env.step(action)
             score += reward
             state = np.reshape(state, (1, self.observation_space_size))
-            time.sleep(0.1)
+            time.sleep(0.05)
             if done:
                 self.score_logger.log(f"Episode finished, score: {score}")
                 break
