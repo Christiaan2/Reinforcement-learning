@@ -6820,3 +6820,219 @@ Episode finished, score: 105.0
 Episode finished, score: 102.0
 Episode finished, score: 107.0
 Episode finished, score: 111.0
+./experiments/CartPole-v1_3/model.HDF5 loaded
+State: [-0.01085 -0.02807 -0.01518  0.03396], Output model: [ 24.02111  24.57268], Action: 1, score: 0
+State: [-0.01142  0.16727 -0.01450 -0.26348], Output model: [ 24.18652  24.64680], Action: 1, score: 1.0
+State: [-0.00807  0.36259 -0.01977 -0.56070], Output model: [ 24.34865  24.50042], Action: 1, score: 2.0
+State: [-0.00082  0.55799 -0.03099 -0.85954], Output model: [ 24.51860  24.23218], Action: 0, score: 3.0
+State: [ 0.01034  0.36330 -0.04818 -0.57676], Output model: [ 24.43896  24.39109], Action: 0, score: 4.0
+State: [ 0.01761  0.16889 -0.05971 -0.29964], Output model: [ 24.34571  24.56582], Action: 1, score: 5.0
+State: [ 0.02099  0.36481 -0.06570 -0.61054], Output model: [ 24.50640  24.30755], Action: 0, score: 6.0
+State: [ 0.02828  0.17066 -0.07792 -0.33925], Output model: [ 24.41786  24.47590], Action: 1, score: 7.0
+State: [ 0.03169  0.36680 -0.08470 -0.65545], Output model: [ 24.61604  24.24155], Action: 0, score: 8.0
+State: [ 0.03903  0.17295 -0.09781 -0.39060], Output model: [ 24.55049  24.41841], Action: 0, score: 9.0
+State: [ 0.04249 -0.02065 -0.10562 -0.13028], Output model: [ 24.46930  24.60827], Action: 1, score: 10.0
+State: [ 0.04208  0.17581 -0.10823 -0.45433], Output model: [ 24.67394  24.39678], Action: 0, score: 11.0
+State: [ 0.04559 -0.01763 -0.11731 -0.19763], Output model: [ 24.60193  24.58320], Action: 0, score: 12.0
+State: [ 0.04524 -0.21089 -0.12127  0.05587], Output model: [ 24.51308  24.78196], Action: 1, score: 13.0
+State: [ 0.04102 -0.01426 -0.12015 -0.27248], Output model: [ 24.70724  24.57880], Action: 0, score: 14.0
+State: [ 0.04074 -0.20748 -0.12560 -0.01998], Output model: [ 24.62482  24.77315], Action: 1, score: 15.0
+State: [ 0.03659 -0.01080 -0.12600 -0.34950], Output model: [ 24.82574  24.56554], Action: 0, score: 16.0
+State: [ 0.03637 -0.20393 -0.13299 -0.09906], Output model: [ 24.75135  24.75549], Action: 1, score: 17.0
+State: [ 0.03229 -0.00718 -0.13497 -0.43056], Output model: [ 24.80782  22.97128], Action: 0, score: 18.0
+State: [ 0.03215 -0.20016 -0.14358 -0.18329], Output model: [ 24.89574  24.72877], Action: 0, score: 19.0
+State: [ 0.02815 -0.39296 -0.14725  0.06088], Output model: [ 24.80097  24.90936], Action: 1, score: 20.0
+State: [ 0.02029 -0.19607 -0.14603 -0.27440], Output model: [ 24.95257  24.38474], Action: 0, score: 21.0
+State: [ 0.01637 -0.38884 -0.15152 -0.03110], Output model: [ 24.90812  24.87294], Action: 0, score: 22.0
+State: [ 0.00859 -0.58150 -0.15214  0.21020], Output model: [ 24.77518  25.02584], Action: 1, score: 23.0
+State: [-0.00304 -0.38457 -0.14794 -0.12634], Output model: [ 24.90609  24.75323], Action: 0, score: 24.0
+State: [-0.01073 -0.57729 -0.15046  0.11626], Output model: [ 24.84217  24.97998], Action: 1, score: 25.0
+State: [-0.02228 -0.38037 -0.14814 -0.21986], Output model: [ 24.84424  24.53578], Action: 0, score: 26.0
+State: [-0.02989 -0.57310 -0.15253  0.02268], Output model: [ 24.77951  24.74798], Action: 0, score: 27.0
+State: [-0.04135 -0.76574 -0.15208  0.26361], Output model: [ 24.90628  25.13624], Action: 1, score: 28.0
+State: [-0.05666 -0.56881 -0.14681 -0.07291], Output model: [ 24.78487  24.63610], Action: 0, score: 29.0
+State: [-0.06804 -0.76156 -0.14827  0.17009], Output model: [ 24.91071  25.01155], Action: 1, score: 30.0
+State: [-0.08327 -0.56466 -0.14486 -0.16545], Output model: [ 24.80842  24.55864], Action: 0, score: 31.0
+State: [-0.09456 -0.75745 -0.14817  0.07826], Output model: [ 24.87672  24.82211], Action: 0, score: 32.0
+State: [-0.10971 -0.95017 -0.14661  0.32077], Output model: [ 24.96934  25.18843], Action: 1, score: 33.0
+State: [-0.12872 -0.75329 -0.14019 -0.01432], Output model: [ 24.93334  24.82454], Action: 0, score: 34.0
+State: [-0.14378 -0.94616 -0.14048  0.23105], Output model: [ 24.98842  25.09343], Action: 1, score: 35.0
+State: [-0.16270 -0.74934 -0.13586 -0.10243], Output model: [ 24.98073  24.80182], Action: 0, score: 36.0
+State: [-0.17769 -0.94228 -0.13791  0.14449], Output model: [ 25.00890  25.02958], Action: 1, score: 37.0
+State: [-0.19654 -0.74548 -0.13502 -0.18832], Output model: [ 25.02139  24.75388], Action: 0, score: 38.0
+State: [-0.21145 -0.93843 -0.13878  0.05890], Output model: [ 25.06184  24.97985], Action: 0, score: 39.0
+State: [-0.23022 -1.13132 -0.13761  0.30478], Output model: [ 25.01628  25.17263], Action: 1, score: 40.0
+State: [-0.25284 -0.93453 -0.13151 -0.02794], Output model: [ 25.09113  24.96090], Action: 0, score: 41.0
+State: [-0.27153 -1.12755 -0.13207  0.22053], Output model: [ 25.03231  25.13415], Action: 1, score: 42.0
+State: [-0.29408 -0.93081 -0.12766 -0.11072], Output model: [ 25.12251  24.92516], Action: 0, score: 43.0
+State: [-0.31270 -1.12389 -0.12987  0.13912], Output model: [ 25.06544  25.09033], Action: 1, score: 44.0
+State: [-0.33518 -0.92717 -0.12709 -0.19155], Output model: [ 25.10374  24.83198], Action: 0, score: 45.0
+State: [-0.35372 -1.12027 -0.13092  0.05849], Output model: [ 25.10423  25.03075], Action: 0, score: 46.0
+State: [-0.37613 -1.31330 -0.12975  0.30717], Output model: [ 25.03674  25.20749], Action: 1, score: 47.0
+State: [-0.40239 -1.11659 -0.12361 -0.02345], Output model: [ 24.98692  24.90250], Action: 0, score: 48.0
+State: [-0.42472 -1.30974 -0.12408  0.22782], Output model: [ 25.00449  25.13562], Action: 1, score: 49.0
+State: [-0.45092 -1.11308 -0.11952 -0.10128], Output model: [ 24.84399  24.73766], Action: 0, score: 50.0
+State: [-0.47318 -1.30631 -0.12155  0.15143], Output model: [ 24.85731  24.95885], Action: 1, score: 51.0
+State: [-0.49931 -1.10967 -0.11852 -0.17699], Output model: [ 24.69248  24.54842], Action: 0, score: 52.0
+State: [-0.52150 -1.30292 -0.12206  0.07608], Output model: [ 24.70144  24.75691], Action: 1, score: 53.0
+State: [-0.54756 -1.10628 -0.12054 -0.25248], Output model: [ 24.53213  24.33334], Action: 0, score: 54.0
+State: [-0.56968 -1.29949 -0.12559 -0.00012], Output model: [ 24.53648  24.52807], Action: 0, score: 55.0
+State: [-0.59567 -1.49261 -0.12559  0.25045], Output model: [ 24.54499  24.75554], Action: 1, score: 56.0
+State: [-0.62553 -1.29594 -0.12058 -0.07906], Output model: [ 24.37548  24.35211], Action: 0, score: 57.0
+State: [-0.65144 -1.48914 -0.12216  0.17328], Output model: [ 24.37977  24.56779], Action: 1, score: 58.0
+State: [-0.68123 -1.29250 -0.11869 -0.15530], Output model: [ 24.20594  24.15200], Action: 0, score: 59.0
+State: [-0.70708 -1.48574 -0.12180  0.09771], Output model: [ 24.20591  24.35522], Action: 1, score: 60.0
+State: [-0.73679 -1.28911 -0.11985 -0.23079], Output model: [ 23.89461  23.86383], Action: 0, score: 61.0
+State: [-0.76257 -1.48233 -0.12446  0.02182], Output model: [ 23.94256  24.09779], Action: 1, score: 62.0
+State: [-0.79222 -1.28566 -0.12403 -0.30740], Output model: [ 23.36612  23.36411], Action: 0, score: 63.0
+State: [-0.81793 -1.47882 -0.13017 -0.05626], Output model: [ 23.39942  23.58258], Action: 1, score: 64.0
+State: [-0.84751 -1.28209 -0.13130 -0.38701], Output model: [ 23.03429  23.12836], Action: 1, score: 65.0
+State: [-0.87315 -1.08538 -0.13904 -0.71804], Output model: [ 22.55686  16.20340], Action: 0, score: 66.0
+State: [-0.89486 -1.27833 -0.15340 -0.47215], Output model: [ 22.40757  18.33311], Action: 0, score: 67.0
+State: [-0.92043 -1.47099 -0.16284 -0.23147], Output model: [ 22.29179  21.15883], Action: 0, score: 68.0
+State: [-0.94985 -1.66345 -0.16747  0.00574], Output model: [ 22.03611  22.43831], Action: 1, score: 69.0
+State: [-0.98312 -1.46638 -0.16736 -0.33475], Output model: [ 21.83271  18.33707], Action: 0, score: 70.0
+State: [-1.01244 -1.65877 -0.17405 -0.09916], Output model: [ 21.75584  21.54297], Action: 0, score: 71.0
+State: [-1.04562 -1.85103 -0.17603  0.13395], Output model: [ 21.42860  22.07505], Action: 1, score: 72.0
+State: [-1.08264 -1.65388 -0.17336 -0.20869], Output model: [ 21.03438  19.13387], Action: 0, score: 73.0
+State: [-1.11572 -1.84615 -0.17753  0.02469], Output model: [ 20.65023  21.42309], Action: 1, score: 74.0
+State: [-1.15264 -1.64899 -0.17704 -0.31833], Output model: [ 19.81562  15.51663], Action: 0, score: 75.0
+State: [-1.18562 -1.84120 -0.18340 -0.08629], Output model: [ 19.45751  18.41249], Action: 0, score: 76.0
+State: [-1.22244 -2.03329 -0.18513  0.14338], Output model: [ 18.99483  19.94390], Action: 1, score: 77.0
+State: [-1.26311 -1.83606 -0.18226 -0.20151], Output model: [ 18.29901  15.51119], Action: 0, score: 78.0
+State: [-1.29983 -2.02817 -0.18629  0.02859], Output model: [ 17.97125  18.76821], Action: 1, score: 79.0
+State: [-1.34039 -1.83094 -0.18572 -0.31660], Output model: [ 16.99150  11.75086], Action: 0, score: 80.0
+State: [-1.37701 -2.02300 -0.19205 -0.08775], Output model: [ 16.58517  14.55141], Action: 0, score: 81.0
+State: [-1.41747 -2.21492 -0.19381  0.13872], Output model: [ 16.27710  17.50730], Action: 1, score: 82.0
+State: [-1.46177 -2.01763 -0.19103 -0.20830], Output model: [ 15.32712  11.44498], Action: 0, score: 83.0
+State: [-1.50212 -2.20958 -0.19520  0.01857], Output model: [ 14.94546  14.57388], Action: 0, score: 84.0
+State: [-1.54631 -2.40144 -0.19483  0.24387], Output model: [ 15.25430  16.24717], Action: 1, score: 85.0
+State: [-1.59434 -2.20415 -0.18995 -0.10338], Output model: [ 13.74114  12.15621], Action: 0, score: 86.0
+State: [-1.63843 -2.39611 -0.19202  0.12387], Output model: [ 14.04191  15.23877], Action: 1, score: 87.0
+State: [-1.68635 -2.19883 -0.18954 -0.22271], Output model: [ 12.38769   8.88463], Action: 0, score: 88.0
+State: [-1.73033 -2.39081 -0.19399  0.00470], Output model: [ 12.55470  12.19518], Action: 0, score: 89.0
+State: [-1.77814 -2.58270 -0.19390  0.23046], Output model: [ 12.73482  13.80885], Action: 1, score: 90.0
+State: [-1.82980 -2.38541 -0.18929 -0.11658], Output model: [ 11.13962   9.56253], Action: 0, score: 91.0
+State: [-1.87750 -2.57739 -0.19162  0.11093], Output model: [ 11.58256  12.76736], Action: 1, score: 92.0
+State: [-1.92905 -2.38011 -0.18940 -0.23557], Output model: [ 9.56597  6.06956], Action: 0, score: 93.0
+State: [-1.97665 -2.57209 -0.19411 -0.00810], Output model: [ 9.98482  9.42719], Action: 0, score: 94.0
+State: [-2.02810 -2.76398 -0.19428  0.21761], Output model: [  9.78249  11.10122], Action: 1, score: 95.0
+State: [-2.08337 -2.56669 -0.18992 -0.12951], Output model: [ 8.47011  6.61890], Action: 0, score: 96.0
+State: [-2.13471 -2.75865 -0.19251  0.09775], Output model: [ 8.54263  9.97920], Action: 1, score: 97.0
+State: [-2.18988 -2.56137 -0.19056 -0.24896], Output model: [ 6.79527  2.94215], Action: 0, score: 98.0
+State: [-2.24111 -2.75333 -0.19554 -0.02191], Output model: [ 6.96212  6.13840], Action: 0, score: 99.0
+State: [-2.29618 -2.94519 -0.19598  0.20327], Output model: [ 6.60985  8.19111], Action: 1, score: 100.0
+State: [-2.35508 -2.74788 -0.19191 -0.14427], Output model: [ 5.50043  3.17900], Action: 0, score: 101.0
+Episode finished, score: 102.0
+./experiments/CartPole-v1_3/model.HDF5 loaded
+State: [ 0.02719  0.01666  0.04531 -0.00268], Output model: [ 23.71634  24.35959], Action: 1, score: 0
+State: [ 0.02752  0.21111  0.04526 -0.28073], Output model: [ 24.01852  24.53478], Action: 1, score: 1.0
+State: [ 0.03174  0.40556  0.03964 -0.55881], Output model: [ 24.19445  24.61693], Action: 1, score: 2.0
+State: [ 0.03985  0.60010  0.02847 -0.83874], Output model: [ 24.36727  24.48039], Action: 1, score: 3.0
+State: [ 0.05185  0.79482  0.01169 -1.12234], Output model: [ 24.54614  24.20340], Action: 0, score: 4.0
+State: [ 0.06775  0.59955 -0.01076 -0.82601], Output model: [ 24.47549  24.35358], Action: 0, score: 5.0
+State: [ 0.07974  0.40458 -0.02728 -0.53673], Output model: [ 24.39120  24.51968], Action: 1, score: 6.0
+State: [ 0.08783  0.60007 -0.03801 -0.83788], Output model: [ 24.56142  24.25210], Action: 0, score: 7.0
+State: [ 0.09983  0.40549 -0.05477 -0.55739], Output model: [ 24.48218  24.41151], Action: 0, score: 8.0
+State: [ 0.10794  0.21117 -0.06592 -0.28245], Output model: [ 24.38937  24.58663], Action: 1, score: 9.0
+State: [ 0.11217  0.40717 -0.07157 -0.59518], Output model: [ 24.55044  24.32884], Action: 0, score: 10.0
+State: [ 0.12031  0.21312 -0.08347 -0.32587], Output model: [ 24.46246  24.49740], Action: 1, score: 11.0
+State: [ 0.12457  0.40933 -0.08999 -0.64366], Output model: [ 24.65269  24.25557], Action: 0, score: 12.0
+State: [ 0.13276  0.21557 -0.10286 -0.38062], Output model: [ 24.58957  24.43416], Action: 0, score: 13.0
+State: [ 0.13707  0.02204 -0.11047 -0.12205], Output model: [ 24.51089  24.62564], Action: 1, score: 14.0
+State: [ 0.13751  0.21856 -0.11291 -0.44745], Output model: [ 24.71763  24.41563], Action: 0, score: 15.0
+State: [ 0.14188  0.02520 -0.12186 -0.19238], Output model: [ 24.64818  24.60347], Action: 0, score: 16.0
+State: [ 0.14239 -0.16799 -0.12571  0.05951], Output model: [ 24.56193  24.80355], Action: 1, score: 17.0
+State: [ 0.13903  0.02869 -0.12452 -0.27004], Output model: [ 24.75830  24.60155], Action: 0, score: 18.0
+State: [ 0.13960 -0.16445 -0.12992 -0.01908], Output model: [ 24.67861  24.79706], Action: 1, score: 19.0
+State: [ 0.13631  0.03227 -0.13030 -0.34977], Output model: [ 24.88190  24.59046], Action: 0, score: 20.0
+State: [ 0.13696 -0.16078 -0.13730 -0.10084], Output model: [ 24.81039  24.78138], Action: 0, score: 21.0
+State: [ 0.13374 -0.35369 -0.13931  0.14557], Output model: [ 24.72164  24.98413], Action: 1, score: 22.0
+State: [ 0.12667 -0.15688 -0.13640 -0.18762], Output model: [ 24.91346  24.78431], Action: 0, score: 23.0
+State: [ 0.12353 -0.34981 -0.14015  0.05911], Output model: [ 24.83021  24.98177], Action: 1, score: 24.0
+State: [ 0.11653 -0.15299 -0.13897 -0.27430], Output model: [ 25.02826  24.77677], Action: 0, score: 25.0
+State: [ 0.11347 -0.34588 -0.14446 -0.02847], Output model: [ 24.95216  24.96912], Action: 1, score: 26.0
+State: [ 0.10656 -0.14902 -0.14503 -0.36302], Output model: [ 24.92128  22.85070], Action: 0, score: 27.0
+State: [ 0.10358 -0.34181 -0.15229 -0.11935], Output model: [ 25.08561  24.94020], Action: 0, score: 28.0
+State: [ 0.09674 -0.53446 -0.15468  0.12168], Output model: [ 24.94678  25.07285], Action: 1, score: 29.0
+State: [ 0.08605 -0.33750 -0.15224 -0.21553], Output model: [ 25.04034  24.67370], Action: 0, score: 30.0
+State: [ 0.07930 -0.53016 -0.15655  0.02552], Output model: [ 24.95424  24.92463], Action: 0, score: 31.0
+State: [ 0.06870 -0.72273 -0.15604  0.26501], Output model: [ 24.95346  25.21805], Action: 1, score: 32.0
+State: [ 0.05424 -0.52576 -0.15074 -0.07254], Output model: [ 24.95592  24.81353], Action: 0, score: 33.0
+State: [ 0.04373 -0.71844 -0.15219  0.16904], Output model: [ 24.95993  25.09225], Action: 1, score: 34.0
+State: [ 0.02936 -0.52150 -0.14881 -0.16752], Output model: [ 24.92743  24.65273], Action: 0, score: 35.0
+State: [ 0.01893 -0.71422 -0.15216  0.07477], Output model: [ 24.94773  24.91656], Action: 0, score: 36.0
+State: [ 0.00464 -0.90687 -0.15067  0.31584], Output model: [ 25.07921  25.30905], Action: 1, score: 37.0
+State: [-0.01349 -0.70995 -0.14435 -0.02031], Output model: [ 24.98996  24.87110], Action: 0, score: 38.0
+State: [-0.02769 -0.90274 -0.14476  0.22358], Output model: [ 25.11368  25.22339], Action: 1, score: 39.0
+State: [-0.04575 -0.70588 -0.14028 -0.11104], Output model: [ 25.04140  24.84816], Action: 0, score: 40.0
+State: [-0.05986 -0.89874 -0.14251  0.13430], Output model: [ 25.13753  25.12347], Action: 0, score: 41.0
+State: [-0.07784 -1.09157 -0.13982  0.37885], Output model: [ 25.11653  25.38555], Action: 1, score: 42.0
+State: [-0.09967 -0.89476 -0.13224  0.04556], Output model: [ 25.16554  25.12157], Action: 0, score: 43.0
+State: [-0.11757 -1.08777 -0.13133  0.29377], Output model: [ 25.10530  25.30320], Action: 1, score: 44.0
+State: [-0.13932 -0.89104 -0.12546 -0.03728], Output model: [ 25.19352  25.10251], Action: 0, score: 45.0
+State: [-0.15714 -1.08416 -0.12620  0.21334], Output model: [ 25.13378  25.27600], Action: 1, score: 46.0
+State: [-0.17883 -0.88748 -0.12193 -0.11634], Output model: [ 25.22363  25.06744], Action: 0, score: 47.0
+State: [-0.19657 -1.08067 -0.12426  0.13552], Output model: [ 25.16562  25.23320], Action: 1, score: 48.0
+State: [-0.21819 -0.88400 -0.12155 -0.19364], Output model: [ 25.25801  25.01709], Action: 0, score: 49.0
+State: [-0.23587 -1.07720 -0.12542  0.05837], Output model: [ 25.20300  25.17536], Action: 0, score: 50.0
+State: [-0.25741 -1.27032 -0.12426  0.30899], Output model: [ 25.13404  25.35289], Action: 1, score: 51.0
+State: [-0.28282 -1.07366 -0.11808 -0.02015], Output model: [ 25.21403  25.14837], Action: 0, score: 52.0
+State: [-0.30429 -1.26691 -0.11848  0.23307], Output model: [ 25.14517  25.31816], Action: 1, score: 53.0
+State: [-0.32963 -1.07031 -0.11382 -0.09451], Output model: [ 25.19982  25.08600], Action: 0, score: 54.0
+State: [-0.35104 -1.26364 -0.11571  0.16021], Output model: [ 25.15874  25.26872], Action: 1, score: 55.0
+State: [-0.37631 -1.06706 -0.11250 -0.16662], Output model: [ 25.05494  24.90744], Action: 0, score: 56.0
+State: [-0.39765 -1.26041 -0.11584  0.08856], Output model: [ 25.06744  25.12205], Action: 1, score: 57.0
+State: [-0.42286 -1.06383 -0.11407 -0.23831], Output model: [ 24.90171  24.70450], Action: 0, score: 58.0
+State: [-0.44413 -1.25716 -0.11883  0.01633], Output model: [ 24.90986  24.90618], Action: 0, score: 59.0
+State: [-0.46928 -1.45039 -0.11850  0.26928], Output model: [ 24.92235  25.14109], Action: 1, score: 60.0
+State: [-0.49829 -1.25380 -0.11312 -0.05830], Output model: [ 24.75683  24.74502], Action: 0, score: 61.0
+State: [-0.52336 -1.44713 -0.11429  0.19666], Output model: [ 24.76542  24.96916], Action: 1, score: 62.0
+State: [-0.55230 -1.25058 -0.11035 -0.12978], Output model: [ 24.59590  24.56174], Action: 0, score: 63.0
+State: [-0.57732 -1.44396 -0.11295  0.12615], Output model: [ 24.60051  24.77454], Action: 1, score: 64.0
+State: [-0.60620 -1.24741 -0.11042 -0.19992], Output model: [ 24.42693  24.35535], Action: 0, score: 65.0
+State: [-0.63114 -1.44080 -0.11442  0.05599], Output model: [ 24.42740  24.55602], Action: 1, score: 66.0
+State: [-0.65996 -1.24424 -0.11330 -0.27049], Output model: [ 24.24959  24.12430], Action: 0, score: 67.0
+State: [-0.68484 -1.43757 -0.11871 -0.01558], Output model: [ 24.24566  24.31174], Action: 1, score: 68.0
+State: [-0.71360 -1.24097 -0.11902 -0.34323], Output model: [ 23.86451  23.75780], Action: 0, score: 69.0
+State: [-0.73842 -1.43421 -0.12589 -0.09033], Output model: [ 23.90146  23.97943], Action: 1, score: 70.0
+State: [-0.76710 -1.23753 -0.12770 -0.41993], Output model: [ 23.35923  23.29267], Action: 0, score: 71.0
+State: [-0.79185 -1.43064 -0.13609 -0.17007], Output model: [ 23.33134  23.43388], Action: 1, score: 72.0
+State: [-0.82046 -1.23386 -0.13950 -0.50240], Output model: [ 22.95664  20.34605], Action: 0, score: 73.0
+State: [-0.84514 -1.42676 -0.14954 -0.25673], Output model: [ 22.84769  23.02006], Action: 1, score: 74.0
+State: [-0.87368 -1.22986 -0.15468 -0.59259], Output model: [ 22.34636  15.94709], Action: 0, score: 75.0
+State: [-0.89827 -1.42252 -0.16653 -0.35235], Output model: [ 22.18186  18.34509], Action: 0, score: 76.0
+State: [-0.92672 -1.61493 -0.17358 -0.11646], Output model: [ 22.10116  21.49710], Action: 0, score: 77.0
+State: [-0.95902 -1.80719 -0.17591  0.11683], Output model: [ 21.79994  22.28212], Action: 1, score: 78.0
+State: [-0.99516 -1.61004 -0.17357 -0.22578], Output model: [ 21.71040  19.34404], Action: 0, score: 79.0
+State: [-1.02737 -1.80231 -0.17809  0.00752], Output model: [ 21.60678  22.26483], Action: 1, score: 80.0
+State: [-1.06341 -1.60514 -0.17794 -0.33564], Output model: [ 20.82364  15.97767], Action: 0, score: 81.0
+State: [-1.09551 -1.79735 -0.18465 -0.10393], Output model: [ 20.46269  18.81101], Action: 0, score: 82.0
+State: [-1.13146 -1.98941 -0.18673  0.12529], Output model: [ 20.05687  20.89780], Action: 1, score: 83.0
+State: [-1.17125 -1.79217 -0.18422 -0.22000], Output model: [ 19.29717  15.77655], Action: 0, score: 84.0
+State: [-1.20709 -1.98425 -0.18862  0.00938], Output model: [ 18.96461  18.95876], Action: 0, score: 85.0
+State: [-1.24678 -2.17623 -0.18843  0.23713], Output model: [ 18.42076  19.43262], Action: 1, score: 86.0
+State: [-1.29030 -1.97899 -0.18369 -0.10858], Output model: [ 17.86024  16.65478], Action: 0, score: 87.0
+State: [-1.32988 -2.17107 -0.18586  0.12100], Output model: [ 17.39917  18.55307], Action: 1, score: 88.0
+State: [-1.37330 -1.97384 -0.18344 -0.22409], Output model: [ 16.61129  13.52283], Action: 0, score: 89.0
+State: [-1.41278 -2.16593 -0.18792  0.00559], Output model: [ 16.23730  16.65786], Action: 1, score: 90.0
+State: [-1.45610 -1.96868 -0.18781 -0.34001], Output model: [ 14.56268   9.46523], Action: 0, score: 91.0
+State: [-1.49547 -2.16070 -0.19461 -0.11193], Output model: [ 14.75696  12.18614], Action: 0, score: 92.0
+State: [-1.53869 -2.35258 -0.19685  0.11360], Output model: [ 14.96080  15.86569], Action: 1, score: 93.0
+State: [-1.58574 -2.15526 -0.19458 -0.23416], Output model: [ 13.40120   8.80362], Action: 0, score: 94.0
+State: [-1.62884 -2.34715 -0.19926 -0.00861], Output model: [ 13.39534  11.96831], Action: 0, score: 95.0
+State: [-1.67579 -2.53894 -0.19943  0.21519], Output model: [ 13.77607  14.76779], Action: 1, score: 96.0
+State: [-1.72657 -2.34161 -0.19513 -0.13319], Output model: [ 11.96686   9.17855], Action: 0, score: 97.0
+State: [-1.77340 -2.53348 -0.19779  0.09215], Output model: [ 12.45823  12.88722], Action: 1, score: 98.0
+State: [-1.82407 -2.33615 -0.19595 -0.25584], Output model: [ 9.79170  5.44855], Action: 0, score: 99.0
+State: [-1.87079 -2.52801 -0.20107 -0.03080], Output model: [ 10.77866   8.73611], Action: 0, score: 100.0
+State: [-1.92135 -2.71977 -0.20168  0.19232], Output model: [ 10.82629  12.06411], Action: 1, score: 101.0
+State: [-1.97575 -2.52242 -0.19784 -0.15659], Output model: [ 9.23287  5.67562], Action: 0, score: 102.0
+State: [-2.02619 -2.71424 -0.20097  0.06774], Output model: [ 9.40848  9.15591], Action: 0, score: 103.0
+State: [-2.08048 -2.90600 -0.19962  0.29090], Output model: [  9.01175  10.38589], Action: 1, score: 104.0
+State: [-2.13860 -2.70867 -0.19380 -0.05751], Output model: [ 8.07877  6.82355], Action: 0, score: 105.0
+State: [-2.19277 -2.90057 -0.19495  0.16832], Output model: [ 7.76076  9.25403], Action: 1, score: 106.0
+State: [-2.25078 -2.70326 -0.19158 -0.17898], Output model: [ 6.52997  3.61524], Action: 0, score: 107.0
+State: [-2.30485 -2.89520 -0.19516  0.04768], Output model: [ 6.31556  6.91095], Action: 1, score: 108.0
+State: [-2.36275 -2.69790 -0.19421 -0.29968], Output model: [ 3.61924 -0.60888], Action: 0, score: 109.0
+Episode finished, score: 110.0

@@ -12,7 +12,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DIR_PATH = "./experiments/CartPole-v1_4"
+DIR_PATH = "./experiments/CartPole-v1_5"
 DO_TRAINING = False
 
 ENV_NAME = "CartPole-v1"
@@ -79,20 +79,25 @@ class DQNAgent:
             self.score_logger.log(f"Results of experiments stored in: {self.dir_path}")
 
             # create model and store model and visualization
-            self.model = Sequential()
-            self.model.add(Dense(256, input_shape=(self.observation_space_size,), activation='relu'))
-            self.model.add(Dense(self.action_space_size, activation='linear'))
-            self.model.compile(loss='mse', optimizer=Adam(learning_rate=self.learning_rate))
-            self.model.save(os.path.join(self.dir_path, "model.HDF5"))
-            plot_model(self.model, to_file=os.path.join(self.dir_path, "model.png"), show_shapes=True)
+            # self.model[0] is online model, self.model[1] is target model
+            self.model = []
+            for i in range(2):
+                self.model.append(Sequential())
+                self.model[i].add(Dense(256, input_shape=(self.observation_space_size,), activation='relu'))
+                self.model[i].add(Dense(self.action_space_size, activation='linear'))
+                self.model[i].compile(loss='mse', optimizer=Adam(learning_rate=self.learning_rate))
+            
+            self.model[0].save(os.path.join(self.dir_path, "model.HDF5"))
+            plot_model(self.model[0], to_file=os.path.join(self.dir_path, "model.png"), show_shapes=True)
         else:
             with open(os.path.join(dir_path, "settings.json"), "r") as file:
                 self.__dict__ = json.load(file)
             
             initialize()
 
-            model_name = "model.HDF5"
-            self.model = load_model(os.path.join(self.dir_path, model_name))
+            model_name = "model_best.HDF5"
+            self.model = []
+            self.model.append(load_model(os.path.join(self.dir_path, model_name)))
             self.score_logger.log(f"{os.path.join(self.dir_path, model_name)} loaded")
 
     def train(self):
@@ -111,11 +116,11 @@ class DQNAgent:
                 self.experience_replay()
                 state = state_new
                 if done:
-                    self.model.save(os.path.join(self.dir_path, "model.HDF5"))
+                    self.model[0].save(os.path.join(self.dir_path, "model.HDF5"))
                     self.score_logger.log(f"Episode: {episode}, exploration: {self.exploration_rate}, score: {score}")
                     self.score_logger.add_score(score, episode)
                     if self.score_logger.save_best_model:
-                        self.model.save(os.path.join(self.dir_path, "model_best.HDF5"))
+                        self.model[0].save(os.path.join(self.dir_path, "model_best.HDF5"))
                         self.score_logger.save_best_model = False
                         self.score_logger.log("Best model replaced")
                     break
@@ -125,20 +130,22 @@ class DQNAgent:
         if off_policy:
             if np.random.rand() < self.exploration_rate:
                 return self.env.action_space.sample()
-        q_values = self.model.predict(state)
+        q_values = self.model[0].predict(state)
         return np.argmax(q_values[0])
     
     def experience_replay(self):
         if len(self.memory) < self.batch_size:
             return
-        batch = random.sample(self.memory, self.batch_size)
-        for state, action, reward, state_new, done in batch:
-            target = self.model.predict(state)
-            if done:
-                target[0][action] = reward
-            else:
-                target[0][action] = reward + self.gamma*np.amax(self.model.predict(state_new)[0])
-            self.model.fit(state, target, verbose=0)
+        for i in range(len(self.model)):
+            batch = random.sample(self.memory, self.batch_size)
+            for state, action, reward, state_new, done in batch:
+                target = self.model[i].predict(state)
+                if done:
+                    target[0][action] = reward
+                else:
+                    target[0][action] = reward + \
+                        self.gamma*self.model[1-i].predict(state_new)[0][np.argmax(self.model[i].predict(state_new)[0])]
+                self.model[i].fit(state, target, verbose=0)
         self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
 
     def simulate(self, verbose=False):
@@ -150,7 +157,7 @@ class DQNAgent:
             action = self.act(state, off_policy=False)
             if verbose:
                 with np.printoptions(precision=5, sign=' ', floatmode='fixed', suppress=True):
-                    self.score_logger.log(f"State: {state[0]}, Output model: {self.model.predict(state)[0]}, Action: {action}, score: {score}")
+                    self.score_logger.log(f"State: {state[0]}, Output model: {self.model[0].predict(state)[0]}, Action: {action}, score: {score}")
             state, reward, done, info = self.env.step(action)
             score += reward
             state = np.reshape(state, (1, self.observation_space_size))
