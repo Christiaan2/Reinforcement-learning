@@ -1,0 +1,4598 @@
+Results of experiments stored in: ./experiments/CartPole-v1_7
+
+Episode: 1, exploration: 1.0, score: 36.0
+Scores: (min: 36.0, avg: 36.0, max: 36.0)
+
+Episode: 2, exploration: 1.0, score: 21.0
+Scores: (min: 21.0, avg: 28.5, max: 36.0)
+
+Episode: 3, exploration: 1.0, score: 15.0
+Scores: (min: 15.0, avg: 24.0, max: 36.0)
+
+Episode: 4, exploration: 1.0, score: 22.0
+Scores: (min: 15.0, avg: 23.5, max: 36.0)
+
+Episode: 5, exploration: 1.0, score: 31.0
+Scores: (min: 15.0, avg: 25.0, max: 36.0)
+
+Episode: 6, exploration: 1.0, score: 17.0
+Scores: (min: 15.0, avg: 23.666666666666668, max: 36.0)
+
+Episode: 7, exploration: 1.0, score: 42.0
+Scores: (min: 15.0, avg: 26.285714285714285, max: 42.0)
+
+Episode: 8, exploration: 1.0, score: 45.0
+Scores: (min: 15.0, avg: 28.625, max: 45.0)
+
+Episode: 9, exploration: 1.0, score: 17.0
+Scores: (min: 15.0, avg: 27.333333333333332, max: 45.0)
+
+Episode: 10, exploration: 1.0, score: 58.0
+Scores: (min: 15.0, avg: 30.4, max: 58.0)
+
+Episode: 11, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 28.454545454545453, max: 58.0)
+
+Episode: 12, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 27.416666666666668, max: 58.0)
+
+Episode: 13, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 26.76923076923077, max: 58.0)
+
+Episode: 14, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 25.928571428571427, max: 58.0)
+
+Episode: 15, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 25.866666666666667, max: 58.0)
+
+Episode: 16, exploration: 1.0, score: 79.0
+Scores: (min: 9.0, avg: 29.1875, max: 79.0)
+
+Episode: 17, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 28.470588235294116, max: 79.0)
+
+Episode: 18, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 28.5, max: 79.0)
+
+Episode: 19, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 28.105263157894736, max: 79.0)
+
+Episode: 20, exploration: 1.0, score: 44.0
+Scores: (min: 9.0, avg: 28.9, max: 79.0)
+
+Episode: 21, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 28.38095238095238, max: 79.0)
+
+Episode: 22, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 27.636363636363637, max: 79.0)
+
+Episode: 23, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 26.869565217391305, max: 79.0)
+
+Episode: 24, exploration: 1.0, score: 40.0
+Scores: (min: 9.0, avg: 27.416666666666668, max: 79.0)
+
+Episode: 25, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 27.16, max: 79.0)
+
+Episode: 26, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 26.653846153846153, max: 79.0)
+
+Episode: 27, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 26.0, max: 79.0)
+
+Episode: 28, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 25.607142857142858, max: 79.0)
+
+Episode: 29, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 25.448275862068964, max: 79.0)
+
+Episode: 30, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 24.933333333333334, max: 79.0)
+
+Episode: 31, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 24.64516129032258, max: 79.0)
+
+Episode: 32, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 24.53125, max: 79.0)
+
+Episode: 33, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 24.151515151515152, max: 79.0)
+
+Episode: 34, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 23.705882352941178, max: 79.0)
+
+Episode: 35, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 24.057142857142857, max: 79.0)
+
+Episode: 36, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 24.166666666666668, max: 79.0)
+
+Episode: 37, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.89189189189189, max: 79.0)
+
+Episode: 38, exploration: 1.0, score: 46.0
+Scores: (min: 9.0, avg: 24.473684210526315, max: 79.0)
+
+Episode: 39, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 24.153846153846153, max: 79.0)
+
+Episode: 40, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 23.925, max: 79.0)
+
+Episode: 41, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 24.29268292682927, max: 79.0)
+
+Episode: 42, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 24.047619047619047, max: 79.0)
+
+Episode: 43, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 24.3953488372093, max: 79.0)
+
+Episode: 44, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 24.477272727272727, max: 79.0)
+
+Episode: 45, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 24.22222222222222, max: 79.0)
+
+Episode: 46, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 24.02173913043478, max: 79.0)
+
+Episode: 47, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 23.76595744680851, max: 79.0)
+
+Episode: 48, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 23.729166666666668, max: 79.0)
+
+Episode: 49, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.6734693877551, max: 79.0)
+
+Episode: 50, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 23.7, max: 79.0)
+
+Episode: 51, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.745098039215687, max: 79.0)
+
+Episode: 52, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.53846153846154, max: 79.0)
+
+Episode: 53, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.30188679245283, max: 79.0)
+
+Episode: 54, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 23.48148148148148, max: 79.0)
+
+Episode: 55, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.345454545454544, max: 79.0)
+
+Episode: 56, exploration: 1.0, score: 42.0
+Scores: (min: 9.0, avg: 23.678571428571427, max: 79.0)
+
+Episode: 57, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 23.736842105263158, max: 79.0)
+
+Episode: 58, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.5, max: 79.0)
+
+Episode: 59, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 23.508474576271187, max: 79.0)
+
+Episode: 60, exploration: 1.0, score: 32.0
+Scores: (min: 9.0, avg: 23.65, max: 79.0)
+
+Episode: 61, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.524590163934427, max: 79.0)
+
+Episode: 62, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 23.338709677419356, max: 79.0)
+
+Episode: 63, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.3015873015873, max: 79.0)
+
+Episode: 64, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.265625, max: 79.0)
+
+Episode: 65, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 23.29230769230769, max: 79.0)
+
+Episode: 66, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.106060606060606, max: 79.0)
+
+Episode: 67, exploration: 1.0, score: 34.0
+Scores: (min: 9.0, avg: 23.26865671641791, max: 79.0)
+
+Episode: 68, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 23.205882352941178, max: 79.0)
+
+Episode: 69, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.202898550724637, max: 79.0)
+
+Episode: 70, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.114285714285714, max: 79.0)
+
+Episode: 71, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.95774647887324, max: 79.0)
+
+Episode: 72, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.958333333333332, max: 79.0)
+
+Episode: 73, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.863013698630137, max: 79.0)
+
+Episode: 74, exploration: 1.0, score: 53.0
+Scores: (min: 9.0, avg: 23.27027027027027, max: 79.0)
+
+Episode: 75, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.173333333333332, max: 79.0)
+
+Episode: 76, exploration: 1.0, score: 92.0
+Scores: (min: 9.0, avg: 24.07894736842105, max: 92.0)
+
+Episode: 77, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 24.22077922077922, max: 92.0)
+
+Episode: 78, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 24.05128205128205, max: 92.0)
+
+Episode: 79, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.962025316455698, max: 92.0)
+
+Episode: 80, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 23.9375, max: 92.0)
+
+Episode: 81, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 23.88888888888889, max: 92.0)
+
+Episode: 82, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 23.70731707317073, max: 92.0)
+
+Episode: 83, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.734939759036145, max: 92.0)
+
+Episode: 84, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 23.55952380952381, max: 92.0)
+
+Episode: 85, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.58823529411765, max: 92.0)
+
+Episode: 86, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.58139534883721, max: 92.0)
+
+Episode: 87, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 23.586206896551722, max: 92.0)
+
+Episode: 88, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.511363636363637, max: 92.0)
+
+Episode: 89, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 23.382022471910112, max: 92.0)
+
+Episode: 90, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.3, max: 92.0)
+
+Episode: 91, exploration: 1.0, score: 38.0
+Scores: (min: 9.0, avg: 23.46153846153846, max: 92.0)
+
+Episode: 92, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 23.532608695652176, max: 92.0)
+
+Episode: 93, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.526881720430108, max: 92.0)
+
+Episode: 94, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.45744680851064, max: 92.0)
+
+Episode: 95, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.357894736842105, max: 92.0)
+
+Episode: 96, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 23.270833333333332, max: 92.0)
+
+Episode: 97, exploration: 1.0, score: 46.0
+Scores: (min: 9.0, avg: 23.50515463917526, max: 92.0)
+
+Episode: 98, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 23.520408163265305, max: 92.0)
+
+Episode: 99, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 23.404040404040405, max: 92.0)
+
+Episode: 100, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.34, max: 92.0)
+
+Episode: 101, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 23.22, max: 92.0)
+
+Episode: 102, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.12, max: 92.0)
+
+Episode: 103, exploration: 1.0, score: 54.0
+Scores: (min: 9.0, avg: 23.51, max: 92.0)
+
+Episode: 104, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.42, max: 92.0)
+
+Episode: 105, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.28, max: 92.0)
+
+Episode: 106, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 23.44, max: 92.0)
+
+Episode: 107, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.23, max: 92.0)
+
+Episode: 108, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.94, max: 92.0)
+
+Episode: 109, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.03, max: 92.0)
+
+Episode: 110, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.66, max: 92.0)
+
+Episode: 111, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.69, max: 92.0)
+
+Episode: 112, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.74, max: 92.0)
+
+Episode: 113, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.68, max: 92.0)
+
+Episode: 114, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.79, max: 92.0)
+
+Episode: 115, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.65, max: 92.0)
+
+Episode: 116, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 21.98, max: 92.0)
+
+Episode: 117, exploration: 1.0, score: 73.0
+Scores: (min: 9.0, avg: 22.54, max: 92.0)
+
+Episode: 118, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.41, max: 92.0)
+
+Episode: 119, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.35, max: 92.0)
+
+Episode: 120, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.03, max: 92.0)
+
+Episode: 121, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 21.97, max: 92.0)
+
+Episode: 122, exploration: 1.0, score: 38.0
+Scores: (min: 9.0, avg: 22.23, max: 92.0)
+
+Episode: 123, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.27, max: 92.0)
+
+Episode: 124, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.08, max: 92.0)
+
+Episode: 125, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.02, max: 92.0)
+
+Episode: 126, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.11, max: 92.0)
+
+Episode: 127, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.22, max: 92.0)
+
+Episode: 128, exploration: 1.0, score: 50.0
+Scores: (min: 9.0, avg: 22.57, max: 92.0)
+
+Episode: 129, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.64, max: 92.0)
+
+Episode: 130, exploration: 1.0, score: 40.0
+Scores: (min: 9.0, avg: 22.94, max: 92.0)
+
+Episode: 131, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 23.19, max: 92.0)
+
+Episode: 132, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 23.16, max: 92.0)
+
+Episode: 133, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.14, max: 92.0)
+
+Episode: 134, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.16, max: 92.0)
+
+Episode: 135, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.97, max: 92.0)
+
+Episode: 136, exploration: 1.0, score: 66.0
+Scores: (min: 9.0, avg: 23.35, max: 92.0)
+
+Episode: 137, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.44, max: 92.0)
+
+Episode: 138, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.08, max: 92.0)
+
+Episode: 139, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.07, max: 92.0)
+
+Episode: 140, exploration: 1.0, score: 56.0
+Scores: (min: 9.0, avg: 23.48, max: 92.0)
+
+Episode: 141, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 23.31, max: 92.0)
+
+Episode: 142, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.3, max: 92.0)
+
+Episode: 143, exploration: 1.0, score: 43.0
+Scores: (min: 9.0, avg: 23.34, max: 92.0)
+
+Episode: 144, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 23.47, max: 92.0)
+
+Episode: 145, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.48, max: 92.0)
+
+Episode: 146, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 23.53, max: 92.0)
+
+Episode: 147, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.58, max: 92.0)
+
+Episode: 148, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.46, max: 92.0)
+
+Episode: 149, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.39, max: 92.0)
+
+Episode: 150, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.25, max: 92.0)
+
+Episode: 151, exploration: 1.0, score: 37.0
+Scores: (min: 9.0, avg: 23.36, max: 92.0)
+
+Episode: 152, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 23.51, max: 92.0)
+
+Episode: 153, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.54, max: 92.0)
+
+Episode: 154, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.32, max: 92.0)
+
+Episode: 155, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.29, max: 92.0)
+
+Episode: 156, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.13, max: 92.0)
+
+Episode: 157, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 23.06, max: 92.0)
+
+Episode: 158, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.07, max: 92.0)
+
+Episode: 159, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.97, max: 92.0)
+
+Episode: 160, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.86, max: 92.0)
+
+Episode: 161, exploration: 1.0, score: 44.0
+Scores: (min: 9.0, avg: 23.14, max: 92.0)
+
+Episode: 162, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.13, max: 92.0)
+
+Episode: 163, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.05, max: 92.0)
+
+Episode: 164, exploration: 1.0, score: 56.0
+Scores: (min: 9.0, avg: 23.4, max: 92.0)
+
+Episode: 165, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.36, max: 92.0)
+
+Episode: 166, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 23.6, max: 92.0)
+
+Episode: 167, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.52, max: 92.0)
+
+Episode: 168, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.47, max: 92.0)
+
+Episode: 169, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 23.36, max: 92.0)
+
+Episode: 170, exploration: 1.0, score: 61.0
+Scores: (min: 9.0, avg: 23.8, max: 92.0)
+
+Episode: 171, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.82, max: 92.0)
+
+Episode: 172, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 23.74, max: 92.0)
+
+Episode: 173, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.71, max: 92.0)
+
+Episode: 174, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 23.42, max: 92.0)
+
+Episode: 175, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 23.46, max: 92.0)
+
+Episode: 176, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.73, max: 73.0)
+
+Episode: 177, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.6, max: 73.0)
+
+Episode: 178, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.7, max: 73.0)
+
+Episode: 179, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.79, max: 73.0)
+
+Episode: 180, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 22.82, max: 73.0)
+
+Episode: 181, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.88, max: 73.0)
+
+Episode: 182, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 22.89, max: 73.0)
+
+Episode: 183, exploration: 1.0, score: 31.0
+Scores: (min: 9.0, avg: 22.94, max: 73.0)
+
+Episode: 184, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 22.97, max: 73.0)
+
+Episode: 185, exploration: 1.0, score: 71.0
+Scores: (min: 10.0, avg: 23.42, max: 73.0)
+
+Episode: 186, exploration: 1.0, score: 26.0
+Scores: (min: 10.0, avg: 23.45, max: 73.0)
+
+Episode: 187, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 23.36, max: 73.0)
+
+Episode: 188, exploration: 1.0, score: 39.0
+Scores: (min: 10.0, avg: 23.58, max: 73.0)
+
+Episode: 189, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 23.64, max: 73.0)
+
+Episode: 190, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 23.62, max: 73.0)
+
+Episode: 191, exploration: 1.0, score: 34.0
+Scores: (min: 10.0, avg: 23.58, max: 73.0)
+
+Episode: 192, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 23.41, max: 73.0)
+
+Episode: 193, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 23.28, max: 73.0)
+
+Episode: 194, exploration: 1.0, score: 33.0
+Scores: (min: 10.0, avg: 23.44, max: 73.0)
+
+Episode: 195, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 23.42, max: 73.0)
+
+Episode: 196, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 23.4, max: 73.0)
+
+Episode: 197, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 23.13, max: 73.0)
+
+Episode: 198, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 23.11, max: 73.0)
+
+Episode: 199, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 23.22, max: 73.0)
+
+Episode: 200, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 23.19, max: 73.0)
+
+Episode: 201, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 23.18, max: 73.0)
+
+Episode: 202, exploration: 1.0, score: 31.0
+Scores: (min: 10.0, avg: 23.38, max: 73.0)
+
+Episode: 203, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.99, max: 73.0)
+
+Episode: 204, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 23.07, max: 73.0)
+
+Episode: 205, exploration: 1.0, score: 26.0
+Scores: (min: 10.0, avg: 23.16, max: 73.0)
+
+Episode: 206, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.98, max: 73.0)
+
+Episode: 207, exploration: 1.0, score: 34.0
+Scores: (min: 10.0, avg: 23.11, max: 73.0)
+
+Episode: 208, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 23.11, max: 73.0)
+
+Episode: 209, exploration: 1.0, score: 40.0
+Scores: (min: 10.0, avg: 23.25, max: 73.0)
+
+Episode: 210, exploration: 1.0, score: 36.0
+Scores: (min: 10.0, avg: 23.4, max: 73.0)
+
+Episode: 211, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 23.42, max: 73.0)
+
+Episode: 212, exploration: 1.0, score: 44.0
+Scores: (min: 10.0, avg: 23.65, max: 73.0)
+
+Episode: 213, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 23.63, max: 73.0)
+
+Episode: 214, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 23.49, max: 73.0)
+
+Episode: 215, exploration: 1.0, score: 36.0
+Scores: (min: 10.0, avg: 23.74, max: 73.0)
+
+Episode: 216, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 23.83, max: 73.0)
+
+Episode: 217, exploration: 1.0, score: 36.0
+Scores: (min: 10.0, avg: 23.46, max: 71.0)
+
+Episode: 218, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 23.46, max: 71.0)
+
+Episode: 219, exploration: 1.0, score: 37.0
+Scores: (min: 10.0, avg: 23.68, max: 71.0)
+
+Episode: 220, exploration: 1.0, score: 26.0
+Scores: (min: 10.0, avg: 23.82, max: 71.0)
+
+Episode: 221, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 23.9, max: 71.0)
+
+Episode: 222, exploration: 1.0, score: 30.0
+Scores: (min: 10.0, avg: 23.82, max: 71.0)
+
+Episode: 223, exploration: 1.0, score: 31.0
+Scores: (min: 10.0, avg: 23.99, max: 71.0)
+
+Episode: 224, exploration: 1.0, score: 24.0
+Scores: (min: 10.0, avg: 24.02, max: 71.0)
+
+Episode: 225, exploration: 1.0, score: 26.0
+Scores: (min: 10.0, avg: 24.13, max: 71.0)
+
+Episode: 226, exploration: 1.0, score: 49.0
+Scores: (min: 10.0, avg: 24.39, max: 71.0)
+
+Episode: 227, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 24.32, max: 71.0)
+
+Episode: 228, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 23.94, max: 71.0)
+
+Episode: 229, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 23.86, max: 71.0)
+
+Episode: 230, exploration: 1.0, score: 40.0
+Scores: (min: 10.0, avg: 23.86, max: 71.0)
+
+Episode: 231, exploration: 1.0, score: 37.0
+Scores: (min: 10.0, avg: 23.82, max: 71.0)
+
+Episode: 232, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 23.78, max: 71.0)
+
+Episode: 233, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 23.87, max: 71.0)
+
+Episode: 234, exploration: 1.0, score: 42.0
+Scores: (min: 10.0, avg: 24.18, max: 71.0)
+
+Episode: 235, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 24.13, max: 71.0)
+
+Episode: 236, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 23.56, max: 71.0)
+
+Episode: 237, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.49, max: 71.0)
+
+Episode: 238, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.56, max: 71.0)
+
+Episode: 239, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 23.67, max: 71.0)
+
+Episode: 240, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.27, max: 71.0)
+
+Episode: 241, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.19, max: 71.0)
+
+Episode: 242, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 23.3, max: 71.0)
+
+Episode: 243, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.99, max: 71.0)
+
+Episode: 244, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.71, max: 71.0)
+
+Episode: 245, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 22.67, max: 71.0)
+
+Episode: 246, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.59, max: 71.0)
+
+Episode: 247, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 22.72, max: 71.0)
+
+Episode: 248, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.78, max: 71.0)
+
+Episode: 249, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.84, max: 71.0)
+
+Episode: 250, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.89, max: 71.0)
+
+Episode: 251, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 22.81, max: 71.0)
+
+Episode: 252, exploration: 1.0, score: 32.0
+Scores: (min: 9.0, avg: 22.85, max: 71.0)
+
+Episode: 253, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 23.06, max: 71.0)
+
+Episode: 254, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 23.16, max: 71.0)
+
+Episode: 255, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.14, max: 71.0)
+
+Episode: 256, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 23.14, max: 71.0)
+
+Episode: 257, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.11, max: 71.0)
+
+Episode: 258, exploration: 1.0, score: 47.0
+Scores: (min: 9.0, avg: 23.47, max: 71.0)
+
+Episode: 259, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.46, max: 71.0)
+
+Episode: 260, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.36, max: 71.0)
+
+Episode: 261, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 23.06, max: 71.0)
+
+Episode: 262, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 23.17, max: 71.0)
+
+Episode: 263, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.17, max: 71.0)
+
+Episode: 264, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.79, max: 71.0)
+
+Episode: 265, exploration: 1.0, score: 43.0
+Scores: (min: 9.0, avg: 23.01, max: 71.0)
+
+Episode: 266, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 22.93, max: 71.0)
+
+Episode: 267, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.82, max: 71.0)
+
+Episode: 268, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.85, max: 71.0)
+
+Episode: 269, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 23.09, max: 71.0)
+
+Episode: 270, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.61, max: 71.0)
+
+Episode: 271, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.69, max: 71.0)
+
+Episode: 272, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.7, max: 71.0)
+
+Episode: 273, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.72, max: 71.0)
+
+Episode: 274, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.59, max: 71.0)
+
+Episode: 275, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.54, max: 71.0)
+
+Episode: 276, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.44, max: 71.0)
+
+Episode: 277, exploration: 1.0, score: 55.0
+Scores: (min: 9.0, avg: 22.77, max: 71.0)
+
+Episode: 278, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.72, max: 71.0)
+
+Episode: 279, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.59, max: 71.0)
+
+Episode: 280, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.45, max: 71.0)
+
+Episode: 281, exploration: 1.0, score: 34.0
+Scores: (min: 9.0, avg: 22.53, max: 71.0)
+
+Episode: 282, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.57, max: 71.0)
+
+Episode: 283, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 22.61, max: 71.0)
+
+Episode: 284, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.65, max: 71.0)
+
+Episode: 285, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.06, max: 55.0)
+
+Episode: 286, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 21.97, max: 55.0)
+
+Episode: 287, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 21.93, max: 55.0)
+
+Episode: 288, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 21.66, max: 55.0)
+
+Episode: 289, exploration: 1.0, score: 8.0
+Scores: (min: 8.0, avg: 21.56, max: 55.0)
+
+Episode: 290, exploration: 1.0, score: 69.0
+Scores: (min: 8.0, avg: 22.11, max: 69.0)
+
+Episode: 291, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.0, max: 69.0)
+
+Episode: 292, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 22.06, max: 69.0)
+
+Episode: 293, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 22.1, max: 69.0)
+
+Episode: 294, exploration: 1.0, score: 22.0
+Scores: (min: 8.0, avg: 21.99, max: 69.0)
+
+Episode: 295, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 22.11, max: 69.0)
+
+Episode: 296, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 22.1, max: 69.0)
+
+Episode: 297, exploration: 1.0, score: 35.0
+Scores: (min: 8.0, avg: 22.26, max: 69.0)
+
+Episode: 298, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 22.16, max: 69.0)
+
+Episode: 299, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 22.21, max: 69.0)
+
+Episode: 300, exploration: 1.0, score: 33.0
+Scores: (min: 8.0, avg: 22.4, max: 69.0)
+
+Episode: 301, exploration: 1.0, score: 32.0
+Scores: (min: 8.0, avg: 22.49, max: 69.0)
+
+Episode: 302, exploration: 1.0, score: 27.0
+Scores: (min: 8.0, avg: 22.45, max: 69.0)
+
+Episode: 303, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 22.42, max: 69.0)
+
+Episode: 304, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 22.36, max: 69.0)
+
+Episode: 305, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.2, max: 69.0)
+
+Episode: 306, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.15, max: 69.0)
+
+Episode: 307, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.93, max: 69.0)
+
+Episode: 308, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.0, max: 69.0)
+
+Episode: 309, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 21.81, max: 69.0)
+
+Episode: 310, exploration: 1.0, score: 37.0
+Scores: (min: 8.0, avg: 21.82, max: 69.0)
+
+Episode: 311, exploration: 1.0, score: 34.0
+Scores: (min: 8.0, avg: 22.02, max: 69.0)
+
+Episode: 312, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.74, max: 69.0)
+
+Episode: 313, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.79, max: 69.0)
+
+Episode: 314, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.79, max: 69.0)
+
+Episode: 315, exploration: 1.0, score: 25.0
+Scores: (min: 8.0, avg: 21.68, max: 69.0)
+
+Episode: 316, exploration: 1.0, score: 29.0
+Scores: (min: 8.0, avg: 21.76, max: 69.0)
+
+Episode: 317, exploration: 1.0, score: 22.0
+Scores: (min: 8.0, avg: 21.62, max: 69.0)
+
+Episode: 318, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.6, max: 69.0)
+
+Episode: 319, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.35, max: 69.0)
+
+Episode: 320, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 21.28, max: 69.0)
+
+Episode: 321, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.22, max: 69.0)
+
+Episode: 322, exploration: 1.0, score: 40.0
+Scores: (min: 8.0, avg: 21.32, max: 69.0)
+
+Episode: 323, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 21.21, max: 69.0)
+
+Episode: 324, exploration: 1.0, score: 17.0
+Scores: (min: 8.0, avg: 21.14, max: 69.0)
+
+Episode: 325, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 21.06, max: 69.0)
+
+Episode: 326, exploration: 1.0, score: 52.0
+Scores: (min: 8.0, avg: 21.09, max: 69.0)
+
+Episode: 327, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.11, max: 69.0)
+
+Episode: 328, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.22, max: 69.0)
+
+Episode: 329, exploration: 1.0, score: 30.0
+Scores: (min: 8.0, avg: 21.32, max: 69.0)
+
+Episode: 330, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 21.16, max: 69.0)
+
+Episode: 331, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 20.97, max: 69.0)
+
+Episode: 332, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.06, max: 69.0)
+
+Episode: 333, exploration: 1.0, score: 42.0
+Scores: (min: 8.0, avg: 21.29, max: 69.0)
+
+Episode: 334, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.03, max: 69.0)
+
+Episode: 335, exploration: 1.0, score: 26.0
+Scores: (min: 8.0, avg: 21.17, max: 69.0)
+
+Episode: 336, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 21.28, max: 69.0)
+
+Episode: 337, exploration: 1.0, score: 31.0
+Scores: (min: 8.0, avg: 21.43, max: 69.0)
+
+Episode: 338, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 21.39, max: 69.0)
+
+Episode: 339, exploration: 1.0, score: 27.0
+Scores: (min: 8.0, avg: 21.44, max: 69.0)
+
+Episode: 340, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 21.52, max: 69.0)
+
+Episode: 341, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 21.48, max: 69.0)
+
+Episode: 342, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 21.34, max: 69.0)
+
+Episode: 343, exploration: 1.0, score: 35.0
+Scores: (min: 8.0, avg: 21.57, max: 69.0)
+
+Episode: 344, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 21.72, max: 69.0)
+
+Episode: 345, exploration: 1.0, score: 34.0
+Scores: (min: 8.0, avg: 21.96, max: 69.0)
+
+Episode: 346, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 22.12, max: 69.0)
+
+Episode: 347, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.97, max: 69.0)
+
+Episode: 348, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 21.91, max: 69.0)
+
+Episode: 349, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 21.91, max: 69.0)
+
+Episode: 350, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 21.88, max: 69.0)
+
+Episode: 351, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 21.79, max: 69.0)
+
+Episode: 352, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.61, max: 69.0)
+
+Episode: 353, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.42, max: 69.0)
+
+Episode: 354, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.37, max: 69.0)
+
+Episode: 355, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 21.45, max: 69.0)
+
+Episode: 356, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.33, max: 69.0)
+
+Episode: 357, exploration: 1.0, score: 62.0
+Scores: (min: 8.0, avg: 21.78, max: 69.0)
+
+Episode: 358, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.46, max: 69.0)
+
+Episode: 359, exploration: 1.0, score: 25.0
+Scores: (min: 8.0, avg: 21.58, max: 69.0)
+
+Episode: 360, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.59, max: 69.0)
+
+Episode: 361, exploration: 1.0, score: 30.0
+Scores: (min: 8.0, avg: 21.75, max: 69.0)
+
+Episode: 362, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 21.74, max: 69.0)
+
+Episode: 363, exploration: 1.0, score: 47.0
+Scores: (min: 8.0, avg: 22.08, max: 69.0)
+
+Episode: 364, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 22.18, max: 69.0)
+
+Episode: 365, exploration: 1.0, score: 46.0
+Scores: (min: 8.0, avg: 22.21, max: 69.0)
+
+Episode: 366, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.17, max: 69.0)
+
+Episode: 367, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 22.2, max: 69.0)
+
+Episode: 368, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 22.18, max: 69.0)
+
+Episode: 369, exploration: 1.0, score: 35.0
+Scores: (min: 8.0, avg: 22.17, max: 69.0)
+
+Episode: 370, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 22.19, max: 69.0)
+
+Episode: 371, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 22.25, max: 69.0)
+
+Episode: 372, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.32, max: 69.0)
+
+Episode: 373, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 22.28, max: 69.0)
+
+Episode: 374, exploration: 1.0, score: 35.0
+Scores: (min: 8.0, avg: 22.52, max: 69.0)
+
+Episode: 375, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 22.5, max: 69.0)
+
+Episode: 376, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.51, max: 69.0)
+
+Episode: 377, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 22.15, max: 69.0)
+
+Episode: 378, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.09, max: 69.0)
+
+Episode: 379, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 22.07, max: 69.0)
+
+Episode: 380, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.06, max: 69.0)
+
+Episode: 381, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 21.85, max: 69.0)
+
+Episode: 382, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 21.92, max: 69.0)
+
+Episode: 383, exploration: 1.0, score: 34.0
+Scores: (min: 8.0, avg: 21.91, max: 69.0)
+
+Episode: 384, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 21.94, max: 69.0)
+
+Episode: 385, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.94, max: 69.0)
+
+Episode: 386, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.89, max: 69.0)
+
+Episode: 387, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.01, max: 69.0)
+
+Episode: 388, exploration: 1.0, score: 38.0
+Scores: (min: 8.0, avg: 22.27, max: 69.0)
+
+Episode: 389, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 22.3, max: 69.0)
+
+Episode: 390, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.83, max: 62.0)
+
+Episode: 391, exploration: 1.0, score: 30.0
+Scores: (min: 10.0, avg: 21.9, max: 62.0)
+
+Episode: 392, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.84, max: 62.0)
+
+Episode: 393, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.9, max: 62.0)
+
+Episode: 394, exploration: 1.0, score: 29.0
+Scores: (min: 10.0, avg: 21.97, max: 62.0)
+
+Episode: 395, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 21.88, max: 62.0)
+
+Episode: 396, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.98, max: 62.0)
+
+Episode: 397, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.8, max: 62.0)
+
+Episode: 398, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.85, max: 62.0)
+
+Episode: 399, exploration: 1.0, score: 25.0
+Scores: (min: 10.0, avg: 21.82, max: 62.0)
+
+Episode: 400, exploration: 1.0, score: 29.0
+Scores: (min: 10.0, avg: 21.78, max: 62.0)
+
+Episode: 401, exploration: 1.0, score: 34.0
+Scores: (min: 10.0, avg: 21.8, max: 62.0)
+
+Episode: 402, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.75, max: 62.0)
+
+Episode: 403, exploration: 1.0, score: 30.0
+Scores: (min: 10.0, avg: 21.93, max: 62.0)
+
+Episode: 404, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 21.99, max: 62.0)
+
+Episode: 405, exploration: 1.0, score: 28.0
+Scores: (min: 10.0, avg: 22.17, max: 62.0)
+
+Episode: 406, exploration: 1.0, score: 29.0
+Scores: (min: 10.0, avg: 22.36, max: 62.0)
+
+Episode: 407, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.33, max: 62.0)
+
+Episode: 408, exploration: 1.0, score: 40.0
+Scores: (min: 9.0, avg: 22.5, max: 62.0)
+
+Episode: 409, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.42, max: 62.0)
+
+Episode: 410, exploration: 1.0, score: 37.0
+Scores: (min: 9.0, avg: 22.42, max: 62.0)
+
+Episode: 411, exploration: 1.0, score: 37.0
+Scores: (min: 9.0, avg: 22.45, max: 62.0)
+
+Episode: 412, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 22.54, max: 62.0)
+
+Episode: 413, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.56, max: 62.0)
+
+Episode: 414, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.7, max: 62.0)
+
+Episode: 415, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.54, max: 62.0)
+
+Episode: 416, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 22.66, max: 62.0)
+
+Episode: 417, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.64, max: 62.0)
+
+Episode: 418, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.62, max: 62.0)
+
+Episode: 419, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.63, max: 62.0)
+
+Episode: 420, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.6, max: 62.0)
+
+Episode: 421, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.63, max: 62.0)
+
+Episode: 422, exploration: 1.0, score: 31.0
+Scores: (min: 9.0, avg: 22.54, max: 62.0)
+
+Episode: 423, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.57, max: 62.0)
+
+Episode: 424, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.66, max: 62.0)
+
+Episode: 425, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.76, max: 62.0)
+
+Episode: 426, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.38, max: 62.0)
+
+Episode: 427, exploration: 1.0, score: 31.0
+Scores: (min: 9.0, avg: 22.54, max: 62.0)
+
+Episode: 428, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 22.41, max: 62.0)
+
+Episode: 429, exploration: 1.0, score: 32.0
+Scores: (min: 9.0, avg: 22.43, max: 62.0)
+
+Episode: 430, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.43, max: 62.0)
+
+Episode: 431, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 22.35, max: 62.0)
+
+Episode: 432, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 22.48, max: 62.0)
+
+Episode: 433, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 22.41, max: 62.0)
+
+Episode: 434, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.41, max: 62.0)
+
+Episode: 435, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.29, max: 62.0)
+
+Episode: 436, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.24, max: 62.0)
+
+Episode: 437, exploration: 1.0, score: 34.0
+Scores: (min: 9.0, avg: 22.27, max: 62.0)
+
+Episode: 438, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.42, max: 62.0)
+
+Episode: 439, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.3, max: 62.0)
+
+Episode: 440, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 22.35, max: 62.0)
+
+Episode: 441, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.44, max: 62.0)
+
+Episode: 442, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.56, max: 62.0)
+
+Episode: 443, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.4, max: 62.0)
+
+Episode: 444, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.3, max: 62.0)
+
+Episode: 445, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.24, max: 62.0)
+
+Episode: 446, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.22, max: 62.0)
+
+Episode: 447, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.28, max: 62.0)
+
+Episode: 448, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.36, max: 62.0)
+
+Episode: 449, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.4, max: 62.0)
+
+Episode: 450, exploration: 1.0, score: 54.0
+Scores: (min: 9.0, avg: 22.81, max: 62.0)
+
+Episode: 451, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.78, max: 62.0)
+
+Episode: 452, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.77, max: 62.0)
+
+Episode: 453, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 22.86, max: 62.0)
+
+Episode: 454, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 23.03, max: 62.0)
+
+Episode: 455, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.07, max: 62.0)
+
+Episode: 456, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 23.12, max: 62.0)
+
+Episode: 457, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.73, max: 54.0)
+
+Episode: 458, exploration: 1.0, score: 32.0
+Scores: (min: 9.0, avg: 22.9, max: 54.0)
+
+Episode: 459, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.78, max: 54.0)
+
+Episode: 460, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.79, max: 54.0)
+
+Episode: 461, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.62, max: 54.0)
+
+Episode: 462, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.59, max: 54.0)
+
+Episode: 463, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.4, max: 54.0)
+
+Episode: 464, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.34, max: 54.0)
+
+Episode: 465, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 21.98, max: 54.0)
+
+Episode: 466, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 22.08, max: 54.0)
+
+Episode: 467, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.1, max: 54.0)
+
+Episode: 468, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 22.24, max: 54.0)
+
+Episode: 469, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.0, max: 54.0)
+
+Episode: 470, exploration: 1.0, score: 38.0
+Scores: (min: 9.0, avg: 22.23, max: 54.0)
+
+Episode: 471, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.09, max: 54.0)
+
+Episode: 472, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 22.13, max: 54.0)
+
+Episode: 473, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.13, max: 54.0)
+
+Episode: 474, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 22.13, max: 54.0)
+
+Episode: 475, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.15, max: 54.0)
+
+Episode: 476, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.19, max: 54.0)
+
+Episode: 477, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 22.27, max: 54.0)
+
+Episode: 478, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.37, max: 54.0)
+
+Episode: 479, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.41, max: 54.0)
+
+Episode: 480, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.42, max: 54.0)
+
+Episode: 481, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.45, max: 54.0)
+
+Episode: 482, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.35, max: 54.0)
+
+Episode: 483, exploration: 1.0, score: 63.0
+Scores: (min: 9.0, avg: 22.64, max: 63.0)
+
+Episode: 484, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.71, max: 63.0)
+
+Episode: 485, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.82, max: 63.0)
+
+Episode: 486, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.88, max: 63.0)
+
+Episode: 487, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.82, max: 63.0)
+
+Episode: 488, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.68, max: 63.0)
+
+Episode: 489, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.76, max: 63.0)
+
+Episode: 490, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.76, max: 63.0)
+
+Episode: 491, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.61, max: 63.0)
+
+Episode: 492, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.6, max: 63.0)
+
+Episode: 493, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 22.79, max: 63.0)
+
+Episode: 494, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.61, max: 63.0)
+
+Episode: 495, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 22.82, max: 63.0)
+
+Episode: 496, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.81, max: 63.0)
+
+Episode: 497, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.76, max: 63.0)
+
+Episode: 498, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.81, max: 63.0)
+
+Episode: 499, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 22.66, max: 63.0)
+
+Episode: 500, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.56, max: 63.0)
+
+Episode: 501, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.39, max: 63.0)
+
+Episode: 502, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.39, max: 63.0)
+
+Episode: 503, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.28, max: 63.0)
+
+Episode: 504, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.2, max: 63.0)
+
+Episode: 505, exploration: 1.0, score: 47.0
+Scores: (min: 9.0, avg: 22.39, max: 63.0)
+
+Episode: 506, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.28, max: 63.0)
+
+Episode: 507, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.43, max: 63.0)
+
+Episode: 508, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 22.33, max: 63.0)
+
+Episode: 509, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.33, max: 63.0)
+
+Episode: 510, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.22, max: 63.0)
+
+Episode: 511, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 22.18, max: 63.0)
+
+Episode: 512, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.04, max: 63.0)
+
+Episode: 513, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.06, max: 63.0)
+
+Episode: 514, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 22.15, max: 63.0)
+
+Episode: 515, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.21, max: 63.0)
+
+Episode: 516, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.97, max: 63.0)
+
+Episode: 517, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 21.88, max: 63.0)
+
+Episode: 518, exploration: 1.0, score: 41.0
+Scores: (min: 10.0, avg: 22.17, max: 63.0)
+
+Episode: 519, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 22.15, max: 63.0)
+
+Episode: 520, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 22.12, max: 63.0)
+
+Episode: 521, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 22.14, max: 63.0)
+
+Episode: 522, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.93, max: 63.0)
+
+Episode: 523, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 21.97, max: 63.0)
+
+Episode: 524, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.88, max: 63.0)
+
+Episode: 525, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 21.87, max: 63.0)
+
+Episode: 526, exploration: 1.0, score: 24.0
+Scores: (min: 10.0, avg: 21.97, max: 63.0)
+
+Episode: 527, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 21.87, max: 63.0)
+
+Episode: 528, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.9, max: 63.0)
+
+Episode: 529, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.76, max: 63.0)
+
+Episode: 530, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.72, max: 63.0)
+
+Episode: 531, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.75, max: 63.0)
+
+Episode: 532, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.61, max: 63.0)
+
+Episode: 533, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.46, max: 63.0)
+
+Episode: 534, exploration: 1.0, score: 32.0
+Scores: (min: 10.0, avg: 21.62, max: 63.0)
+
+Episode: 535, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 21.64, max: 63.0)
+
+Episode: 536, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 21.65, max: 63.0)
+
+Episode: 537, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 21.46, max: 63.0)
+
+Episode: 538, exploration: 1.0, score: 54.0
+Scores: (min: 10.0, avg: 21.72, max: 63.0)
+
+Episode: 539, exploration: 1.0, score: 46.0
+Scores: (min: 10.0, avg: 22.03, max: 63.0)
+
+Episode: 540, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 21.9, max: 63.0)
+
+Episode: 541, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 21.9, max: 63.0)
+
+Episode: 542, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.82, max: 63.0)
+
+Episode: 543, exploration: 1.0, score: 34.0
+Scores: (min: 10.0, avg: 21.97, max: 63.0)
+
+Episode: 544, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.96, max: 63.0)
+
+Episode: 545, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.86, max: 63.0)
+
+Episode: 546, exploration: 1.0, score: 25.0
+Scores: (min: 10.0, avg: 21.85, max: 63.0)
+
+Episode: 547, exploration: 1.0, score: 32.0
+Scores: (min: 10.0, avg: 21.96, max: 63.0)
+
+Episode: 548, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.96, max: 63.0)
+
+Episode: 549, exploration: 1.0, score: 45.0
+Scores: (min: 10.0, avg: 22.17, max: 63.0)
+
+Episode: 550, exploration: 1.0, score: 29.0
+Scores: (min: 10.0, avg: 21.92, max: 63.0)
+
+Episode: 551, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.97, max: 63.0)
+
+Episode: 552, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 22.01, max: 63.0)
+
+Episode: 553, exploration: 1.0, score: 25.0
+Scores: (min: 10.0, avg: 22.01, max: 63.0)
+
+Episode: 554, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.82, max: 63.0)
+
+Episode: 555, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.79, max: 63.0)
+
+Episode: 556, exploration: 1.0, score: 28.0
+Scores: (min: 10.0, avg: 21.88, max: 63.0)
+
+Episode: 557, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 21.87, max: 63.0)
+
+Episode: 558, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.69, max: 63.0)
+
+Episode: 559, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.69, max: 63.0)
+
+Episode: 560, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.66, max: 63.0)
+
+Episode: 561, exploration: 1.0, score: 33.0
+Scores: (min: 10.0, avg: 21.86, max: 63.0)
+
+Episode: 562, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.78, max: 63.0)
+
+Episode: 563, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 21.69, max: 63.0)
+
+Episode: 564, exploration: 1.0, score: 36.0
+Scores: (min: 10.0, avg: 21.83, max: 63.0)
+
+Episode: 565, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.87, max: 63.0)
+
+Episode: 566, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.68, max: 63.0)
+
+Episode: 567, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 21.75, max: 63.0)
+
+Episode: 568, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.63, max: 63.0)
+
+Episode: 569, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 21.66, max: 63.0)
+
+Episode: 570, exploration: 1.0, score: 57.0
+Scores: (min: 10.0, avg: 21.85, max: 63.0)
+
+Episode: 571, exploration: 1.0, score: 42.0
+Scores: (min: 10.0, avg: 22.13, max: 63.0)
+
+Episode: 572, exploration: 1.0, score: 28.0
+Scores: (min: 10.0, avg: 22.14, max: 63.0)
+
+Episode: 573, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 22.25, max: 63.0)
+
+Episode: 574, exploration: 1.0, score: 32.0
+Scores: (min: 10.0, avg: 22.22, max: 63.0)
+
+Episode: 575, exploration: 1.0, score: 26.0
+Scores: (min: 10.0, avg: 22.33, max: 63.0)
+
+Episode: 576, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 22.4, max: 63.0)
+
+Episode: 577, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 22.24, max: 63.0)
+
+Episode: 578, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 22.27, max: 63.0)
+
+Episode: 579, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 22.32, max: 63.0)
+
+Episode: 580, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 22.41, max: 63.0)
+
+Episode: 581, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 22.45, max: 63.0)
+
+Episode: 582, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 22.53, max: 63.0)
+
+Episode: 583, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.05, max: 57.0)
+
+Episode: 584, exploration: 1.0, score: 31.0
+Scores: (min: 10.0, avg: 22.1, max: 57.0)
+
+Episode: 585, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.97, max: 57.0)
+
+Episode: 586, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 21.91, max: 57.0)
+
+Episode: 587, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.94, max: 57.0)
+
+Episode: 588, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.87, max: 57.0)
+
+Episode: 589, exploration: 1.0, score: 52.0
+Scores: (min: 10.0, avg: 22.2, max: 57.0)
+
+Episode: 590, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 22.11, max: 57.0)
+
+Episode: 591, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.11, max: 57.0)
+
+Episode: 592, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 22.17, max: 57.0)
+
+Episode: 593, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 21.93, max: 57.0)
+
+Episode: 594, exploration: 1.0, score: 31.0
+Scores: (min: 10.0, avg: 22.13, max: 57.0)
+
+Episode: 595, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 21.98, max: 57.0)
+
+Episode: 596, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.9, max: 57.0)
+
+Episode: 597, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 21.89, max: 57.0)
+
+Episode: 598, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 21.77, max: 57.0)
+
+Episode: 599, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.8, max: 57.0)
+
+Episode: 600, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 21.84, max: 57.0)
+
+Episode: 601, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.77, max: 57.0)
+
+Episode: 602, exploration: 1.0, score: 24.0
+Scores: (min: 10.0, avg: 21.79, max: 57.0)
+
+Episode: 603, exploration: 1.0, score: 29.0
+Scores: (min: 10.0, avg: 21.89, max: 57.0)
+
+Episode: 604, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.94, max: 57.0)
+
+Episode: 605, exploration: 1.0, score: 41.0
+Scores: (min: 10.0, avg: 21.88, max: 57.0)
+
+Episode: 606, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 21.83, max: 57.0)
+
+Episode: 607, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 21.7, max: 57.0)
+
+Episode: 608, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 21.58, max: 57.0)
+
+Episode: 609, exploration: 1.0, score: 28.0
+Scores: (min: 10.0, avg: 21.73, max: 57.0)
+
+Episode: 610, exploration: 1.0, score: 31.0
+Scores: (min: 10.0, avg: 21.78, max: 57.0)
+
+Episode: 611, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 21.72, max: 57.0)
+
+Episode: 612, exploration: 1.0, score: 24.0
+Scores: (min: 10.0, avg: 21.85, max: 57.0)
+
+Episode: 613, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 21.77, max: 57.0)
+
+Episode: 614, exploration: 1.0, score: 32.0
+Scores: (min: 10.0, avg: 21.74, max: 57.0)
+
+Episode: 615, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 21.86, max: 57.0)
+
+Episode: 616, exploration: 1.0, score: 24.0
+Scores: (min: 10.0, avg: 21.93, max: 57.0)
+
+Episode: 617, exploration: 1.0, score: 37.0
+Scores: (min: 10.0, avg: 22.19, max: 57.0)
+
+Episode: 618, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.88, max: 57.0)
+
+Episode: 619, exploration: 1.0, score: 30.0
+Scores: (min: 10.0, avg: 22.07, max: 57.0)
+
+Episode: 620, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 22.21, max: 57.0)
+
+Episode: 621, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 22.19, max: 57.0)
+
+Episode: 622, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 22.21, max: 57.0)
+
+Episode: 623, exploration: 1.0, score: 22.0
+Scores: (min: 10.0, avg: 22.16, max: 57.0)
+
+Episode: 624, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 22.19, max: 57.0)
+
+Episode: 625, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 22.08, max: 57.0)
+
+Episode: 626, exploration: 1.0, score: 10.0
+Scores: (min: 10.0, avg: 21.94, max: 57.0)
+
+Episode: 627, exploration: 1.0, score: 20.0
+Scores: (min: 10.0, avg: 21.93, max: 57.0)
+
+Episode: 628, exploration: 1.0, score: 45.0
+Scores: (min: 10.0, avg: 22.25, max: 57.0)
+
+Episode: 629, exploration: 1.0, score: 11.0
+Scores: (min: 10.0, avg: 22.18, max: 57.0)
+
+Episode: 630, exploration: 1.0, score: 13.0
+Scores: (min: 10.0, avg: 22.11, max: 57.0)
+
+Episode: 631, exploration: 1.0, score: 15.0
+Scores: (min: 10.0, avg: 22.13, max: 57.0)
+
+Episode: 632, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 22.12, max: 57.0)
+
+Episode: 633, exploration: 1.0, score: 21.0
+Scores: (min: 10.0, avg: 22.13, max: 57.0)
+
+Episode: 634, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 21.98, max: 57.0)
+
+Episode: 635, exploration: 1.0, score: 12.0
+Scores: (min: 10.0, avg: 21.94, max: 57.0)
+
+Episode: 636, exploration: 1.0, score: 106.0
+Scores: (min: 10.0, avg: 22.84, max: 106.0)
+
+Episode: 637, exploration: 1.0, score: 19.0
+Scores: (min: 10.0, avg: 22.88, max: 106.0)
+
+Episode: 638, exploration: 1.0, score: 14.0
+Scores: (min: 10.0, avg: 22.48, max: 106.0)
+
+Episode: 639, exploration: 1.0, score: 23.0
+Scores: (min: 10.0, avg: 22.25, max: 106.0)
+
+Episode: 640, exploration: 1.0, score: 18.0
+Scores: (min: 10.0, avg: 22.27, max: 106.0)
+
+Episode: 641, exploration: 1.0, score: 17.0
+Scores: (min: 10.0, avg: 22.25, max: 106.0)
+
+Episode: 642, exploration: 1.0, score: 27.0
+Scores: (min: 10.0, avg: 22.38, max: 106.0)
+
+Episode: 643, exploration: 1.0, score: 16.0
+Scores: (min: 10.0, avg: 22.2, max: 106.0)
+
+Episode: 644, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.12, max: 106.0)
+
+Episode: 645, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 22.27, max: 106.0)
+
+Episode: 646, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.21, max: 106.0)
+
+Episode: 647, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.03, max: 106.0)
+
+Episode: 648, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.13, max: 106.0)
+
+Episode: 649, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.84, max: 106.0)
+
+Episode: 650, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 21.83, max: 106.0)
+
+Episode: 651, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.75, max: 106.0)
+
+Episode: 652, exploration: 1.0, score: 32.0
+Scores: (min: 9.0, avg: 21.9, max: 106.0)
+
+Episode: 653, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 21.94, max: 106.0)
+
+Episode: 654, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.94, max: 106.0)
+
+Episode: 655, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 21.89, max: 106.0)
+
+Episode: 656, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 21.83, max: 106.0)
+
+Episode: 657, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 21.79, max: 106.0)
+
+Episode: 658, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 21.8, max: 106.0)
+
+Episode: 659, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 21.77, max: 106.0)
+
+Episode: 660, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 21.89, max: 106.0)
+
+Episode: 661, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 21.69, max: 106.0)
+
+Episode: 662, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.73, max: 106.0)
+
+Episode: 663, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 21.76, max: 106.0)
+
+Episode: 664, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 21.55, max: 106.0)
+
+Episode: 665, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 21.52, max: 106.0)
+
+Episode: 666, exploration: 1.0, score: 57.0
+Scores: (min: 9.0, avg: 21.95, max: 106.0)
+
+Episode: 667, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 21.95, max: 106.0)
+
+Episode: 668, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.94, max: 106.0)
+
+Episode: 669, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.02, max: 106.0)
+
+Episode: 670, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 21.56, max: 106.0)
+
+Episode: 671, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 21.55, max: 106.0)
+
+Episode: 672, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 21.4, max: 106.0)
+
+Episode: 673, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 21.29, max: 106.0)
+
+Episode: 674, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 21.24, max: 106.0)
+
+Episode: 675, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 21.37, max: 106.0)
+
+Episode: 676, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 21.49, max: 106.0)
+
+Episode: 677, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.52, max: 106.0)
+
+Episode: 678, exploration: 1.0, score: 45.0
+Scores: (min: 9.0, avg: 21.74, max: 106.0)
+
+Episode: 679, exploration: 1.0, score: 31.0
+Scores: (min: 9.0, avg: 21.85, max: 106.0)
+
+Episode: 680, exploration: 1.0, score: 35.0
+Scores: (min: 9.0, avg: 22.0, max: 106.0)
+
+Episode: 681, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 22.1, max: 106.0)
+
+Episode: 682, exploration: 1.0, score: 51.0
+Scores: (min: 9.0, avg: 22.42, max: 106.0)
+
+Episode: 683, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.42, max: 106.0)
+
+Episode: 684, exploration: 1.0, score: 47.0
+Scores: (min: 9.0, avg: 22.58, max: 106.0)
+
+Episode: 685, exploration: 1.0, score: 58.0
+Scores: (min: 9.0, avg: 23.06, max: 106.0)
+
+Episode: 686, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.17, max: 106.0)
+
+Episode: 687, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 23.3, max: 106.0)
+
+Episode: 688, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.24, max: 106.0)
+
+Episode: 689, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.89, max: 106.0)
+
+Episode: 690, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 23.12, max: 106.0)
+
+Episode: 691, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.14, max: 106.0)
+
+Episode: 692, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 23.11, max: 106.0)
+
+Episode: 693, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.13, max: 106.0)
+
+Episode: 694, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 23.1, max: 106.0)
+
+Episode: 695, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.06, max: 106.0)
+
+Episode: 696, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.03, max: 106.0)
+
+Episode: 697, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 23.02, max: 106.0)
+
+Episode: 698, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 23.04, max: 106.0)
+
+Episode: 699, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.14, max: 106.0)
+
+Episode: 700, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 23.14, max: 106.0)
+
+Episode: 701, exploration: 1.0, score: 31.0
+Scores: (min: 9.0, avg: 23.35, max: 106.0)
+
+Episode: 702, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 23.3, max: 106.0)
+
+Episode: 703, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 23.17, max: 106.0)
+
+Episode: 704, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.16, max: 106.0)
+
+Episode: 705, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.99, max: 106.0)
+
+Episode: 706, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 23.06, max: 106.0)
+
+Episode: 707, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 23.12, max: 106.0)
+
+Episode: 708, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 23.05, max: 106.0)
+
+Episode: 709, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.91, max: 106.0)
+
+Episode: 710, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.71, max: 106.0)
+
+Episode: 711, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.6, max: 106.0)
+
+Episode: 712, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.51, max: 106.0)
+
+Episode: 713, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.6, max: 106.0)
+
+Episode: 714, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.37, max: 106.0)
+
+Episode: 715, exploration: 1.0, score: 34.0
+Scores: (min: 9.0, avg: 22.44, max: 106.0)
+
+Episode: 716, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.32, max: 106.0)
+
+Episode: 717, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 22.31, max: 106.0)
+
+Episode: 718, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.38, max: 106.0)
+
+Episode: 719, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.19, max: 106.0)
+
+Episode: 720, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.09, max: 106.0)
+
+Episode: 721, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 22.22, max: 106.0)
+
+Episode: 722, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.19, max: 106.0)
+
+Episode: 723, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.1, max: 106.0)
+
+Episode: 724, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.11, max: 106.0)
+
+Episode: 725, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.08, max: 106.0)
+
+Episode: 726, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.09, max: 106.0)
+
+Episode: 727, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.05, max: 106.0)
+
+Episode: 728, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 21.86, max: 106.0)
+
+Episode: 729, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 21.88, max: 106.0)
+
+Episode: 730, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 22.04, max: 106.0)
+
+Episode: 731, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.12, max: 106.0)
+
+Episode: 732, exploration: 1.0, score: 34.0
+Scores: (min: 9.0, avg: 22.25, max: 106.0)
+
+Episode: 733, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 22.45, max: 106.0)
+
+Episode: 734, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 22.69, max: 106.0)
+
+Episode: 735, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.78, max: 106.0)
+
+Episode: 736, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 21.84, max: 58.0)
+
+Episode: 737, exploration: 1.0, score: 29.0
+Scores: (min: 9.0, avg: 21.94, max: 58.0)
+
+Episode: 738, exploration: 1.0, score: 48.0
+Scores: (min: 9.0, avg: 22.28, max: 58.0)
+
+Episode: 739, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.21, max: 58.0)
+
+Episode: 740, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.15, max: 58.0)
+
+Episode: 741, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 22.39, max: 58.0)
+
+Episode: 742, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.35, max: 58.0)
+
+Episode: 743, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 22.44, max: 58.0)
+
+Episode: 744, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.49, max: 58.0)
+
+Episode: 745, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.28, max: 58.0)
+
+Episode: 746, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.21, max: 58.0)
+
+Episode: 747, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 22.43, max: 58.0)
+
+Episode: 748, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 22.38, max: 58.0)
+
+Episode: 749, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.42, max: 58.0)
+
+Episode: 750, exploration: 1.0, score: 9.0
+Scores: (min: 9.0, avg: 22.23, max: 58.0)
+
+Episode: 751, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.26, max: 58.0)
+
+Episode: 752, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 22.21, max: 58.0)
+
+Episode: 753, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.05, max: 58.0)
+
+Episode: 754, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 22.19, max: 58.0)
+
+Episode: 755, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.18, max: 58.0)
+
+Episode: 756, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.16, max: 58.0)
+
+Episode: 757, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.2, max: 58.0)
+
+Episode: 758, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.19, max: 58.0)
+
+Episode: 759, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.26, max: 58.0)
+
+Episode: 760, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 22.2, max: 58.0)
+
+Episode: 761, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 22.2, max: 58.0)
+
+Episode: 762, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.17, max: 58.0)
+
+Episode: 763, exploration: 1.0, score: 33.0
+Scores: (min: 9.0, avg: 22.28, max: 58.0)
+
+Episode: 764, exploration: 1.0, score: 43.0
+Scores: (min: 9.0, avg: 22.56, max: 58.0)
+
+Episode: 765, exploration: 1.0, score: 61.0
+Scores: (min: 9.0, avg: 23.06, max: 61.0)
+
+Episode: 766, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 22.61, max: 61.0)
+
+Episode: 767, exploration: 1.0, score: 25.0
+Scores: (min: 9.0, avg: 22.59, max: 61.0)
+
+Episode: 768, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.57, max: 61.0)
+
+Episode: 769, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.55, max: 61.0)
+
+Episode: 770, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.55, max: 61.0)
+
+Episode: 771, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 22.25, max: 61.0)
+
+Episode: 772, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.33, max: 61.0)
+
+Episode: 773, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 22.39, max: 61.0)
+
+Episode: 774, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 22.36, max: 61.0)
+
+Episode: 775, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 22.11, max: 61.0)
+
+Episode: 776, exploration: 1.0, score: 22.0
+Scores: (min: 9.0, avg: 22.0, max: 61.0)
+
+Episode: 777, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 22.01, max: 61.0)
+
+Episode: 778, exploration: 1.0, score: 36.0
+Scores: (min: 9.0, avg: 21.92, max: 61.0)
+
+Episode: 779, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 21.8, max: 61.0)
+
+Episode: 780, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 21.58, max: 61.0)
+
+Episode: 781, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 21.39, max: 61.0)
+
+Episode: 782, exploration: 1.0, score: 42.0
+Scores: (min: 9.0, avg: 21.3, max: 61.0)
+
+Episode: 783, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.31, max: 61.0)
+
+Episode: 784, exploration: 1.0, score: 10.0
+Scores: (min: 9.0, avg: 20.94, max: 61.0)
+
+Episode: 785, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 20.5, max: 61.0)
+
+Episode: 786, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 20.42, max: 61.0)
+
+Episode: 787, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 20.21, max: 61.0)
+
+Episode: 788, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 20.29, max: 61.0)
+
+Episode: 789, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 20.33, max: 61.0)
+
+Episode: 790, exploration: 1.0, score: 40.0
+Scores: (min: 9.0, avg: 20.37, max: 61.0)
+
+Episode: 791, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 20.59, max: 61.0)
+
+Episode: 792, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 20.68, max: 61.0)
+
+Episode: 793, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 20.7, max: 61.0)
+
+Episode: 794, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 20.63, max: 61.0)
+
+Episode: 795, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 20.62, max: 61.0)
+
+Episode: 796, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 20.67, max: 61.0)
+
+Episode: 797, exploration: 1.0, score: 39.0
+Scores: (min: 9.0, avg: 20.96, max: 61.0)
+
+Episode: 798, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 20.98, max: 61.0)
+
+Episode: 799, exploration: 1.0, score: 11.0
+Scores: (min: 9.0, avg: 20.86, max: 61.0)
+
+Episode: 800, exploration: 1.0, score: 56.0
+Scores: (min: 9.0, avg: 21.19, max: 61.0)
+
+Episode: 801, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 21.05, max: 61.0)
+
+Episode: 802, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.02, max: 61.0)
+
+Episode: 803, exploration: 1.0, score: 30.0
+Scores: (min: 9.0, avg: 21.16, max: 61.0)
+
+Episode: 804, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.13, max: 61.0)
+
+Episode: 805, exploration: 1.0, score: 17.0
+Scores: (min: 9.0, avg: 21.06, max: 61.0)
+
+Episode: 806, exploration: 1.0, score: 24.0
+Scores: (min: 9.0, avg: 21.1, max: 61.0)
+
+Episode: 807, exploration: 1.0, score: 40.0
+Scores: (min: 9.0, avg: 21.33, max: 61.0)
+
+Episode: 808, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 21.43, max: 61.0)
+
+Episode: 809, exploration: 1.0, score: 14.0
+Scores: (min: 9.0, avg: 21.43, max: 61.0)
+
+Episode: 810, exploration: 1.0, score: 23.0
+Scores: (min: 9.0, avg: 21.55, max: 61.0)
+
+Episode: 811, exploration: 1.0, score: 28.0
+Scores: (min: 9.0, avg: 21.67, max: 61.0)
+
+Episode: 812, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 21.78, max: 61.0)
+
+Episode: 813, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 21.75, max: 61.0)
+
+Episode: 814, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 21.92, max: 61.0)
+
+Episode: 815, exploration: 1.0, score: 15.0
+Scores: (min: 9.0, avg: 21.73, max: 61.0)
+
+Episode: 816, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.77, max: 61.0)
+
+Episode: 817, exploration: 1.0, score: 13.0
+Scores: (min: 9.0, avg: 21.54, max: 61.0)
+
+Episode: 818, exploration: 1.0, score: 41.0
+Scores: (min: 9.0, avg: 21.78, max: 61.0)
+
+Episode: 819, exploration: 1.0, score: 16.0
+Scores: (min: 9.0, avg: 21.83, max: 61.0)
+
+Episode: 820, exploration: 1.0, score: 12.0
+Scores: (min: 9.0, avg: 21.78, max: 61.0)
+
+Episode: 821, exploration: 1.0, score: 27.0
+Scores: (min: 9.0, avg: 21.75, max: 61.0)
+
+Episode: 822, exploration: 1.0, score: 58.0
+Scores: (min: 9.0, avg: 22.24, max: 61.0)
+
+Episode: 823, exploration: 1.0, score: 26.0
+Scores: (min: 9.0, avg: 22.37, max: 61.0)
+
+Episode: 824, exploration: 1.0, score: 21.0
+Scores: (min: 9.0, avg: 22.37, max: 61.0)
+
+Episode: 825, exploration: 1.0, score: 19.0
+Scores: (min: 9.0, avg: 22.43, max: 61.0)
+
+Episode: 826, exploration: 1.0, score: 20.0
+Scores: (min: 9.0, avg: 22.52, max: 61.0)
+
+Episode: 827, exploration: 1.0, score: 18.0
+Scores: (min: 9.0, avg: 22.54, max: 61.0)
+
+Episode: 828, exploration: 1.0, score: 8.0
+Scores: (min: 8.0, avg: 22.36, max: 61.0)
+
+Episode: 829, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 22.43, max: 61.0)
+
+Episode: 830, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.37, max: 61.0)
+
+Episode: 831, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 22.34, max: 61.0)
+
+Episode: 832, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 22.16, max: 61.0)
+
+Episode: 833, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 22.03, max: 61.0)
+
+Episode: 834, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.74, max: 61.0)
+
+Episode: 835, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 21.74, max: 61.0)
+
+Episode: 836, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 21.72, max: 61.0)
+
+Episode: 837, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.58, max: 61.0)
+
+Episode: 838, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.33, max: 61.0)
+
+Episode: 839, exploration: 1.0, score: 28.0
+Scores: (min: 8.0, avg: 21.45, max: 61.0)
+
+Episode: 840, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.56, max: 61.0)
+
+Episode: 841, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.3, max: 61.0)
+
+Episode: 842, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 21.26, max: 61.0)
+
+Episode: 843, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.17, max: 61.0)
+
+Episode: 844, exploration: 1.0, score: 57.0
+Scores: (min: 8.0, avg: 21.6, max: 61.0)
+
+Episode: 845, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.62, max: 61.0)
+
+Episode: 846, exploration: 1.0, score: 55.0
+Scores: (min: 8.0, avg: 22.05, max: 61.0)
+
+Episode: 847, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.92, max: 61.0)
+
+Episode: 848, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 21.8, max: 61.0)
+
+Episode: 849, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 21.78, max: 61.0)
+
+Episode: 850, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.85, max: 61.0)
+
+Episode: 851, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 21.92, max: 61.0)
+
+Episode: 852, exploration: 1.0, score: 39.0
+Scores: (min: 8.0, avg: 22.04, max: 61.0)
+
+Episode: 853, exploration: 1.0, score: 38.0
+Scores: (min: 8.0, avg: 22.29, max: 61.0)
+
+Episode: 854, exploration: 1.0, score: 20.0
+Scores: (min: 8.0, avg: 22.21, max: 61.0)
+
+Episode: 855, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 22.21, max: 61.0)
+
+Episode: 856, exploration: 1.0, score: 32.0
+Scores: (min: 8.0, avg: 22.33, max: 61.0)
+
+Episode: 857, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.34, max: 61.0)
+
+Episode: 858, exploration: 1.0, score: 31.0
+Scores: (min: 8.0, avg: 22.51, max: 61.0)
+
+Episode: 859, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 22.52, max: 61.0)
+
+Episode: 860, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 22.5, max: 61.0)
+
+Episode: 861, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 22.58, max: 61.0)
+
+Episode: 862, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 22.61, max: 61.0)
+
+Episode: 863, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 22.44, max: 61.0)
+
+Episode: 864, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 22.11, max: 61.0)
+
+Episode: 865, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 21.61, max: 58.0)
+
+Episode: 866, exploration: 1.0, score: 18.0
+Scores: (min: 8.0, avg: 21.67, max: 58.0)
+
+Episode: 867, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.54, max: 58.0)
+
+Episode: 868, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.63, max: 58.0)
+
+Episode: 869, exploration: 1.0, score: 32.0
+Scores: (min: 8.0, avg: 21.75, max: 58.0)
+
+Episode: 870, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.78, max: 58.0)
+
+Episode: 871, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.82, max: 58.0)
+
+Episode: 872, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.73, max: 58.0)
+
+Episode: 873, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 21.67, max: 58.0)
+
+Episode: 874, exploration: 1.0, score: 13.0
+Scores: (min: 8.0, avg: 21.56, max: 58.0)
+
+Episode: 875, exploration: 1.0, score: 31.0
+Scores: (min: 8.0, avg: 21.73, max: 58.0)
+
+Episode: 876, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 21.75, max: 58.0)
+
+Episode: 877, exploration: 1.0, score: 48.0
+Scores: (min: 8.0, avg: 22.08, max: 58.0)
+
+Episode: 878, exploration: 1.0, score: 24.0
+Scores: (min: 8.0, avg: 21.96, max: 58.0)
+
+Episode: 879, exploration: 1.0, score: 19.0
+Scores: (min: 8.0, avg: 21.96, max: 58.0)
+
+Episode: 880, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 22.06, max: 58.0)
+
+Episode: 881, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 22.11, max: 58.0)
+
+Episode: 882, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.83, max: 58.0)
+
+Episode: 883, exploration: 1.0, score: 14.0
+Scores: (min: 8.0, avg: 21.81, max: 58.0)
+
+Episode: 884, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.94, max: 58.0)
+
+Episode: 885, exploration: 1.0, score: 15.0
+Scores: (min: 8.0, avg: 21.95, max: 58.0)
+
+Episode: 886, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.96, max: 58.0)
+
+Episode: 887, exploration: 1.0, score: 10.0
+Scores: (min: 8.0, avg: 21.94, max: 58.0)
+
+Episode: 888, exploration: 1.0, score: 17.0
+Scores: (min: 8.0, avg: 21.92, max: 58.0)
+
+Episode: 889, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.87, max: 58.0)
+
+Episode: 890, exploration: 1.0, score: 17.0
+Scores: (min: 8.0, avg: 21.64, max: 58.0)
+
+Episode: 891, exploration: 1.0, score: 12.0
+Scores: (min: 8.0, avg: 21.37, max: 58.0)
+
+Episode: 892, exploration: 1.0, score: 16.0
+Scores: (min: 8.0, avg: 21.29, max: 58.0)
+
+Episode: 893, exploration: 1.0, score: 21.0
+Scores: (min: 8.0, avg: 21.31, max: 58.0)
+
+Episode: 894, exploration: 1.0, score: 23.0
+Scores: (min: 8.0, avg: 21.33, max: 58.0)
+
+Episode: 895, exploration: 1.0, score: 11.0
+Scores: (min: 8.0, avg: 21.28, max: 58.0)
+
+Episode: 896, exploration: 1.0, score: 26.0
+Scores: (min: 8.0, avg: 21.39, max: 58.0)
+
+Episode: 897, exploration: 1.0, score: 17.0
+Scores: (min: 8.0, avg: 21.17, max: 58.0)
+
+Episode: 898, exploration: 0.998001, score: 27.0
+Scores: (min: 8.0, avg: 21.29, max: 58.0)
+
+Episode: 899, exploration: 0.995009990004999, score: 16.0
+Scores: (min: 8.0, avg: 21.34, max: 58.0)
+
+Episode: 900, exploration: 0.9900448802097482, score: 23.0
+Scores: (min: 8.0, avg: 21.01, max: 58.0)
+
+Episode: 901, exploration: 0.986090636999001, score: 23.0
+Scores: (min: 8.0, avg: 21.07, max: 58.0)
+
+Episode: 902, exploration: 0.9811700348643991, score: 23.0
+Scores: (min: 8.0, avg: 21.14, max: 58.0)
+
+Episode: 903, exploration: 0.9762739865836303, score: 24.0
+Scores: (min: 8.0, avg: 21.08, max: 58.0)
+
+Episode: 904, exploration: 0.9733480924695651, score: 18.0
+Scores: (min: 8.0, avg: 21.12, max: 58.0)
+
+Episode: 905, exploration: 0.9655885070369844, score: 40.0
+Scores: (min: 8.0, avg: 21.35, max: 58.0)
+
+Episode: 906, exploration: 0.9626946373158061, score: 13.0
+Scores: (min: 8.0, avg: 21.24, max: 58.0)
+
+Episode: 907, exploration: 0.959809440525076, score: 15.0
+Scores: (min: 8.0, avg: 20.99, max: 58.0)
+
+Episode: 908, exploration: 0.9578907814534664, score: 11.0
+Scores: (min: 8.0, avg: 20.89, max: 58.0)
+
+Episode: 909, exploration: 0.9559759577813409, score: 9.0
+Scores: (min: 8.0, avg: 20.84, max: 58.0)
+
+Episode: 910, exploration: 0.9493041681462656, score: 35.0
+Scores: (min: 8.0, avg: 20.96, max: 58.0)
+
+Episode: 911, exploration: 0.9474065091141411, score: 10.0
+Scores: (min: 8.0, avg: 20.78, max: 58.0)
+
+Episode: 912, exploration: 0.9398537314349842, score: 40.0
+Scores: (min: 8.0, avg: 20.92, max: 58.0)
+
+Episode: 913, exploration: 0.9379749638258457, score: 11.0
+Scores: (min: 8.0, avg: 20.85, max: 58.0)
+
+Episode: 914, exploration: 0.9277086733900016, score: 55.0
+Scores: (min: 8.0, avg: 21.14, max: 58.0)
+
+Episode: 915, exploration: 0.9212341621210596, score: 34.0
+Scores: (min: 8.0, avg: 21.33, max: 58.0)
+
+Episode: 916, exploration: 0.9184732224159486, score: 15.0
+Scores: (min: 8.0, avg: 21.32, max: 58.0)
+
+Episode: 917, exploration: 0.9166371944443392, score: 12.0
+Scores: (min: 8.0, avg: 21.31, max: 58.0)
+
+Episode: 918, exploration: 0.9102399514140735, score: 33.0
+Scores: (min: 8.0, avg: 21.23, max: 58.0)
+
+Episode: 919, exploration: 0.9075119613694457, score: 14.0
+Scores: (min: 8.0, avg: 21.21, max: 58.0)
+
+Episode: 920, exploration: 0.9029834676116293, score: 25.0
+Scores: (min: 8.0, avg: 21.34, max: 58.0)
+
+Episode: 921, exploration: 0.9011784036598737, score: 13.0
+Scores: (min: 8.0, avg: 21.2, max: 58.0)
+
+Episode: 922, exploration: 0.8948890480710096, score: 32.0
+Scores: (min: 8.0, avg: 20.94, max: 57.0)
+
+Episode: 923, exploration: 0.8931001648639156, score: 10.0
+Scores: (min: 8.0, avg: 20.78, max: 57.0)
+
+Episode: 924, exploration: 0.8904235427767183, score: 17.0
+Scores: (min: 8.0, avg: 20.74, max: 57.0)
+
+Episode: 925, exploration: 0.88509434007808, score: 28.0
+Scores: (min: 8.0, avg: 20.83, max: 57.0)
+
+Episode: 926, exploration: 0.8833250364922639, score: 13.0
+Scores: (min: 8.0, avg: 20.76, max: 57.0)
+
+Episode: 927, exploration: 0.8806777104745716, score: 14.0
+Scores: (min: 8.0, avg: 20.72, max: 57.0)
+
+Episode: 928, exploration: 0.8780383184956015, score: 13.0
+Scores: (min: 9.0, avg: 20.77, max: 57.0)
+
+Episode: 929, exploration: 0.8762831198969288, score: 10.0
+Scores: (min: 9.0, avg: 20.67, max: 57.0)
+
+Episode: 930, exploration: 0.8745314299402548, score: 13.0
+Scores: (min: 9.0, avg: 20.57, max: 57.0)
+
+Episode: 931, exploration: 0.8692973418545467, score: 29.0
+Scores: (min: 9.0, avg: 20.66, max: 57.0)
+
+Episode: 932, exploration: 0.8666920568517111, score: 17.0
+Scores: (min: 9.0, avg: 20.67, max: 57.0)
+
+Episode: 933, exploration: 0.8649595394300645, score: 10.0
+Scores: (min: 9.0, avg: 20.49, max: 57.0)
+
+Episode: 934, exploration: 0.8615048875706075, score: 16.0
+Scores: (min: 9.0, avg: 20.53, max: 57.0)
+
+Episode: 935, exploration: 0.8580640336044925, score: 21.0
+Scores: (min: 9.0, avg: 20.53, max: 57.0)
+
+Episode: 936, exploration: 0.8529285032149548, score: 29.0
+Scores: (min: 9.0, avg: 20.72, max: 57.0)
+
+Episode: 937, exploration: 0.8503722756378911, score: 17.0
+Scores: (min: 9.0, avg: 20.74, max: 57.0)
+
+Episode: 938, exploration: 0.847823709077432, score: 15.0
+Scores: (min: 9.0, avg: 20.66, max: 57.0)
+
+Episode: 939, exploration: 0.8461289094829862, score: 11.0
+Scores: (min: 9.0, avg: 20.49, max: 57.0)
+
+Episode: 940, exploration: 0.8444374977929298, score: 10.0
+Scores: (min: 9.0, avg: 20.36, max: 57.0)
+
+Episode: 941, exploration: 0.8410648110498392, score: 21.0
+Scores: (min: 9.0, avg: 20.42, max: 57.0)
+
+Episode: 942, exploration: 0.838544138970058, score: 15.0
+Scores: (min: 9.0, avg: 20.38, max: 57.0)
+
+Episode: 943, exploration: 0.8360310213470206, score: 12.0
+Scores: (min: 9.0, avg: 20.34, max: 57.0)
+
+Episode: 944, exploration: 0.8326919101044725, score: 20.0
+Scores: (min: 9.0, avg: 19.97, max: 55.0)
+
+Episode: 945, exploration: 0.8301963316171974, score: 16.0
+Scores: (min: 9.0, avg: 19.99, max: 55.0)
+
+Episode: 946, exploration: 0.8285367691502946, score: 12.0
+Scores: (min: 9.0, avg: 19.56, max: 55.0)
+
+Episode: 947, exploration: 0.8260536436246144, score: 15.0
+Scores: (min: 9.0, avg: 19.48, max: 55.0)
+
+Episode: 948, exploration: 0.8235779600286178, score: 11.0
+Scores: (min: 9.0, avg: 19.48, max: 55.0)
+
+Episode: 949, exploration: 0.8211096960588341, score: 16.0
+Scores: (min: 9.0, avg: 19.46, max: 55.0)
+
+Episode: 950, exploration: 0.818648829478636, score: 18.0
+Scores: (min: 9.0, avg: 19.48, max: 55.0)
+
+Episode: 951, exploration: 0.8145637636371417, score: 22.0
+Scores: (min: 9.0, avg: 19.46, max: 55.0)
+
+Episode: 952, exploration: 0.8121225152229574, score: 14.0
+Scores: (min: 9.0, avg: 19.21, max: 55.0)
+
+Episode: 953, exploration: 0.8096885832327116, score: 19.0
+Scores: (min: 9.0, avg: 19.02, max: 55.0)
+
+Episode: 954, exploration: 0.8080700157548294, score: 10.0
+Scores: (min: 9.0, avg: 18.92, max: 55.0)
+
+Episode: 955, exploration: 0.8056482291095421, score: 13.0
+Scores: (min: 9.0, avg: 18.91, max: 55.0)
+
+Episode: 956, exploration: 0.7968302765754727, score: 55.0
+Scores: (min: 9.0, avg: 19.14, max: 55.0)
+
+Episode: 957, exploration: 0.7952374128525983, score: 10.0
+Scores: (min: 9.0, avg: 19.01, max: 55.0)
+
+Episode: 958, exploration: 0.7912691702140651, score: 25.0
+Scores: (min: 9.0, avg: 18.95, max: 55.0)
+
+Episode: 959, exploration: 0.7865334084168147, score: 30.0
+Scores: (min: 9.0, avg: 19.07, max: 55.0)
+
+Episode: 960, exploration: 0.7810441642583167, score: 33.0
+Scores: (min: 9.0, avg: 19.26, max: 55.0)
+
+Episode: 961, exploration: 0.7787033741169904, score: 18.0
+Scores: (min: 9.0, avg: 19.23, max: 55.0)
+
+Episode: 962, exploration: 0.7763695993260584, score: 15.0
+Scores: (min: 9.0, avg: 19.24, max: 55.0)
+
+Episode: 963, exploration: 0.7748176364970056, score: 10.0
+Scores: (min: 9.0, avg: 19.18, max: 55.0)
+
+Episode: 964, exploration: 0.7717230117583408, score: 19.0
+Scores: (min: 9.0, avg: 19.27, max: 55.0)
+
+Episode: 965, exploration: 0.7694101571203781, score: 17.0
+Scores: (min: 9.0, avg: 19.33, max: 55.0)
+
+Episode: 966, exploration: 0.7671042341100781, score: 15.0
+Scores: (min: 9.0, avg: 19.3, max: 55.0)
+
+Episode: 967, exploration: 0.7640404167313927, score: 16.0
+Scores: (min: 9.0, avg: 19.34, max: 55.0)
+
+Episode: 968, exploration: 0.7587081519483351, score: 36.0
+Scores: (min: 9.0, avg: 19.47, max: 55.0)
+
+Episode: 969, exploration: 0.7571914943525904, score: 11.0
+Scores: (min: 9.0, avg: 19.26, max: 55.0)
+
+Episode: 970, exploration: 0.7556778685553796, score: 12.0
+Scores: (min: 9.0, avg: 19.24, max: 55.0)
+
+Episode: 971, exploration: 0.7541672684961374, score: 9.0
+Scores: (min: 9.0, avg: 19.18, max: 55.0)
+
+Episode: 972, exploration: 0.7511551214098489, score: 17.0
+Scores: (min: 9.0, avg: 19.23, max: 55.0)
+
+Episode: 973, exploration: 0.7489039087598284, score: 16.0
+Scores: (min: 9.0, avg: 19.28, max: 55.0)
+
+Episode: 974, exploration: 0.7466594429963713, score: 17.0
+Scores: (min: 9.0, avg: 19.32, max: 55.0)
+
+Episode: 975, exploration: 0.7436772821951526, score: 17.0
+Scores: (min: 9.0, avg: 19.18, max: 55.0)
+
+Episode: 976, exploration: 0.7399663251239436, score: 28.0
+Scores: (min: 9.0, avg: 19.22, max: 55.0)
+
+Episode: 977, exploration: 0.737010896662273, score: 19.0
+Scores: (min: 9.0, avg: 18.93, max: 55.0)
+
+Episode: 978, exploration: 0.7333332049215037, score: 24.0
+Scores: (min: 9.0, avg: 18.93, max: 55.0)
+
+Episode: 979, exploration: 0.7311354045730207, score: 14.0
+Scores: (min: 9.0, avg: 18.88, max: 55.0)
+
+Episode: 980, exploration: 0.7296738648992792, score: 14.0
+Scores: (min: 9.0, avg: 18.79, max: 55.0)
+
+Episode: 981, exploration: 0.7274870315965022, score: 11.0
+Scores: (min: 9.0, avg: 18.74, max: 55.0)
+
+Episode: 982, exploration: 0.7260327850203407, score: 13.0
+Scores: (min: 9.0, avg: 18.73, max: 55.0)
+
+Episode: 983, exploration: 0.7224098741663908, score: 23.0
+Scores: (min: 9.0, avg: 18.82, max: 55.0)
+
+Episode: 984, exploration: 0.7202448110511043, score: 15.0
+Scores: (min: 9.0, avg: 18.74, max: 55.0)
+
+Episode: 985, exploration: 0.7180862366321393, score: 15.0
+Scores: (min: 9.0, avg: 18.74, max: 55.0)
+
+Episode: 986, exploration: 0.7159341314628666, score: 17.0
+Scores: (min: 9.0, avg: 18.75, max: 55.0)
+
+Episode: 987, exploration: 0.7137884761549381, score: 14.0
+Scores: (min: 9.0, avg: 18.79, max: 55.0)
+
+Episode: 988, exploration: 0.7116492513781133, score: 15.0
+Scores: (min: 9.0, avg: 18.77, max: 55.0)
+
+Episode: 989, exploration: 0.7102266645246085, score: 12.0
+Scores: (min: 9.0, avg: 18.73, max: 55.0)
+
+Episode: 990, exploration: 0.7088069214222238, score: 10.0
+Scores: (min: 9.0, avg: 18.66, max: 55.0)
+
+Episode: 991, exploration: 0.7066826263699144, score: 14.0
+Scores: (min: 9.0, avg: 18.68, max: 55.0)
+
+Episode: 992, exploration: 0.7038601331341691, score: 20.0
+Scores: (min: 9.0, avg: 18.72, max: 55.0)
+
+Episode: 993, exploration: 0.7010489129476946, score: 20.0
+Scores: (min: 9.0, avg: 18.71, max: 55.0)
+
+Episode: 994, exploration: 0.6989478686545415, score: 13.0
+Scores: (min: 9.0, avg: 18.61, max: 55.0)
+
+Episode: 995, exploration: 0.6940698870404746, score: 34.0
+Scores: (min: 9.0, avg: 18.84, max: 55.0)
+
+Episode: 996, exploration: 0.6926824413362807, score: 10.0
+Scores: (min: 9.0, avg: 18.68, max: 55.0)
+
+Episode: 997, exploration: 0.6919897588949444, score: 9.0
+Scores: (min: 9.0, avg: 18.6, max: 55.0)
+
+Episode: 998, exploration: 0.6899158648955466, score: 12.0
+Scores: (min: 9.0, avg: 18.45, max: 55.0)
+
+Episode: 999, exploration: 0.6878481863585387, score: 15.0
+Scores: (min: 9.0, avg: 18.44, max: 55.0)
+
+Episode: 1000, exploration: 0.686473177834008, score: 11.0
+Scores: (min: 9.0, avg: 18.32, max: 55.0)
+
+Episode: 1001, exploration: 0.6844158170335664, score: 17.0
+Scores: (min: 9.0, avg: 18.26, max: 55.0)
+
+Episode: 1002, exploration: 0.6823646221455009, score: 14.0
+Scores: (min: 9.0, avg: 18.17, max: 55.0)
+
+Episode: 1003, exploration: 0.680319574690566, score: 16.0
+Scores: (min: 9.0, avg: 18.09, max: 55.0)
+
+Episode: 1004, exploration: 0.6782806562448989, score: 15.0
+Scores: (min: 9.0, avg: 18.06, max: 55.0)
+
+Episode: 1005, exploration: 0.6735469118288684, score: 33.0
+Scores: (min: 9.0, avg: 17.99, max: 55.0)
+
+Episode: 1006, exploration: 0.6722004915521225, score: 12.0
+Scores: (min: 9.0, avg: 17.98, max: 55.0)
+
+Episode: 1007, exploration: 0.6695157201007336, score: 18.0
+Scores: (min: 9.0, avg: 18.01, max: 55.0)
+
+Episode: 1008, exploration: 0.6681773581762521, score: 9.0
+Scores: (min: 9.0, avg: 17.99, max: 55.0)
+
+Episode: 1009, exploration: 0.6661748299656206, score: 18.0
+Scores: (min: 9.0, avg: 18.08, max: 55.0)
+
+Episode: 1010, exploration: 0.6635141250307047, score: 17.0
+Scores: (min: 9.0, avg: 17.9, max: 55.0)
+
+Episode: 1011, exploration: 0.6588834367523301, score: 37.0
+Scores: (min: 9.0, avg: 18.17, max: 55.0)
+
+Episode: 1012, exploration: 0.654940006215578, score: 28.0
+Scores: (min: 9.0, avg: 18.05, max: 55.0)
+
+Episode: 1013, exploration: 0.65297715036201, score: 17.0
+Scores: (min: 9.0, avg: 18.11, max: 55.0)
+
+Episode: 1014, exploration: 0.6516718490384363, score: 10.0
+Scores: (min: 9.0, avg: 17.66, max: 55.0)
+
+Episode: 1015, exploration: 0.6497187878551962, score: 12.0
+Scores: (min: 9.0, avg: 17.44, max: 55.0)
+
+Episode: 1016, exploration: 0.6484199999982736, score: 11.0
+Scores: (min: 9.0, avg: 17.4, max: 55.0)
+
+Episode: 1017, exploration: 0.647123808418277, score: 13.0
+Scores: (min: 9.0, avg: 17.41, max: 55.0)
+
+Episode: 1018, exploration: 0.6445391933396063, score: 17.0
+Scores: (min: 9.0, avg: 17.25, max: 55.0)
+
+Episode: 1019, exploration: 0.6426075087326283, score: 18.0
+Scores: (min: 9.0, avg: 17.29, max: 55.0)
+
+Episode: 1020, exploration: 0.6413229363226717, score: 10.0
+Scores: (min: 9.0, avg: 17.14, max: 55.0)
+
+Episode: 1021, exploration: 0.6349384896673435, score: 47.0
+Scores: (min: 9.0, avg: 17.48, max: 55.0)
+
+Episode: 1022, exploration: 0.632402542800493, score: 20.0
+Scores: (min: 9.0, avg: 17.36, max: 55.0)
+
+Episode: 1023, exploration: 0.6305072317473174, score: 17.0
+Scores: (min: 9.0, avg: 17.43, max: 55.0)
+
+Episode: 1024, exploration: 0.6286176009432635, score: 13.0
+Scores: (min: 9.0, avg: 17.39, max: 55.0)
+
+Episode: 1025, exploration: 0.6273609943589779, score: 12.0
+Scores: (min: 9.0, avg: 17.23, max: 55.0)
+
+Episode: 1026, exploration: 0.6254807928315229, score: 15.0
+Scores: (min: 9.0, avg: 17.25, max: 55.0)
+
+Episode: 1027, exploration: 0.623606226269926, score: 15.0
+Scores: (min: 9.0, avg: 17.26, max: 55.0)
+
+Episode: 1028, exploration: 0.6192540566123834, score: 33.0
+Scores: (min: 9.0, avg: 17.46, max: 55.0)
+
+Episode: 1029, exploration: 0.6167807534338766, score: 20.0
+Scores: (min: 9.0, avg: 17.56, max: 55.0)
+
+Episode: 1030, exploration: 0.6149322608990545, score: 14.0
+Scores: (min: 9.0, avg: 17.57, max: 55.0)
+
+Episode: 1031, exploration: 0.6137030113095173, score: 10.0
+Scores: (min: 9.0, avg: 17.38, max: 55.0)
+
+Episode: 1032, exploration: 0.6124762189899097, score: 11.0
+Scores: (min: 9.0, avg: 17.32, max: 55.0)
+
+Episode: 1033, exploration: 0.6100299865219717, score: 23.0
+Scores: (min: 9.0, avg: 17.45, max: 55.0)
+
+Episode: 1034, exploration: 0.6075935243162931, score: 18.0
+Scores: (min: 9.0, avg: 17.47, max: 55.0)
+
+Episode: 1035, exploration: 0.6063789448611848, score: 11.0
+Scores: (min: 9.0, avg: 17.37, max: 55.0)
+
+Episode: 1036, exploration: 0.6033531078655693, score: 23.0
+Scores: (min: 9.0, avg: 17.31, max: 55.0)
+
+Episode: 1037, exploration: 0.602147005002946, score: 11.0
+Scores: (min: 9.0, avg: 17.25, max: 55.0)
+
+Episode: 1038, exploration: 0.6009433131399452, score: 11.0
+Scores: (min: 9.0, avg: 17.21, max: 55.0)
+
+Episode: 1039, exploration: 0.5997420274569785, score: 10.0
+Scores: (min: 9.0, avg: 17.2, max: 55.0)
+
+Episode: 1040, exploration: 0.598543143144092, score: 10.0
+Scores: (min: 9.0, avg: 17.2, max: 55.0)
+
+Episode: 1041, exploration: 0.5955564068773637, score: 22.0
+Scores: (min: 9.0, avg: 17.21, max: 55.0)
+
+Episode: 1042, exploration: 0.5937715237303958, score: 17.0
+Scores: (min: 9.0, avg: 17.23, max: 55.0)
+
+Episode: 1043, exploration: 0.5919919898800042, score: 13.0
+Scores: (min: 9.0, avg: 17.24, max: 55.0)
+
+Episode: 1044, exploration: 0.5890379439335424, score: 25.0
+Scores: (min: 9.0, avg: 17.29, max: 55.0)
+
+Episode: 1045, exploration: 0.5872725966265356, score: 19.0
+Scores: (min: 9.0, avg: 17.32, max: 55.0)
+
+Episode: 1046, exploration: 0.5855125400671733, score: 13.0
+Scores: (min: 9.0, avg: 17.33, max: 55.0)
+
+Episode: 1047, exploration: 0.5825908266400397, score: 27.0
+Scores: (min: 9.0, avg: 17.45, max: 55.0)
+
+Episode: 1048, exploration: 0.5808448013500086, score: 11.0
+Scores: (min: 9.0, avg: 17.45, max: 55.0)
+
+Episode: 1049, exploration: 0.57968369259211, score: 12.0
+Scores: (min: 9.0, avg: 17.41, max: 55.0)
+
+Episode: 1050, exploration: 0.5779463799857277, score: 13.0
+Scores: (min: 9.0, avg: 17.36, max: 55.0)
+
+Episode: 1051, exploration: 0.577368433605742, score: 9.0
+Scores: (min: 9.0, avg: 17.23, max: 55.0)
+
+Episode: 1052, exploration: 0.5756380598328571, score: 11.0
+Scores: (min: 9.0, avg: 17.2, max: 55.0)
+
+Episode: 1053, exploration: 0.5744873593512512, score: 10.0
+Scores: (min: 9.0, avg: 17.11, max: 55.0)
+
+Episode: 1054, exploration: 0.572765620160788, score: 18.0
+Scores: (min: 9.0, avg: 17.19, max: 55.0)
+
+Episode: 1055, exploration: 0.5716206616860866, score: 10.0
+Scores: (min: 9.0, avg: 17.16, max: 55.0)
+
+Episode: 1056, exploration: 0.5704779919833761, score: 10.0
+Scores: (min: 9.0, avg: 16.71, max: 47.0)
+
+Episode: 1057, exploration: 0.5681995006020529, score: 18.0
+Scores: (min: 9.0, avg: 16.79, max: 47.0)
+
+Episode: 1058, exploration: 0.5670636698003494, score: 13.0
+Scores: (min: 9.0, avg: 16.67, max: 47.0)
+
+Episode: 1059, exploration: 0.5636697824038235, score: 30.0
+Scores: (min: 9.0, avg: 16.67, max: 47.0)
+
+Episode: 1060, exploration: 0.5608570645557482, score: 23.0
+Scores: (min: 9.0, avg: 16.57, max: 47.0)
+
+Episode: 1061, exploration: 0.5597359112837013, score: 9.0
+Scores: (min: 9.0, avg: 16.48, max: 47.0)
+
+Episode: 1062, exploration: 0.5586169991970452, score: 9.0
+Scores: (min: 9.0, avg: 16.42, max: 47.0)
+
+Episode: 1063, exploration: 0.5575003238156504, score: 13.0
+Scores: (min: 9.0, avg: 16.45, max: 47.0)
+
+Episode: 1064, exploration: 0.5558294947876746, score: 15.0
+Scores: (min: 9.0, avg: 16.41, max: 47.0)
+
+Episode: 1065, exploration: 0.5547183916275941, score: 10.0
+Scores: (min: 9.0, avg: 16.34, max: 47.0)
+
+Episode: 1066, exploration: 0.5530559000531677, score: 12.0
+Scores: (min: 9.0, avg: 16.31, max: 47.0)
+
+Episode: 1067, exploration: 0.5519503413089615, score: 14.0
+Scores: (min: 9.0, avg: 16.29, max: 47.0)
+
+Episode: 1068, exploration: 0.5502961455841082, score: 11.0
+Scores: (min: 9.0, avg: 16.04, max: 47.0)
+
+Episode: 1069, exploration: 0.5491961035890855, score: 11.0
+Scores: (min: 9.0, avg: 16.04, max: 47.0)
+
+Episode: 1070, exploration: 0.547550162317433, score: 16.0
+Scores: (min: 9.0, avg: 16.08, max: 47.0)
+
+Episode: 1071, exploration: 0.5459091539334175, score: 16.0
+Scores: (min: 9.0, avg: 16.15, max: 47.0)
+
+Episode: 1072, exploration: 0.5448178815347047, score: 10.0
+Scores: (min: 9.0, avg: 16.08, max: 47.0)
+
+Episode: 1073, exploration: 0.5431850617989273, score: 13.0
+Scores: (min: 9.0, avg: 16.05, max: 47.0)
+
+Episode: 1074, exploration: 0.5415571356255309, score: 18.0
+Scores: (min: 9.0, avg: 16.06, max: 47.0)
+
+Episode: 1075, exploration: 0.5393941542601555, score: 18.0
+Scores: (min: 9.0, avg: 16.07, max: 47.0)
+
+Episode: 1076, exploration: 0.5377775894404436, score: 16.0
+Scores: (min: 9.0, avg: 15.95, max: 47.0)
+
+Episode: 1077, exploration: 0.5367025720391522, score: 9.0
+Scores: (min: 9.0, avg: 15.85, max: 47.0)
+
+Episode: 1078, exploration: 0.5350940738940482, score: 14.0
+Scores: (min: 9.0, avg: 15.75, max: 47.0)
+
+Episode: 1079, exploration: 0.534024420840334, score: 9.0
+Scores: (min: 9.0, avg: 15.7, max: 47.0)
+
+Episode: 1080, exploration: 0.5329569060230741, score: 14.0
+Scores: (min: 9.0, avg: 15.7, max: 47.0)
+
+Episode: 1081, exploration: 0.5302974457351142, score: 22.0
+Scores: (min: 9.0, avg: 15.81, max: 47.0)
+
+Episode: 1082, exploration: 0.5292373811410898, score: 11.0
+Scores: (min: 9.0, avg: 15.79, max: 47.0)
+
+Episode: 1083, exploration: 0.5271236049243919, score: 21.0
+Scores: (min: 9.0, avg: 15.77, max: 47.0)
+
+Episode: 1084, exploration: 0.5260698848381481, score: 10.0
+Scores: (min: 9.0, avg: 15.72, max: 47.0)
+
+Episode: 1085, exploration: 0.5250182711383566, score: 10.0
+Scores: (min: 9.0, avg: 15.67, max: 47.0)
+
+Episode: 1086, exploration: 0.522921346063882, score: 19.0
+Scores: (min: 9.0, avg: 15.69, max: 47.0)
+
+Episode: 1087, exploration: 0.5218760262931003, score: 10.0
+Scores: (min: 9.0, avg: 15.65, max: 47.0)
+
+Episode: 1088, exploration: 0.5203119633204238, score: 15.0
+Scores: (min: 9.0, avg: 15.65, max: 47.0)
+
+Episode: 1089, exploration: 0.5187525878460405, score: 13.0
+Scores: (min: 9.0, avg: 15.66, max: 47.0)
+
+Episode: 1090, exploration: 0.5171978858215134, score: 15.0
+Scores: (min: 9.0, avg: 15.71, max: 47.0)
+
+Episode: 1091, exploration: 0.5161640072477562, score: 11.0
+Scores: (min: 9.0, avg: 15.68, max: 47.0)
+
+Episode: 1092, exploration: 0.515132195397268, score: 12.0
+Scores: (min: 9.0, avg: 15.6, max: 47.0)
+
+Episode: 1093, exploration: 0.5115370697939825, score: 36.0
+Scores: (min: 9.0, avg: 15.76, max: 47.0)
+
+Episode: 1094, exploration: 0.5094939886915886, score: 17.0
+Scores: (min: 9.0, avg: 15.8, max: 47.0)
+
+Episode: 1095, exploration: 0.5074590676632879, score: 21.0
+Scores: (min: 9.0, avg: 15.67, max: 47.0)
+
+Episode: 1096, exploration: 0.506444656987029, score: 11.0
+Scores: (min: 9.0, avg: 15.68, max: 47.0)
+
+Episode: 1097, exploration: 0.5049268418435943, score: 12.0
+Scores: (min: 9.0, avg: 15.71, max: 47.0)
+
+Episode: 1098, exploration: 0.5039174930867489, score: 10.0
+Scores: (min: 9.0, avg: 15.69, max: 47.0)
+
+Episode: 1099, exploration: 0.5024072518560504, score: 16.0
+Scores: (min: 9.0, avg: 15.7, max: 47.0)
+
+Episode: 1100, exploration: 0.5014029397595902, score: 10.0
+Scores: (min: 9.0, avg: 15.69, max: 47.0)
+
+Episode: 1101, exploration: 0.5004006352830107, score: 12.0
+Scores: (min: 9.0, avg: 15.64, max: 47.0)
+
+Episode: 1102, exploration: 0.49890093407866687, score: 14.0
+Scores: (min: 9.0, avg: 15.64, max: 47.0)
+
+Episode: 1103, exploration: 0.4979036311114436, score: 10.0
+Scores: (min: 9.0, avg: 15.58, max: 47.0)
+
+Episode: 1104, exploration: 0.49690832175285177, score: 10.0
+Scores: (min: 9.0, avg: 15.53, max: 47.0)
+
+Episode: 1105, exploration: 0.49541908701565013, score: 15.0
+Scores: (min: 9.0, avg: 15.35, max: 47.0)
+
+Episode: 1106, exploration: 0.4929469408197278, score: 24.0
+Scores: (min: 9.0, avg: 15.47, max: 47.0)
+
+Episode: 1107, exploration: 0.4909781087667989, score: 20.0
+Scores: (min: 9.0, avg: 15.49, max: 47.0)
+
+Episode: 1108, exploration: 0.4899966435273741, score: 9.0
+Scores: (min: 9.0, avg: 15.49, max: 47.0)
+
+Episode: 1109, exploration: 0.48901714023696286, score: 13.0
+Scores: (min: 9.0, avg: 15.44, max: 47.0)
+
+Episode: 1110, exploration: 0.48803959497362914, score: 11.0
+Scores: (min: 9.0, avg: 15.38, max: 47.0)
+
+Episode: 1111, exploration: 0.4865769398194536, score: 15.0
+Scores: (min: 9.0, avg: 15.16, max: 47.0)
+
+Episode: 1112, exploration: 0.48511866824423777, score: 15.0
+Scores: (min: 9.0, avg: 15.03, max: 47.0)
+
+Episode: 1113, exploration: 0.4836647671103911, score: 11.0
+Scores: (min: 9.0, avg: 14.97, max: 47.0)
+
+Episode: 1114, exploration: 0.4826979212409374, score: 13.0
+Scores: (min: 9.0, avg: 15.0, max: 47.0)
+
+Episode: 1115, exploration: 0.48028925378937887, score: 23.0
+Scores: (min: 9.0, avg: 15.11, max: 47.0)
+
+Episode: 1116, exploration: 0.4793291555710539, score: 10.0
+Scores: (min: 9.0, avg: 15.1, max: 47.0)
+
+Episode: 1117, exploration: 0.47789260561247826, score: 15.0
+Scores: (min: 9.0, avg: 15.12, max: 47.0)
+
+Episode: 1118, exploration: 0.4769372982938589, score: 10.0
+Scores: (min: 9.0, avg: 15.05, max: 47.0)
+
+Episode: 1119, exploration: 0.47598390063456947, score: 11.0
+Scores: (min: 9.0, avg: 14.98, max: 47.0)
+
+Episode: 1120, exploration: 0.47503240881720094, score: 11.0
+Scores: (min: 9.0, avg: 14.99, max: 47.0)
+
+Episode: 1121, exploration: 0.4726619923492537, score: 25.0
+Scores: (min: 9.0, avg: 14.77, max: 36.0)
+
+Episode: 1122, exploration: 0.47077417846163544, score: 20.0
+Scores: (min: 9.0, avg: 14.77, max: 36.0)
+
+Episode: 1123, exploration: 0.46936326777801174, score: 13.0
+Scores: (min: 9.0, avg: 14.73, max: 36.0)
+
+Episode: 1124, exploration: 0.4684250106057235, score: 12.0
+Scores: (min: 9.0, avg: 14.72, max: 36.0)
+
+Episode: 1125, exploration: 0.4670211403805131, score: 16.0
+Scores: (min: 9.0, avg: 14.76, max: 36.0)
+
+Episode: 1126, exploration: 0.4660875651208925, score: 10.0
+Scores: (min: 9.0, avg: 14.71, max: 36.0)
+
+Episode: 1127, exploration: 0.46515585607821586, score: 9.0
+Scores: (min: 9.0, avg: 14.65, max: 36.0)
+
+Episode: 1128, exploration: 0.4637617835123936, score: 13.0
+Scores: (min: 9.0, avg: 14.45, max: 36.0)
+
+Episode: 1129, exploration: 0.46283472370715234, score: 9.0
+Scores: (min: 9.0, avg: 14.34, max: 36.0)
+
+Episode: 1130, exploration: 0.4619095170944617, score: 13.0
+Scores: (min: 9.0, avg: 14.33, max: 36.0)
+
+Episode: 1131, exploration: 0.4596045839873742, score: 24.0
+Scores: (min: 9.0, avg: 14.47, max: 36.0)
+
+Episode: 1132, exploration: 0.45822714858955943, score: 15.0
+Scores: (min: 9.0, avg: 14.51, max: 36.0)
+
+Episode: 1133, exploration: 0.4563969875256424, score: 18.0
+Scores: (min: 9.0, avg: 14.46, max: 36.0)
+
+Episode: 1134, exploration: 0.45502916529763104, score: 15.0
+Scores: (min: 9.0, avg: 14.43, max: 36.0)
+
+Episode: 1135, exploration: 0.4541195619962011, score: 11.0
+Scores: (min: 9.0, avg: 14.43, max: 36.0)
+
+Episode: 1136, exploration: 0.45321177699177073, score: 12.0
+Scores: (min: 9.0, avg: 14.32, max: 36.0)
+
+Episode: 1137, exploration: 0.45185350084291465, score: 16.0
+Scores: (min: 9.0, avg: 14.37, max: 36.0)
+
+Episode: 1138, exploration: 0.4504992954490349, score: 12.0
+Scores: (min: 9.0, avg: 14.38, max: 36.0)
+
+Episode: 1139, exploration: 0.44959874735743227, score: 11.0
+Scores: (min: 9.0, avg: 14.39, max: 36.0)
+
+Episode: 1140, exploration: 0.44869999946146477, score: 12.0
+Scores: (min: 9.0, avg: 14.41, max: 36.0)
+
+Episode: 1141, exploration: 0.44735524511437874, score: 11.0
+Scores: (min: 9.0, avg: 14.3, max: 36.0)
+
+Episode: 1142, exploration: 0.4464609819793951, score: 12.0
+Scores: (min: 9.0, avg: 14.25, max: 36.0)
+
+Episode: 1143, exploration: 0.4455685064764183, score: 12.0
+Scores: (min: 9.0, avg: 14.24, max: 36.0)
+
+Episode: 1144, exploration: 0.44423313721693997, score: 13.0
+Scores: (min: 9.0, avg: 14.12, max: 36.0)
+
+Episode: 1145, exploration: 0.44334511517564335, score: 10.0
+Scores: (min: 9.0, avg: 14.03, max: 36.0)
+
+Episode: 1146, exploration: 0.44245886829040726, score: 12.0
+Scores: (min: 9.0, avg: 14.02, max: 36.0)
+
+Episode: 1147, exploration: 0.44157439301269474, score: 10.0
+Scores: (min: 9.0, avg: 13.85, max: 36.0)
+
+Episode: 1148, exploration: 0.4406916858010624, score: 10.0
+Scores: (min: 9.0, avg: 13.84, max: 36.0)
+
+Episode: 1149, exploration: 0.4393709323780249, score: 12.0
+Scores: (min: 9.0, avg: 13.84, max: 36.0)
+
+Episode: 1150, exploration: 0.438054137254317, score: 14.0
+Scores: (min: 9.0, avg: 13.85, max: 36.0)
+
+Episode: 1151, exploration: 0.43717846703394564, score: 11.0
+Scores: (min: 9.0, avg: 13.87, max: 36.0)
+
+Episode: 1152, exploration: 0.4363045472783448, score: 10.0
+Scores: (min: 9.0, avg: 13.86, max: 36.0)
+
+Episode: 1153, exploration: 0.4354323744883354, score: 9.0
+Scores: (min: 9.0, avg: 13.85, max: 36.0)
+
+Episode: 1154, exploration: 0.4345619451717332, score: 13.0
+Scores: (min: 9.0, avg: 13.8, max: 36.0)
+
+Episode: 1155, exploration: 0.43325956258749154, score: 12.0
+Scores: (min: 9.0, avg: 13.82, max: 36.0)
+
+Episode: 1156, exploration: 0.43239347672187917, score: 11.0
+Scores: (min: 9.0, avg: 13.83, max: 36.0)
+
+Episode: 1157, exploration: 0.43152912216191214, score: 10.0
+Scores: (min: 9.0, avg: 13.75, max: 36.0)
+
+Episode: 1158, exploration: 0.43066649544671043, score: 10.0
+Scores: (min: 9.0, avg: 13.72, max: 36.0)
+
+Episode: 1159, exploration: 0.4298055931223125, score: 11.0
+Scores: (min: 9.0, avg: 13.53, max: 36.0)
+
+Episode: 1160, exploration: 0.42851746532991924, score: 15.0
+Scores: (min: 9.0, avg: 13.45, max: 36.0)
+
+Episode: 1161, exploration: 0.427233198057808, score: 13.0
+Scores: (min: 9.0, avg: 13.49, max: 36.0)
+
+Episode: 1162, exploration: 0.42595277973599555, score: 18.0
+Scores: (min: 9.0, avg: 13.58, max: 36.0)
+
+Episode: 1163, exploration: 0.4251013001293033, score: 10.0
+Scores: (min: 9.0, avg: 13.55, max: 36.0)
+
+Episode: 1164, exploration: 0.42255706035237733, score: 27.0
+Scores: (min: 9.0, avg: 13.67, max: 36.0)
+
+Episode: 1165, exploration: 0.4217123687887329, score: 11.0
+Scores: (min: 9.0, avg: 13.68, max: 36.0)
+
+Episode: 1166, exploration: 0.42086936576352424, score: 12.0
+Scores: (min: 9.0, avg: 13.68, max: 36.0)
+
+Episode: 1167, exploration: 0.42002804790136294, score: 11.0
+Scores: (min: 9.0, avg: 13.65, max: 36.0)
+
+Episode: 1168, exploration: 0.41835045419835276, score: 16.0
+Scores: (min: 9.0, avg: 13.7, max: 36.0)
+
+Episode: 1169, exploration: 0.4179321037441544, score: 9.0
+Scores: (min: 9.0, avg: 13.68, max: 36.0)
+
+Episode: 1170, exploration: 0.4166795608113011, score: 12.0
+Scores: (min: 9.0, avg: 13.64, max: 36.0)
+
+Episode: 1171, exploration: 0.41584661836923925, score: 12.0
+Scores: (min: 9.0, avg: 13.6, max: 36.0)
+
+Episode: 1172, exploration: 0.41501534097911913, score: 11.0
+Scores: (min: 9.0, avg: 13.61, max: 36.0)
+
+Episode: 1173, exploration: 0.41088381354487985, score: 48.0
+Scores: (min: 9.0, avg: 13.96, max: 48.0)
+
+Episode: 1174, exploration: 0.41006245680160364, score: 11.0
+Scores: (min: 9.0, avg: 13.89, max: 48.0)
+
+Episode: 1175, exploration: 0.40924274195045723, score: 11.0
+Scores: (min: 9.0, avg: 13.82, max: 48.0)
+
+Episode: 1176, exploration: 0.4076082248025454, score: 16.0
+Scores: (min: 9.0, avg: 13.82, max: 48.0)
+
+Episode: 1177, exploration: 0.4063866225452039, score: 15.0
+Scores: (min: 9.0, avg: 13.88, max: 48.0)
+
+Episode: 1178, exploration: 0.40516868143104934, score: 16.0
+Scores: (min: 9.0, avg: 13.9, max: 48.0)
+
+Episode: 1179, exploration: 0.4043587492368687, score: 12.0
+Scores: (min: 9.0, avg: 13.93, max: 48.0)
+
+Episode: 1180, exploration: 0.40314688566104706, score: 16.0
+Scores: (min: 9.0, avg: 13.95, max: 48.0)
+
+Episode: 1181, exploration: 0.4023409950366106, score: 10.0
+Scores: (min: 9.0, avg: 13.83, max: 48.0)
+
+Episode: 1182, exploration: 0.4011351786721449, score: 11.0
+Scores: (min: 9.0, avg: 13.83, max: 48.0)
+
+Episode: 1183, exploration: 0.40033330944997925, score: 12.0
+Scores: (min: 9.0, avg: 13.74, max: 48.0)
+
+Episode: 1184, exploration: 0.39913351012122433, score: 13.0
+Scores: (min: 9.0, avg: 13.77, max: 48.0)
+
+Episode: 1185, exploration: 0.3987343766111031, score: 9.0
+Scores: (min: 9.0, avg: 13.76, max: 48.0)
+
+Episode: 1186, exploration: 0.3971418299163796, score: 19.0
+Scores: (min: 9.0, avg: 13.76, max: 48.0)
+
+Episode: 1187, exploration: 0.3959515954549783, score: 13.0
+Scores: (min: 9.0, avg: 13.79, max: 48.0)
+
+Episode: 1188, exploration: 0.39516008821566384, score: 10.0
+Scores: (min: 9.0, avg: 13.74, max: 48.0)
+
+Episode: 1189, exploration: 0.3939757930361214, score: 14.0
+Scores: (min: 9.0, avg: 13.75, max: 48.0)
+
+Episode: 1190, exploration: 0.3931882354258422, score: 12.0
+Scores: (min: 9.0, avg: 13.72, max: 48.0)
+
+Episode: 1191, exploration: 0.39240225214322594, score: 10.0
+Scores: (min: 9.0, avg: 13.71, max: 48.0)
+
+Episode: 1192, exploration: 0.39122622220115044, score: 16.0
+Scores: (min: 9.0, avg: 13.75, max: 48.0)
+
+Episode: 1193, exploration: 0.3900537168219873, score: 14.0
+Scores: (min: 9.0, avg: 13.53, max: 48.0)
+
+Episode: 1194, exploration: 0.38849584071717547, score: 19.0
+Scores: (min: 9.0, avg: 13.55, max: 48.0)
+
+Episode: 1195, exploration: 0.3873315182940503, score: 16.0
+Scores: (min: 9.0, avg: 13.5, max: 48.0)
+
+Episode: 1196, exploration: 0.3865572425889805, score: 10.0
+Scores: (min: 9.0, avg: 13.49, max: 48.0)
+
+Episode: 1197, exploration: 0.38578451466104513, score: 10.0
+Scores: (min: 9.0, avg: 13.47, max: 48.0)
+
+Episode: 1198, exploration: 0.38347558663089293, score: 30.0
+Scores: (min: 9.0, avg: 13.67, max: 48.0)
+
+Episode: 1199, exploration: 0.3827090189332178, score: 12.0
+Scores: (min: 9.0, avg: 13.63, max: 48.0)
+
+Episode: 1200, exploration: 0.3815620396207659, score: 11.0
+Scores: (min: 9.0, avg: 13.64, max: 48.0)
+
+Episode: 1201, exploration: 0.380799297103564, score: 12.0
+Scores: (min: 9.0, avg: 13.64, max: 48.0)
+
+Episode: 1202, exploration: 0.3796580412293454, score: 14.0
+Scores: (min: 9.0, avg: 13.64, max: 48.0)
+
+Episode: 1203, exploration: 0.37814168549442284, score: 22.0
+Scores: (min: 9.0, avg: 13.76, max: 48.0)
+
+Episode: 1204, exploration: 0.37700839448485435, score: 12.0
+Scores: (min: 9.0, avg: 13.78, max: 48.0)
+
+Episode: 1205, exploration: 0.3766313860903695, score: 9.0
+Scores: (min: 9.0, avg: 13.72, max: 48.0)
+
+Episode: 1206, exploration: 0.3755026214496253, score: 15.0
+Scores: (min: 9.0, avg: 13.63, max: 48.0)
+
+Episode: 1207, exploration: 0.37437723971763814, score: 13.0
+Scores: (min: 9.0, avg: 13.56, max: 48.0)
+
+Episode: 1208, exploration: 0.37250909354954626, score: 26.0
+Scores: (min: 9.0, avg: 13.73, max: 48.0)
+
+Episode: 1209, exploration: 0.3713926834236692, score: 16.0
+Scores: (min: 9.0, avg: 13.76, max: 48.0)
+
+Episode: 1210, exploration: 0.3706502694495053, score: 10.0
+Scores: (min: 9.0, avg: 13.75, max: 48.0)
+
+Episode: 1211, exploration: 0.3688007209003024, score: 21.0
+Scores: (min: 9.0, avg: 13.81, max: 48.0)
+
+Episode: 1212, exploration: 0.36806348825922275, score: 14.0
+Scores: (min: 9.0, avg: 13.8, max: 48.0)
+
+Episode: 1213, exploration: 0.36732772934619257, score: 10.0
+Scores: (min: 9.0, avg: 13.79, max: 48.0)
+
+Episode: 1214, exploration: 0.3662268477740143, score: 12.0
+Scores: (min: 9.0, avg: 13.78, max: 48.0)
+
+Episode: 1215, exploration: 0.3654947603053141, score: 11.0
+Scores: (min: 9.0, avg: 13.66, max: 48.0)
+
+Episode: 1216, exploration: 0.3643993721431843, score: 17.0
+Scores: (min: 9.0, avg: 13.73, max: 48.0)
+
+Episode: 1217, exploration: 0.3636709377982701, score: 9.0
+Scores: (min: 9.0, avg: 13.67, max: 48.0)
+
+Episode: 1218, exploration: 0.36294395959361136, score: 10.0
+Scores: (min: 9.0, avg: 13.67, max: 48.0)
+
+Episode: 1219, exploration: 0.3622184346183837, score: 10.0
+Scores: (min: 9.0, avg: 13.66, max: 48.0)
+
+Episode: 1220, exploration: 0.36149435996758156, score: 9.0
+Scores: (min: 9.0, avg: 13.64, max: 48.0)
+
+Episode: 1221, exploration: 0.36077173274200636, score: 11.0
+Scores: (min: 9.0, avg: 13.5, max: 48.0)
+
+Episode: 1222, exploration: 0.35969049949820686, score: 16.0
+Scores: (min: 9.0, avg: 13.46, max: 48.0)
+
+Episode: 1223, exploration: 0.3586125067115203, score: 12.0
+Scores: (min: 9.0, avg: 13.45, max: 48.0)
+
+Episode: 1224, exploration: 0.35789564031060395, score: 13.0
+Scores: (min: 9.0, avg: 13.46, max: 48.0)
+
+Episode: 1225, exploration: 0.3568230267186975, score: 14.0
+Scores: (min: 9.0, avg: 13.44, max: 48.0)
+
+Episode: 1226, exploration: 0.35575362775079855, score: 12.0
+Scores: (min: 9.0, avg: 13.46, max: 48.0)
+
+Episode: 1227, exploration: 0.35539787412304774, score: 9.0
+Scores: (min: 9.0, avg: 13.46, max: 48.0)
+
+Episode: 1228, exploration: 0.35397841359256427, score: 16.0
+Scores: (min: 9.0, avg: 13.49, max: 48.0)
+
+Episode: 1229, exploration: 0.35327081074379274, score: 10.0
+Scores: (min: 9.0, avg: 13.5, max: 48.0)
+
+Episode: 1230, exploration: 0.352917539933049, score: 8.0
+Scores: (min: 8.0, avg: 13.45, max: 48.0)
+
+Episode: 1231, exploration: 0.3518598457129521, score: 15.0
+Scores: (min: 8.0, avg: 13.36, max: 48.0)
+
+Episode: 1232, exploration: 0.35045451608208705, score: 19.0
+Scores: (min: 8.0, avg: 13.4, max: 48.0)
+
+Episode: 1233, exploration: 0.349753957504439, score: 12.0
+Scores: (min: 8.0, avg: 13.34, max: 48.0)
+
+Episode: 1234, exploration: 0.3490547993433876, score: 10.0
+Scores: (min: 8.0, avg: 13.29, max: 48.0)
+
+Episode: 1235, exploration: 0.3483570387995002, score: 9.0
+Scores: (min: 8.0, avg: 13.27, max: 48.0)
+
+Episode: 1236, exploration: 0.34731301240586104, score: 12.0
+Scores: (min: 8.0, avg: 13.27, max: 48.0)
+
+Episode: 1237, exploration: 0.3466187336940617, score: 11.0
+Scores: (min: 8.0, avg: 13.22, max: 48.0)
+
+Episode: 1238, exploration: 0.3459258428454073, score: 10.0
+Scores: (min: 8.0, avg: 13.2, max: 48.0)
+
+Episode: 1239, exploration: 0.34488910274847373, score: 14.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1240, exploration: 0.3441996694320795, score: 10.0
+Scores: (min: 8.0, avg: 13.21, max: 48.0)
+
+Episode: 1241, exploration: 0.34351161429288485, score: 14.0
+Scores: (min: 8.0, avg: 13.24, max: 48.0)
+
+Episode: 1242, exploration: 0.3424821096413374, score: 11.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1243, exploration: 0.34179748790416437, score: 12.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1244, exploration: 0.34111423472584396, score: 12.0
+Scores: (min: 8.0, avg: 13.22, max: 48.0)
+
+Episode: 1245, exploration: 0.3397518231082331, score: 19.0
+Scores: (min: 8.0, avg: 13.31, max: 48.0)
+
+Episode: 1246, exploration: 0.3390726592138397, score: 11.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1247, exploration: 0.3380564581151032, score: 11.0
+Scores: (min: 8.0, avg: 13.31, max: 48.0)
+
+Episode: 1248, exploration: 0.3370433025720758, score: 16.0
+Scores: (min: 8.0, avg: 13.37, max: 48.0)
+
+Episode: 1249, exploration: 0.33636955301023425, score: 12.0
+Scores: (min: 8.0, avg: 13.37, max: 48.0)
+
+Episode: 1250, exploration: 0.3356971502737668, score: 9.0
+Scores: (min: 8.0, avg: 13.32, max: 48.0)
+
+Episode: 1251, exploration: 0.3350260916703695, score: 10.0
+Scores: (min: 8.0, avg: 13.31, max: 48.0)
+
+Episode: 1252, exploration: 0.33435637451312045, score: 12.0
+Scores: (min: 8.0, avg: 13.33, max: 48.0)
+
+Episode: 1253, exploration: 0.33368799612046873, score: 10.0
+Scores: (min: 8.0, avg: 13.34, max: 48.0)
+
+Episode: 1254, exploration: 0.3330209538162239, score: 9.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1255, exploration: 0.33202288968461574, score: 15.0
+Scores: (min: 8.0, avg: 13.33, max: 48.0)
+
+Episode: 1256, exploration: 0.33135917592813624, score: 8.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1257, exploration: 0.3306967889354559, score: 10.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1258, exploration: 0.32970569032831953, score: 17.0
+Scores: (min: 8.0, avg: 13.37, max: 48.0)
+
+Episode: 1259, exploration: 0.3290466086533532, score: 9.0
+Scores: (min: 8.0, avg: 13.35, max: 48.0)
+
+Episode: 1260, exploration: 0.3280604556381725, score: 13.0
+Scores: (min: 8.0, avg: 13.33, max: 48.0)
+
+Episode: 1261, exploration: 0.3274046627873518, score: 10.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1262, exploration: 0.32642343068557345, score: 18.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1263, exploration: 0.325770910247633, score: 9.0
+Scores: (min: 8.0, avg: 13.29, max: 48.0)
+
+Episode: 1264, exploration: 0.32479457450384985, score: 17.0
+Scores: (min: 8.0, avg: 13.19, max: 48.0)
+
+Episode: 1265, exploration: 0.32382116483926726, score: 15.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1266, exploration: 0.32285067248442284, score: 12.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1267, exploration: 0.32188308869613635, score: 16.0
+Scores: (min: 8.0, avg: 13.28, max: 48.0)
+
+Episode: 1268, exploration: 0.3212396444018328, score: 10.0
+Scores: (min: 8.0, avg: 13.22, max: 48.0)
+
+Episode: 1269, exploration: 0.3205974863526735, score: 10.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1270, exploration: 0.3199566119774545, score: 12.0
+Scores: (min: 8.0, avg: 13.23, max: 48.0)
+
+Episode: 1271, exploration: 0.31867870398971, score: 19.0
+Scores: (min: 8.0, avg: 13.3, max: 48.0)
+
+Episode: 1272, exploration: 0.31804166526043454, score: 9.0
+Scores: (min: 8.0, avg: 13.28, max: 48.0)
+
+Episode: 1273, exploration: 0.3174058999715789, score: 11.0
+Scores: (min: 8.0, avg: 12.91, max: 30.0)
+
+Episode: 1274, exploration: 0.31677140557753575, score: 10.0
+Scores: (min: 8.0, avg: 12.9, max: 30.0)
+
+Episode: 1275, exploration: 0.3158220413582485, score: 14.0
+Scores: (min: 8.0, avg: 12.93, max: 30.0)
+
+Episode: 1276, exploration: 0.31519071309757335, score: 9.0
+Scores: (min: 8.0, avg: 12.86, max: 30.0)
+
+Episode: 1277, exploration: 0.31456064686209134, score: 10.0
+Scores: (min: 8.0, avg: 12.81, max: 30.0)
+
+Episode: 1278, exploration: 0.3126779951041253, score: 30.0
+Scores: (min: 8.0, avg: 12.95, max: 30.0)
+
+Episode: 1279, exploration: 0.3120529517919121, score: 9.0
+Scores: (min: 8.0, avg: 12.92, max: 30.0)
+
+Episode: 1280, exploration: 0.31142915794128007, score: 10.0
+Scores: (min: 8.0, avg: 12.86, max: 30.0)
+
+Episode: 1281, exploration: 0.3108066110545554, score: 13.0
+Scores: (min: 8.0, avg: 12.89, max: 30.0)
+
+Episode: 1282, exploration: 0.3101853086390574, score: 9.0
+Scores: (min: 8.0, avg: 12.87, max: 30.0)
+
+Episode: 1283, exploration: 0.3095652482070879, score: 11.0
+Scores: (min: 8.0, avg: 12.86, max: 30.0)
+
+Episode: 1284, exploration: 0.3083288433677974, score: 18.0
+Scores: (min: 8.0, avg: 12.91, max: 30.0)
+
+Episode: 1285, exploration: 0.3074047815158953, score: 15.0
+Scores: (min: 8.0, avg: 12.97, max: 30.0)
+
+Episode: 1286, exploration: 0.30679027935764497, score: 11.0
+Scores: (min: 8.0, avg: 12.89, max: 30.0)
+
+Episode: 1287, exploration: 0.306177005589209, score: 11.0
+Scores: (min: 8.0, avg: 12.87, max: 30.0)
+
+Episode: 1288, exploration: 0.30556495775503617, score: 9.0
+Scores: (min: 8.0, avg: 12.86, max: 30.0)
+
+Episode: 1289, exploration: 0.30495413340448385, score: 8.0
+Scores: (min: 8.0, avg: 12.8, max: 30.0)
+
+Episode: 1290, exploration: 0.3043445300918083, score: 10.0
+Scores: (min: 8.0, avg: 12.78, max: 30.0)
+
+Episode: 1291, exploration: 0.30373614537615473, score: 10.0
+Scores: (min: 8.0, avg: 12.78, max: 30.0)
+
+Episode: 1292, exploration: 0.3034324092307786, score: 9.0
+Scores: (min: 8.0, avg: 12.71, max: 30.0)
+
+Episode: 1293, exploration: 0.30282584784472627, score: 10.0
+Scores: (min: 8.0, avg: 12.67, max: 30.0)
+
+Episode: 1294, exploration: 0.30191827847590974, score: 11.0
+Scores: (min: 8.0, avg: 12.59, max: 30.0)
+
+Episode: 1295, exploration: 0.3013147438372364, score: 13.0
+Scores: (min: 8.0, avg: 12.56, max: 30.0)
+
+Episode: 1296, exploration: 0.3007124156643058, score: 10.0
+Scores: (min: 8.0, avg: 12.56, max: 30.0)
+
+Episode: 1297, exploration: 0.30011129154539284, score: 9.0
+Scores: (min: 8.0, avg: 12.55, max: 30.0)
+
+Episode: 1298, exploration: 0.2995113690735936, score: 11.0
+Scores: (min: 8.0, avg: 12.36, max: 30.0)
+
+Episode: 1299, exploration: 0.2989126458468155, score: 11.0
+Scores: (min: 8.0, avg: 12.35, max: 30.0)
+
+Episode: 1300, exploration: 0.29831511946776773, score: 10.0
+Scores: (min: 8.0, avg: 12.34, max: 30.0)
+
+Episode: 1301, exploration: 0.29712364768765126, score: 19.0
+Scores: (min: 8.0, avg: 12.41, max: 30.0)
+
+Episode: 1302, exploration: 0.2965296975159237, score: 10.0
+Scores: (min: 8.0, avg: 12.37, max: 30.0)
+
+Episode: 1303, exploration: 0.29593693465058934, score: 9.0
+Scores: (min: 8.0, avg: 12.24, max: 30.0)
+
+Episode: 1304, exploration: 0.2950500113615046, score: 17.0
+Scores: (min: 8.0, avg: 12.29, max: 30.0)
+
+Episode: 1305, exploration: 0.294460206388793, score: 10.0
+Scores: (min: 8.0, avg: 12.3, max: 30.0)
+
+Episode: 1306, exploration: 0.2938715804362218, score: 9.0
+Scores: (min: 8.0, avg: 12.24, max: 30.0)
+
+Episode: 1307, exploration: 0.2932841311469298, score: 10.0
+Scores: (min: 8.0, avg: 12.21, max: 30.0)
+
+Episode: 1308, exploration: 0.2926978561687671, score: 10.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1309, exploration: 0.29211275315428575, score: 9.0
+Scores: (min: 8.0, avg: 11.98, max: 30.0)
+
+Episode: 1310, exploration: 0.29152881976073036, score: 12.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1311, exploration: 0.2906551075963786, score: 15.0
+Scores: (min: 8.0, avg: 11.94, max: 30.0)
+
+Episode: 1312, exploration: 0.28978401394825715, score: 13.0
+Scores: (min: 8.0, avg: 11.93, max: 30.0)
+
+Episode: 1313, exploration: 0.2892047357043746, score: 11.0
+Scores: (min: 8.0, avg: 11.94, max: 30.0)
+
+Episode: 1314, exploration: 0.2886266154377016, score: 9.0
+Scores: (min: 8.0, avg: 11.91, max: 30.0)
+
+Episode: 1315, exploration: 0.2880496508334416, score: 10.0
+Scores: (min: 8.0, avg: 11.9, max: 30.0)
+
+Episode: 1316, exploration: 0.2871863657418441, score: 13.0
+Scores: (min: 8.0, avg: 11.86, max: 30.0)
+
+Episode: 1317, exploration: 0.2866122801967262, score: 11.0
+Scores: (min: 8.0, avg: 11.88, max: 30.0)
+
+Episode: 1318, exploration: 0.28632566791652947, score: 8.0
+Scores: (min: 8.0, avg: 11.86, max: 30.0)
+Weights of target Q-network updated
+
+Episode: 1319, exploration: 0.28546754960345794, score: 13.0
+Scores: (min: 8.0, avg: 11.89, max: 30.0)
+
+Episode: 1320, exploration: 0.2848968999718006, score: 10.0
+Scores: (min: 8.0, avg: 11.9, max: 30.0)
+
+Episode: 1321, exploration: 0.2840430636776882, score: 15.0
+Scores: (min: 8.0, avg: 11.94, max: 30.0)
+
+Episode: 1322, exploration: 0.28262568595092585, score: 27.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1323, exploration: 0.28206071720470993, score: 10.0
+Scores: (min: 8.0, avg: 12.03, max: 30.0)
+
+Episode: 1324, exploration: 0.2812153809531867, score: 12.0
+Scores: (min: 8.0, avg: 12.02, max: 30.0)
+
+Episode: 1325, exploration: 0.2806532314066613, score: 10.0
+Scores: (min: 8.0, avg: 11.98, max: 30.0)
+
+Episode: 1326, exploration: 0.2798121133914823, score: 14.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1327, exploration: 0.2792527689768127, score: 11.0
+Scores: (min: 8.0, avg: 12.02, max: 30.0)
+
+Episode: 1328, exploration: 0.2786945426916281, score: 10.0
+Scores: (min: 8.0, avg: 11.96, max: 30.0)
+
+Episode: 1329, exploration: 0.2781374323007875, score: 10.0
+Scores: (min: 8.0, avg: 11.96, max: 30.0)
+
+Episode: 1330, exploration: 0.27730385413804465, score: 16.0
+Scores: (min: 8.0, avg: 12.04, max: 30.0)
+
+Episode: 1331, exploration: 0.2767495237336227, score: 11.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1332, exploration: 0.27592010513424353, score: 12.0
+Scores: (min: 8.0, avg: 11.93, max: 30.0)
+
+Episode: 1333, exploration: 0.2753685408440802, score: 11.0
+Scores: (min: 8.0, avg: 11.92, max: 30.0)
+
+Episode: 1334, exploration: 0.27481807913093287, score: 10.0
+Scores: (min: 8.0, avg: 11.92, max: 30.0)
+
+Episode: 1335, exploration: 0.27372045462388644, score: 23.0
+Scores: (min: 8.0, avg: 12.06, max: 30.0)
+
+Episode: 1336, exploration: 0.27317328743509334, score: 10.0
+Scores: (min: 8.0, avg: 12.04, max: 30.0)
+
+Episode: 1337, exploration: 0.27235458681947705, score: 13.0
+Scores: (min: 8.0, avg: 12.06, max: 30.0)
+
+Episode: 1338, exploration: 0.2718101500004249, score: 12.0
+Scores: (min: 8.0, avg: 12.08, max: 30.0)
+
+Episode: 1339, exploration: 0.27126680151057403, score: 10.0
+Scores: (min: 8.0, avg: 12.04, max: 30.0)
+
+Episode: 1340, exploration: 0.27045381463518003, score: 11.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1341, exploration: 0.2699131774597243, score: 10.0
+Scores: (min: 8.0, avg: 12.01, max: 30.0)
+
+Episode: 1342, exploration: 0.26937362101798235, score: 10.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1343, exploration: 0.2688351431495674, score: 10.0
+Scores: (min: 8.0, avg: 11.98, max: 30.0)
+
+Episode: 1344, exploration: 0.2682977416984114, score: 10.0
+Scores: (min: 8.0, avg: 11.96, max: 30.0)
+
+Episode: 1345, exploration: 0.2677614145127563, score: 12.0
+Scores: (min: 8.0, avg: 11.89, max: 30.0)
+
+Episode: 1346, exploration: 0.26722615944514533, score: 10.0
+Scores: (min: 8.0, avg: 11.88, max: 30.0)
+
+Episode: 1347, exploration: 0.2666919743524145, score: 12.0
+Scores: (min: 8.0, avg: 11.89, max: 30.0)
+
+Episode: 1348, exploration: 0.2658926982385883, score: 12.0
+Scores: (min: 8.0, avg: 11.85, max: 30.0)
+
+Episode: 1349, exploration: 0.26536117873480936, score: 11.0
+Scores: (min: 8.0, avg: 11.84, max: 30.0)
+
+Episode: 1350, exploration: 0.26483072173851846, score: 10.0
+Scores: (min: 8.0, avg: 11.85, max: 30.0)
+
+Episode: 1351, exploration: 0.2640370238006374, score: 13.0
+Scores: (min: 8.0, avg: 11.88, max: 30.0)
+
+Episode: 1352, exploration: 0.26350921379006, score: 13.0
+Scores: (min: 8.0, avg: 11.89, max: 30.0)
+
+Episode: 1353, exploration: 0.262719476412822, score: 14.0
+Scores: (min: 8.0, avg: 11.93, max: 30.0)
+
+Episode: 1354, exploration: 0.2619321058792933, score: 13.0
+Scores: (min: 8.0, avg: 11.97, max: 30.0)
+
+Episode: 1355, exploration: 0.26114709509604095, score: 18.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1356, exploration: 0.260364436990891, score: 13.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1357, exploration: 0.2598439684813462, score: 12.0
+Scores: (min: 8.0, avg: 12.07, max: 30.0)
+
+Episode: 1358, exploration: 0.259324540388352, score: 11.0
+Scores: (min: 8.0, avg: 12.01, max: 30.0)
+
+Episode: 1359, exploration: 0.2588061506321157, score: 10.0
+Scores: (min: 8.0, avg: 12.02, max: 30.0)
+
+Episode: 1360, exploration: 0.2580305083398651, score: 12.0
+Scores: (min: 8.0, avg: 12.01, max: 30.0)
+
+Episode: 1361, exploration: 0.25751470535369364, score: 9.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1362, exploration: 0.2569999334576916, score: 13.0
+Scores: (min: 8.0, avg: 11.95, max: 30.0)
+
+Episode: 1363, exploration: 0.256229704400119, score: 14.0
+Scores: (min: 8.0, avg: 12.0, max: 30.0)
+
+Episode: 1364, exploration: 0.25495111561414624, score: 23.0
+Scores: (min: 8.0, avg: 12.06, max: 30.0)
+
+Episode: 1365, exploration: 0.25393283983883386, score: 22.0
+Scores: (min: 8.0, avg: 12.13, max: 30.0)
+
+Episode: 1366, exploration: 0.253425228091996, score: 9.0
+Scores: (min: 8.0, avg: 12.1, max: 30.0)
+
+Episode: 1367, exploration: 0.2529186310610401, score: 13.0
+Scores: (min: 8.0, avg: 12.07, max: 30.0)
+
+Episode: 1368, exploration: 0.2524130467175491, score: 8.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1369, exploration: 0.25190847303716074, score: 10.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1370, exploration: 0.25140490799955945, score: 12.0
+Scores: (min: 8.0, avg: 12.05, max: 30.0)
+
+Episode: 1371, exploration: 0.25040079579164093, score: 17.0
+Scores: (min: 8.0, avg: 12.03, max: 30.0)
+
+Episode: 1372, exploration: 0.24990024460085344, score: 13.0
+Scores: (min: 8.0, avg: 12.07, max: 30.0)
+
+Episode: 1373, exploration: 0.24915129331788444, score: 15.0
+Scores: (min: 8.0, avg: 12.11, max: 30.0)
+
+Episode: 1374, exploration: 0.24840458664265946, score: 11.0
+Scores: (min: 8.0, avg: 12.12, max: 30.0)
+
+Episode: 1375, exploration: 0.24766011784808684, score: 15.0
+Scores: (min: 8.0, avg: 12.13, max: 30.0)
+
+Episode: 1376, exploration: 0.24716504527250852, score: 13.0
+Scores: (min: 8.0, avg: 12.17, max: 30.0)
+
+Episode: 1377, exploration: 0.24642429138466176, score: 15.0
+Scores: (min: 8.0, avg: 12.22, max: 30.0)
+
+Episode: 1378, exploration: 0.24568575753695765, score: 16.0
+Scores: (min: 8.0, avg: 12.08, max: 27.0)
+
+Episode: 1379, exploration: 0.24494943707593364, score: 15.0
+Scores: (min: 8.0, avg: 12.14, max: 27.0)
+
+Episode: 1380, exploration: 0.24372713693665488, score: 22.0
+Scores: (min: 8.0, avg: 12.26, max: 27.0)
+
+Episode: 1381, exploration: 0.2429966864635286, score: 14.0
+Scores: (min: 8.0, avg: 12.27, max: 27.0)
+
+Episode: 1382, exploration: 0.24226842515120073, score: 16.0
+Scores: (min: 8.0, avg: 12.34, max: 27.0)
+
+Episode: 1383, exploration: 0.24178413056932346, score: 9.0
+Scores: (min: 8.0, avg: 12.32, max: 27.0)
+
+Episode: 1384, exploration: 0.24105950328822306, score: 17.0
+Scores: (min: 8.0, avg: 12.31, max: 27.0)
+
+Episode: 1385, exploration: 0.2405776253411499, score: 10.0
+Scores: (min: 8.0, avg: 12.26, max: 27.0)
+
+Episode: 1386, exploration: 0.24009671066809293, score: 10.0
+Scores: (min: 8.0, avg: 12.25, max: 27.0)
+
+Episode: 1387, exploration: 0.2396167573434674, score: 12.0
+Scores: (min: 8.0, avg: 12.26, max: 27.0)
+
+Episode: 1388, exploration: 0.23913776344553783, score: 10.0
+Scores: (min: 8.0, avg: 12.27, max: 27.0)
+
+Episode: 1389, exploration: 0.23818264626202443, score: 16.0
+Scores: (min: 8.0, avg: 12.35, max: 27.0)
+
+Episode: 1390, exploration: 0.23770651915214663, score: 10.0
+Scores: (min: 8.0, avg: 12.35, max: 27.0)
+
+Episode: 1391, exploration: 0.23699411247654112, score: 17.0
+Scores: (min: 8.0, avg: 12.42, max: 27.0)
+
+Episode: 1392, exploration: 0.2365203612457005, score: 8.0
+Scores: (min: 8.0, avg: 12.41, max: 27.0)
+
+Episode: 1393, exploration: 0.23604755704357036, score: 11.0
+Scores: (min: 8.0, avg: 12.42, max: 27.0)
+
+Episode: 1394, exploration: 0.2346348076972527, score: 31.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1395, exploration: 0.2339316069439492, score: 13.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1396, exploration: 0.23346397766166824, score: 10.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1397, exploration: 0.23299728317032256, score: 12.0
+Scores: (min: 8.0, avg: 12.65, max: 31.0)
+
+Episode: 1398, exploration: 0.23229899007966381, score: 17.0
+Scores: (min: 8.0, avg: 12.71, max: 31.0)
+
+Episode: 1399, exploration: 0.23160278977409607, score: 12.0
+Scores: (min: 8.0, avg: 12.72, max: 31.0)
+
+Episode: 1400, exploration: 0.23113981579733764, score: 9.0
+Scores: (min: 8.0, avg: 12.71, max: 31.0)
+
+Episode: 1401, exploration: 0.2309086759815403, score: 8.0
+Scores: (min: 8.0, avg: 12.6, max: 31.0)
+
+Episode: 1402, exploration: 0.23021664244871493, score: 12.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1403, exploration: 0.22998642580626621, score: 9.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1404, exploration: 0.22929715625813843, score: 13.0
+Scores: (min: 8.0, avg: 12.58, max: 31.0)
+
+Episode: 1405, exploration: 0.22883879124277842, score: 12.0
+Scores: (min: 8.0, avg: 12.6, max: 31.0)
+
+Episode: 1406, exploration: 0.22838134249908412, score: 9.0
+Scores: (min: 8.0, avg: 12.6, max: 31.0)
+
+Episode: 1407, exploration: 0.22792480819542846, score: 9.0
+Scores: (min: 8.0, avg: 12.59, max: 31.0)
+
+Episode: 1408, exploration: 0.22746918650384582, score: 9.0
+Scores: (min: 8.0, avg: 12.58, max: 31.0)
+
+Episode: 1409, exploration: 0.22701447560002463, score: 11.0
+Scores: (min: 8.0, avg: 12.6, max: 31.0)
+
+Episode: 1410, exploration: 0.22656067366330018, score: 10.0
+Scores: (min: 8.0, avg: 12.58, max: 31.0)
+
+Episode: 1411, exploration: 0.22588167109777058, score: 13.0
+Scores: (min: 8.0, avg: 12.56, max: 31.0)
+
+Episode: 1412, exploration: 0.2256557894266728, score: 9.0
+Scores: (min: 8.0, avg: 12.52, max: 31.0)
+
+Episode: 1413, exploration: 0.2249794988001053, score: 12.0
+Scores: (min: 8.0, avg: 12.53, max: 31.0)
+
+Episode: 1414, exploration: 0.22452976478200387, score: 9.0
+Scores: (min: 8.0, avg: 12.53, max: 31.0)
+
+Episode: 1415, exploration: 0.22408092978220462, score: 10.0
+Scores: (min: 8.0, avg: 12.53, max: 31.0)
+
+Episode: 1416, exploration: 0.22363299200356998, score: 14.0
+Scores: (min: 8.0, avg: 12.54, max: 31.0)
+
+Episode: 1417, exploration: 0.22296276370290227, score: 11.0
+Scores: (min: 8.0, avg: 12.54, max: 31.0)
+
+Episode: 1418, exploration: 0.2222945440771219, score: 16.0
+Scores: (min: 8.0, avg: 12.62, max: 31.0)
+
+Episode: 1419, exploration: 0.2216283271062282, score: 17.0
+Scores: (min: 8.0, avg: 12.66, max: 31.0)
+
+Episode: 1420, exploration: 0.22008157526211472, score: 33.0
+Scores: (min: 8.0, avg: 12.89, max: 33.0)
+
+Episode: 1421, exploration: 0.21942199056097256, score: 14.0
+Scores: (min: 8.0, avg: 12.88, max: 33.0)
+
+Episode: 1422, exploration: 0.21876438263583933, score: 16.0
+Scores: (min: 8.0, avg: 12.77, max: 33.0)
+
+Episode: 1423, exploration: 0.21810874556231533, score: 18.0
+Scores: (min: 8.0, avg: 12.85, max: 33.0)
+
+Episode: 1424, exploration: 0.21723761836032254, score: 20.0
+Scores: (min: 8.0, avg: 12.93, max: 33.0)
+
+Episode: 1425, exploration: 0.21658655700085905, score: 14.0
+Scores: (min: 8.0, avg: 12.97, max: 33.0)
+
+Episode: 1426, exploration: 0.21593744687294092, score: 15.0
+Scores: (min: 8.0, avg: 12.98, max: 33.0)
+
+Episode: 1427, exploration: 0.21529028212872525, score: 16.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1428, exploration: 0.21485991685474995, score: 10.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1429, exploration: 0.21421598146907636, score: 12.0
+Scores: (min: 8.0, avg: 13.05, max: 33.0)
+
+Episode: 1430, exploration: 0.21400176548760727, score: 8.0
+Scores: (min: 8.0, avg: 12.97, max: 33.0)
+
+Episode: 1431, exploration: 0.21336040198243916, score: 14.0
+Scores: (min: 8.0, avg: 13.0, max: 33.0)
+
+Episode: 1432, exploration: 0.21272096064433738, score: 15.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1433, exploration: 0.21208343571256533, score: 12.0
+Scores: (min: 8.0, avg: 13.04, max: 33.0)
+
+Episode: 1434, exploration: 0.2116594809245759, score: 14.0
+Scores: (min: 8.0, avg: 13.08, max: 33.0)
+
+Episode: 1435, exploration: 0.21081411211133688, score: 18.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1436, exploration: 0.21039269470122635, score: 12.0
+Scores: (min: 8.0, avg: 13.05, max: 33.0)
+
+Episode: 1437, exploration: 0.20976214758481407, score: 11.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1438, exploration: 0.20955238543722926, score: 9.0
+Scores: (min: 8.0, avg: 13.0, max: 33.0)
+
+Episode: 1439, exploration: 0.20913349021874023, score: 10.0
+Scores: (min: 8.0, avg: 13.0, max: 33.0)
+
+Episode: 1440, exploration: 0.20850671693942116, score: 12.0
+Scores: (min: 8.0, avg: 13.01, max: 33.0)
+
+Episode: 1441, exploration: 0.20808991201225926, score: 12.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1442, exploration: 0.2074662663378686, score: 12.0
+Scores: (min: 8.0, avg: 13.05, max: 33.0)
+
+Episode: 1443, exploration: 0.20725880007153075, score: 9.0
+Scores: (min: 8.0, avg: 13.04, max: 33.0)
+
+Episode: 1444, exploration: 0.20684448973018776, score: 10.0
+Scores: (min: 8.0, avg: 13.04, max: 33.0)
+
+Episode: 1445, exploration: 0.20643100759521713, score: 9.0
+Scores: (min: 8.0, avg: 13.01, max: 33.0)
+
+Episode: 1446, exploration: 0.20581233365902327, score: 12.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1447, exploration: 0.20560652132536425, score: 9.0
+Scores: (min: 8.0, avg: 13.0, max: 33.0)
+
+Episode: 1448, exploration: 0.20519551388923485, score: 9.0
+Scores: (min: 8.0, avg: 12.97, max: 33.0)
+
+Episode: 1449, exploration: 0.2045805427289133, score: 14.0
+Scores: (min: 8.0, avg: 13.0, max: 33.0)
+
+Episode: 1450, exploration: 0.2039674146377742, score: 13.0
+Scores: (min: 8.0, avg: 13.03, max: 33.0)
+
+Episode: 1451, exploration: 0.2035596837759133, score: 11.0
+Scores: (min: 8.0, avg: 13.01, max: 33.0)
+
+Episode: 1452, exploration: 0.20315276796804524, score: 10.0
+Scores: (min: 8.0, avg: 12.98, max: 33.0)
+
+Episode: 1453, exploration: 0.20274666558487714, score: 12.0
+Scores: (min: 8.0, avg: 12.96, max: 33.0)
+
+Episode: 1454, exploration: 0.20213903362537258, score: 15.0
+Scores: (min: 8.0, avg: 12.98, max: 33.0)
+
+Episode: 1455, exploration: 0.2015332227394583, score: 14.0
+Scores: (min: 8.0, avg: 12.94, max: 33.0)
+
+Episode: 1456, exploration: 0.20113035782720212, score: 9.0
+Scores: (min: 8.0, avg: 12.9, max: 33.0)
+
+Episode: 1457, exploration: 0.20072829824190555, score: 10.0
+Scores: (min: 8.0, avg: 12.88, max: 33.0)
+
+Episode: 1458, exploration: 0.20012671533134627, score: 14.0
+Scores: (min: 8.0, avg: 12.91, max: 33.0)
+
+Episode: 1459, exploration: 0.19972666202739892, score: 13.0
+Scores: (min: 8.0, avg: 12.94, max: 33.0)
+
+Episode: 1460, exploration: 0.19932740843000615, score: 9.0
+Scores: (min: 8.0, avg: 12.91, max: 33.0)
+
+Episode: 1461, exploration: 0.19892895294055457, score: 11.0
+Scores: (min: 8.0, avg: 12.93, max: 33.0)
+
+Episode: 1462, exploration: 0.19833276266966277, score: 14.0
+Scores: (min: 8.0, avg: 12.94, max: 33.0)
+
+Episode: 1463, exploration: 0.1979362954770861, score: 9.0
+Scores: (min: 8.0, avg: 12.89, max: 33.0)
+
+Episode: 1464, exploration: 0.1975406208224274, score: 9.0
+Scores: (min: 8.0, avg: 12.75, max: 33.0)
+
+Episode: 1465, exploration: 0.19714573712140337, score: 10.0
+Scores: (min: 8.0, avg: 12.63, max: 33.0)
+
+Episode: 1466, exploration: 0.1967516427928977, score: 12.0
+Scores: (min: 8.0, avg: 12.66, max: 33.0)
+
+Episode: 1467, exploration: 0.19635833625895469, score: 11.0
+Scores: (min: 8.0, avg: 12.64, max: 33.0)
+
+Episode: 1468, exploration: 0.19576985012882828, score: 14.0
+Scores: (min: 8.0, avg: 12.7, max: 33.0)
+
+Episode: 1469, exploration: 0.19518312769222232, score: 13.0
+Scores: (min: 8.0, avg: 12.73, max: 33.0)
+
+Episode: 1470, exploration: 0.19479295661996557, score: 13.0
+Scores: (min: 8.0, avg: 12.74, max: 33.0)
+
+Episode: 1471, exploration: 0.19420916193418256, score: 14.0
+Scores: (min: 8.0, avg: 12.71, max: 33.0)
+
+Episode: 1472, exploration: 0.19382093781947612, score: 11.0
+Scores: (min: 8.0, avg: 12.69, max: 33.0)
+
+Episode: 1473, exploration: 0.193433489764775, score: 10.0
+Scores: (min: 8.0, avg: 12.64, max: 33.0)
+
+Episode: 1474, exploration: 0.1930468162187352, score: 9.0
+Scores: (min: 8.0, avg: 12.62, max: 33.0)
+
+Episode: 1475, exploration: 0.19266091563311397, score: 11.0
+Scores: (min: 8.0, avg: 12.58, max: 33.0)
+
+Episode: 1476, exploration: 0.1922757864627634, score: 9.0
+Scores: (min: 8.0, avg: 12.54, max: 33.0)
+
+Episode: 1477, exploration: 0.19189142716562432, score: 12.0
+Scores: (min: 8.0, avg: 12.51, max: 33.0)
+
+Episode: 1478, exploration: 0.19150783620272022, score: 9.0
+Scores: (min: 8.0, avg: 12.44, max: 33.0)
+
+Episode: 1479, exploration: 0.1909338870261128, score: 12.0
+Scores: (min: 8.0, avg: 12.41, max: 33.0)
+
+Episode: 1480, exploration: 0.1905522101859476, score: 10.0
+Scores: (min: 8.0, avg: 12.29, max: 33.0)
+
+Episode: 1481, exploration: 0.1899811250214681, score: 15.0
+Scores: (min: 8.0, avg: 12.3, max: 33.0)
+
+Episode: 1482, exploration: 0.1896013527525502, score: 13.0
+Scores: (min: 8.0, avg: 12.27, max: 33.0)
+
+Episode: 1483, exploration: 0.18903311730874942, score: 12.0
+Scores: (min: 8.0, avg: 12.3, max: 33.0)
+
+Episode: 1484, exploration: 0.1886552401072492, score: 14.0
+Scores: (min: 8.0, avg: 12.27, max: 33.0)
+
+Episode: 1485, exploration: 0.1882781182822748, score: 10.0
+Scores: (min: 8.0, avg: 12.27, max: 33.0)
+
+Episode: 1486, exploration: 0.1877138485735047, score: 12.0
+Scores: (min: 8.0, avg: 12.29, max: 33.0)
+
+Episode: 1487, exploration: 0.1873386085902063, score: 12.0
+Scores: (min: 8.0, avg: 12.29, max: 33.0)
+
+Episode: 1488, exploration: 0.18677715459292282, score: 12.0
+Scores: (min: 8.0, avg: 12.31, max: 33.0)
+
+Episode: 1489, exploration: 0.1865903774383299, score: 9.0
+Scores: (min: 8.0, avg: 12.24, max: 33.0)
+
+Episode: 1490, exploration: 0.18603116589055688, score: 12.0
+Scores: (min: 8.0, avg: 12.26, max: 33.0)
+
+Episode: 1491, exploration: 0.18565928958994166, score: 12.0
+Scores: (min: 8.0, avg: 12.21, max: 33.0)
+
+Episode: 1492, exploration: 0.18528815667005136, score: 10.0
+Scores: (min: 8.0, avg: 12.23, max: 33.0)
+
+Episode: 1493, exploration: 0.18473284787922306, score: 13.0
+Scores: (min: 8.0, avg: 12.25, max: 33.0)
+
+Episode: 1494, exploration: 0.18436356691631248, score: 13.0
+Scores: (min: 8.0, avg: 12.07, max: 33.0)
+
+Episode: 1495, exploration: 0.18399502414604677, score: 10.0
+Scores: (min: 8.0, avg: 12.04, max: 33.0)
+
+Episode: 1496, exploration: 0.18326014728381135, score: 18.0
+Scores: (min: 8.0, avg: 12.12, max: 33.0)
+
+Episode: 1497, exploration: 0.182893810249391, score: 12.0
+Scores: (min: 8.0, avg: 12.12, max: 33.0)
+
+Episode: 1498, exploration: 0.18234567731717977, score: 12.0
+Scores: (min: 8.0, avg: 12.07, max: 33.0)
+
+Episode: 1499, exploration: 0.18198116830822272, score: 12.0
+Scores: (min: 8.0, avg: 12.07, max: 33.0)
+
+Episode: 1500, exploration: 0.18161738795277457, score: 11.0
+Scores: (min: 8.0, avg: 12.09, max: 33.0)
+
+Episode: 1501, exploration: 0.18107308045946272, score: 11.0
+Scores: (min: 8.0, avg: 12.12, max: 33.0)
+
+Episode: 1502, exploration: 0.18071111537162424, score: 11.0
+Scores: (min: 8.0, avg: 12.11, max: 33.0)
+
+Episode: 1503, exploration: 0.18034987385199636, score: 10.0
+Scores: (min: 8.0, avg: 12.12, max: 33.0)
+
+Episode: 1504, exploration: 0.17998935445416622, score: 10.0
+Scores: (min: 8.0, avg: 12.09, max: 33.0)
+
+Episode: 1505, exploration: 0.17962955573461234, score: 11.0
+Scores: (min: 8.0, avg: 12.08, max: 33.0)
+
+Episode: 1506, exploration: 0.17927047625269885, score: 9.0
+Scores: (min: 8.0, avg: 12.08, max: 33.0)
+
+Episode: 1507, exploration: 0.17891211457066972, score: 9.0
+Scores: (min: 8.0, avg: 12.08, max: 33.0)
+
+Episode: 1508, exploration: 0.17873320245609906, score: 9.0
+Scores: (min: 8.0, avg: 12.08, max: 33.0)
+
+Episode: 1509, exploration: 0.17837591478438933, score: 8.0
+Scores: (min: 8.0, avg: 12.05, max: 33.0)
+
+Episode: 1510, exploration: 0.17801934133073533, score: 10.0
+Scores: (min: 8.0, avg: 12.05, max: 33.0)
+
+Episode: 1511, exploration: 0.17748581718674777, score: 14.0
+Scores: (min: 8.0, avg: 12.06, max: 33.0)
+
+Episode: 1512, exploration: 0.17713102303819148, score: 11.0
+Scores: (min: 8.0, avg: 12.08, max: 33.0)
+
+Episode: 1513, exploration: 0.17677693812313813, score: 11.0
+Scores: (min: 8.0, avg: 12.07, max: 33.0)
+
+Episode: 1514, exploration: 0.17624713746280615, score: 15.0
+Scores: (min: 8.0, avg: 12.13, max: 33.0)
+
+Episode: 1515, exploration: 0.17571892461558297, score: 13.0
+Scores: (min: 8.0, avg: 12.16, max: 33.0)
+
+Episode: 1516, exploration: 0.17536766248527644, score: 11.0
+Scores: (min: 8.0, avg: 12.13, max: 33.0)
+
+Episode: 1517, exploration: 0.17501710252796837, score: 10.0
+Scores: (min: 8.0, avg: 12.12, max: 33.0)
+
+Episode: 1518, exploration: 0.17466724334001496, score: 10.0
+Scores: (min: 8.0, avg: 12.06, max: 33.0)
+
+Episode: 1519, exploration: 0.1743180835205783, score: 12.0
+Scores: (min: 8.0, avg: 12.01, max: 33.0)
+
+Episode: 1520, exploration: 0.17396962167162064, score: 9.0
+Scores: (min: 8.0, avg: 11.77, max: 20.0)
+
+Episode: 1521, exploration: 0.17344823454150116, score: 13.0
+Scores: (min: 8.0, avg: 11.76, max: 20.0)
+
+Episode: 1522, exploration: 0.17241014339140628, score: 33.0
+Scores: (min: 8.0, avg: 11.93, max: 33.0)
+
+Episode: 1523, exploration: 0.1718934300192521, score: 14.0
+Scores: (min: 8.0, avg: 11.89, max: 33.0)
+
+Episode: 1524, exploration: 0.17154981505264363, score: 10.0
+Scores: (min: 8.0, avg: 11.79, max: 33.0)
+
+Episode: 1525, exploration: 0.1712068869723534, score: 10.0
+Scores: (min: 8.0, avg: 11.75, max: 33.0)
+
+Episode: 1526, exploration: 0.17069377976089034, score: 13.0
+Scores: (min: 8.0, avg: 11.73, max: 33.0)
+
+Episode: 1527, exploration: 0.17035256289514833, score: 10.0
+Scores: (min: 8.0, avg: 11.67, max: 33.0)
+
+Episode: 1528, exploration: 0.17001202812192093, score: 10.0
+Scores: (min: 8.0, avg: 11.67, max: 33.0)
+
+Episode: 1529, exploration: 0.1696721740777052, score: 11.0
+Scores: (min: 8.0, avg: 11.66, max: 33.0)
+
+Episode: 1530, exploration: 0.1693329994017239, score: 9.0
+Scores: (min: 8.0, avg: 11.67, max: 33.0)
+
+Episode: 1531, exploration: 0.16899450273591984, score: 11.0
+Scores: (min: 8.0, avg: 11.64, max: 33.0)
+
+Episode: 1532, exploration: 0.16865668272495074, score: 12.0
+Scores: (min: 8.0, avg: 11.61, max: 33.0)

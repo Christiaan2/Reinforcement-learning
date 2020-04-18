@@ -1,0 +1,3167 @@
+Results of experiments stored in: ./experiments/CartPole-v1_6
+Episode: 1, exploration: 1.0, score: 20.0
+Scores: (min: 20.0, avg: 20.0, max: 20.0)
+
+Episode: 2, exploration: 0.9977522486879922, score: 20.0
+Scores: (min: 20.0, avg: 20.0, max: 20.0)
+
+Episode: 3, exploration: 0.9935202719333348, score: 17.0
+Scores: (min: 17.0, avg: 19.0, max: 20.0)
+
+Episode: 4, exploration: 0.990791503851314, score: 11.0
+Scores: (min: 11.0, avg: 17.0, max: 20.0)
+
+Episode: 5, exploration: 0.9875762571475453, score: 13.0
+Scores: (min: 11.0, avg: 16.2, max: 20.0)
+
+Episode: 6, exploration: 0.9828958097097626, score: 19.0
+Scores: (min: 11.0, avg: 16.666666666666668, max: 20.0)
+
+Episode: 7, exploration: 0.9784821649870683, score: 18.0
+Scores: (min: 11.0, avg: 16.857142857142858, max: 20.0)
+
+Episode: 8, exploration: 0.9753068636815545, score: 13.0
+Scores: (min: 11.0, avg: 16.375, max: 20.0)
+
+Episode: 9, exploration: 0.9711700892656754, score: 17.0
+Scores: (min: 11.0, avg: 16.444444444444443, max: 20.0)
+
+Episode: 10, exploration: 0.9653597907411388, score: 24.0
+Scores: (min: 11.0, avg: 17.2, max: 24.0)
+
+Episode: 11, exploration: 0.9627083672533073, score: 11.0
+Scores: (min: 11.0, avg: 16.636363636363637, max: 24.0)
+
+Episode: 12, exploration: 0.9603043021481686, score: 10.0
+Scores: (min: 10.0, avg: 16.083333333333332, max: 24.0)
+
+Episode: 13, exploration: 0.9579062404488652, score: 10.0
+Scores: (min: 10.0, avg: 15.615384615384615, max: 24.0)
+
+Episode: 14, exploration: 0.9536048101434074, score: 18.0
+Scores: (min: 10.0, avg: 15.785714285714286, max: 24.0)
+
+Episode: 15, exploration: 0.9505102390751314, score: 13.0
+Scores: (min: 10.0, avg: 15.6, max: 24.0)
+
+Episode: 16, exploration: 0.9471888538630413, score: 14.0
+Scores: (min: 10.0, avg: 15.5, max: 24.0)
+
+Episode: 17, exploration: 0.9396406326123358, score: 32.0
+Scores: (min: 10.0, avg: 16.470588235294116, max: 32.0)
+
+Episode: 18, exploration: 0.9370598484660265, score: 11.0
+Scores: (min: 10.0, avg: 16.166666666666668, max: 32.0)
+
+Episode: 19, exploration: 0.9333186288284107, score: 16.0
+Scores: (min: 10.0, avg: 16.157894736842106, max: 32.0)
+
+Episode: 20, exploration: 0.9305225196747907, score: 12.0
+Scores: (min: 10.0, avg: 15.95, max: 32.0)
+
+Episode: 21, exploration: 0.9272709779140498, score: 14.0
+Scores: (min: 10.0, avg: 15.857142857142858, max: 32.0)
+
+Episode: 22, exploration: 0.9228763369521017, score: 19.0
+Scores: (min: 10.0, avg: 16.0, max: 32.0)
+
+Episode: 23, exploration: 0.9168963492494921, score: 26.0
+Scores: (min: 10.0, avg: 16.434782608695652, max: 32.0)
+
+Episode: 24, exploration: 0.9075450002490781, score: 41.0
+Scores: (min: 10.0, avg: 17.458333333333332, max: 41.0)
+
+Episode: 25, exploration: 0.9043737492522802, score: 14.0
+Scores: (min: 10.0, avg: 17.32, max: 41.0)
+
+Episode: 26, exploration: 0.9007630291515462, score: 16.0
+Scores: (min: 10.0, avg: 17.26923076923077, max: 41.0)
+
+Episode: 27, exploration: 0.8964940180434633, score: 19.0
+Scores: (min: 10.0, avg: 17.333333333333332, max: 41.0)
+
+Episode: 28, exploration: 0.8938082309471923, score: 12.0
+Scores: (min: 10.0, avg: 17.142857142857142, max: 41.0)
+
+Episode: 29, exploration: 0.8915762225303167, score: 10.0
+Scores: (min: 10.0, avg: 16.896551724137932, max: 41.0)
+
+Episode: 30, exploration: 0.8855776012948512, score: 27.0
+Scores: (min: 10.0, avg: 17.233333333333334, max: 41.0)
+
+Episode: 31, exploration: 0.8796193394317169, score: 27.0
+Scores: (min: 10.0, avg: 17.548387096774192, max: 41.0)
+
+Episode: 32, exploration: 0.8719552912806848, score: 35.0
+Scores: (min: 10.0, avg: 18.09375, max: 41.0)
+
+Episode: 33, exploration: 0.8667385732223467, score: 24.0
+Scores: (min: 10.0, avg: 18.272727272727273, max: 41.0)
+
+Episode: 34, exploration: 0.8639258943391006, score: 13.0
+Scores: (min: 10.0, avg: 18.11764705882353, max: 41.0)
+
+Episode: 35, exploration: 0.8609070623772361, score: 14.0
+Scores: (min: 10.0, avg: 18.0, max: 41.0)
+
+Episode: 36, exploration: 0.8568269417535278, score: 19.0
+Scores: (min: 10.0, avg: 18.02777777777778, max: 41.0)
+
+Episode: 37, exploration: 0.8534060526974293, score: 16.0
+Scores: (min: 10.0, avg: 17.972972972972972, max: 41.0)
+
+Episode: 38, exploration: 0.8495738752849367, score: 18.0
+Scores: (min: 10.0, avg: 17.973684210526315, max: 41.0)
+
+Episode: 39, exploration: 0.8468168980687414, score: 13.0
+Scores: (min: 10.0, avg: 17.846153846153847, max: 41.0)
+
+Episode: 40, exploration: 0.8425928544611505, score: 20.0
+Scores: (min: 10.0, avg: 17.9, max: 41.0)
+
+Episode: 41, exploration: 0.8373424174977014, score: 25.0
+Scores: (min: 10.0, avg: 18.073170731707318, max: 41.0)
+
+Episode: 42, exploration: 0.8333739774464557, score: 19.0
+Scores: (min: 10.0, avg: 18.095238095238095, max: 41.0)
+
+Episode: 43, exploration: 0.8281809859412528, score: 25.0
+Scores: (min: 10.0, avg: 18.25581395348837, max: 41.0)
+
+Episode: 44, exploration: 0.8261128611832628, score: 10.0
+Scores: (min: 10.0, avg: 18.068181818181817, max: 41.0)
+
+Episode: 45, exploration: 0.8207598744904205, score: 26.0
+Scores: (min: 10.0, avg: 18.244444444444444, max: 41.0)
+
+Episode: 46, exploration: 0.8160534607940148, score: 23.0
+Scores: (min: 10.0, avg: 18.347826086956523, max: 41.0)
+
+Episode: 47, exploration: 0.8095502676352744, score: 32.0
+Scores: (min: 10.0, avg: 18.638297872340427, max: 41.0)
+
+Episode: 48, exploration: 0.8075286673090714, score: 10.0
+Scores: (min: 10.0, avg: 18.458333333333332, max: 41.0)
+
+Episode: 49, exploration: 0.8020955271135873, score: 27.0
+Scores: (min: 10.0, avg: 18.632653061224488, max: 41.0)
+
+Episode: 50, exploration: 0.7998925195505305, score: 11.0
+Scores: (min: 10.0, avg: 18.48, max: 41.0)
+
+Episode: 51, exploration: 0.7968981662144028, score: 15.0
+Scores: (min: 10.0, avg: 18.41176470588235, max: 41.0)
+
+Episode: 52, exploration: 0.7951069373157578, score: 9.0
+Scores: (min: 9.0, avg: 18.23076923076923, max: 41.0)
+
+Episode: 53, exploration: 0.7893625425367928, score: 29.0
+Scores: (min: 9.0, avg: 18.433962264150942, max: 41.0)
+
+Episode: 54, exploration: 0.7850324260030478, score: 22.0
+Scores: (min: 9.0, avg: 18.5, max: 41.0)
+
+Episode: 55, exploration: 0.7820937006039258, score: 15.0
+Scores: (min: 9.0, avg: 18.436363636363637, max: 41.0)
+
+Episode: 56, exploration: 0.7778034579316053, score: 22.0
+Scores: (min: 9.0, avg: 18.5, max: 41.0)
+
+Episode: 57, exploration: 0.7748917937740032, score: 15.0
+Scores: (min: 9.0, avg: 18.43859649122807, max: 41.0)
+
+Episode: 58, exploration: 0.7729567422204519, score: 10.0
+Scores: (min: 9.0, avg: 18.29310344827586, max: 41.0)
+
+Episode: 59, exploration: 0.7702557854209812, score: 14.0
+Scores: (min: 9.0, avg: 18.220338983050848, max: 41.0)
+
+Episode: 60, exploration: 0.7666052908984378, score: 19.0
+Scores: (min: 9.0, avg: 18.233333333333334, max: 41.0)
+
+Episode: 61, exploration: 0.7624000112378296, score: 22.0
+Scores: (min: 9.0, avg: 18.295081967213115, max: 41.0)
+
+Episode: 62, exploration: 0.7591662834967481, score: 17.0
+Scores: (min: 9.0, avg: 18.274193548387096, max: 41.0)
+
+Episode: 63, exploration: 0.756702690620611, score: 13.0
+Scores: (min: 9.0, avg: 18.19047619047619, max: 41.0)
+
+Episode: 64, exploration: 0.7534931281254084, score: 17.0
+Scores: (min: 9.0, avg: 18.171875, max: 41.0)
+
+Episode: 65, exploration: 0.7480493798846974, score: 29.0
+Scores: (min: 9.0, avg: 18.338461538461537, max: 41.0)
+
+Episode: 66, exploration: 0.743202223322607, score: 26.0
+Scores: (min: 9.0, avg: 18.454545454545453, max: 41.0)
+
+Episode: 67, exploration: 0.7413463066276591, score: 10.0
+Scores: (min: 9.0, avg: 18.328358208955223, max: 41.0)
+
+Episode: 68, exploration: 0.7394950245081612, score: 10.0
+Scores: (min: 9.0, avg: 18.205882352941178, max: 41.0)
+
+Episode: 69, exploration: 0.7370952674142003, score: 13.0
+Scores: (min: 9.0, avg: 18.130434782608695, max: 41.0)
+
+Episode: 70, exploration: 0.734887019597596, score: 12.0
+Scores: (min: 9.0, avg: 18.042857142857144, max: 41.0)
+
+Episode: 71, exploration: 0.7321360107495001, score: 15.0
+Scores: (min: 9.0, avg: 18.0, max: 41.0)
+
+Episode: 72, exploration: 0.728666178328135, score: 19.0
+Scores: (min: 9.0, avg: 18.01388888888889, max: 41.0)
+
+Episode: 73, exploration: 0.7268465608902898, score: 10.0
+Scores: (min: 9.0, avg: 17.904109589041095, max: 41.0)
+
+Episode: 74, exploration: 0.7246690169525525, score: 12.0
+Scores: (min: 9.0, avg: 17.824324324324323, max: 41.0)
+
+Episode: 75, exploration: 0.7232209464555399, score: 8.0
+Scores: (min: 8.0, avg: 17.69333333333333, max: 41.0)
+
+Episode: 76, exploration: 0.7212345730611684, score: 11.0
+Scores: (min: 8.0, avg: 17.605263157894736, max: 41.0)
+
+Episode: 77, exploration: 0.7185346713903917, score: 15.0
+Scores: (min: 8.0, avg: 17.571428571428573, max: 41.0)
+
+Episode: 78, exploration: 0.7137002924227832, score: 27.0
+Scores: (min: 8.0, avg: 17.692307692307693, max: 41.0)
+
+Episode: 79, exploration: 0.7106731250560376, score: 17.0
+Scores: (min: 8.0, avg: 17.68354430379747, max: 41.0)
+
+Episode: 80, exploration: 0.7078357563909113, score: 16.0
+Scores: (min: 8.0, avg: 17.6625, max: 41.0)
+
+Episode: 81, exploration: 0.7044810908363346, score: 19.0
+Scores: (min: 8.0, avg: 17.679012345679013, max: 41.0)
+
+Episode: 82, exploration: 0.7021949584902513, score: 13.0
+Scores: (min: 8.0, avg: 17.621951219512194, max: 41.0)
+
+Episode: 83, exploration: 0.6988670265249949, score: 19.0
+Scores: (min: 8.0, avg: 17.63855421686747, max: 41.0)
+
+Episode: 84, exploration: 0.695728798919367, score: 18.0
+Scores: (min: 8.0, avg: 17.642857142857142, max: 41.0)
+
+Episode: 85, exploration: 0.6934710688936784, score: 13.0
+Scores: (min: 8.0, avg: 17.58823529411765, max: 41.0)
+
+Episode: 86, exploration: 0.6901844822993888, score: 19.0
+Scores: (min: 8.0, avg: 17.6046511627907, max: 41.0)
+
+Episode: 87, exploration: 0.687944744298932, score: 13.0
+Scores: (min: 8.0, avg: 17.551724137931036, max: 41.0)
+
+Episode: 88, exploration: 0.6851981188926901, score: 16.0
+Scores: (min: 8.0, avg: 17.53409090909091, max: 41.0)
+
+Episode: 89, exploration: 0.6826331176918189, score: 15.0
+Scores: (min: 8.0, avg: 17.50561797752809, max: 41.0)
+
+Episode: 90, exploration: 0.6800777184308525, score: 15.0
+Scores: (min: 8.0, avg: 17.477777777777778, max: 41.0)
+
+Episode: 91, exploration: 0.6771931615686213, score: 17.0
+Scores: (min: 8.0, avg: 17.47252747252747, max: 41.0)
+
+Episode: 92, exploration: 0.6726369327495433, score: 27.0
+Scores: (min: 8.0, avg: 17.57608695652174, max: 41.0)
+
+Episode: 93, exploration: 0.6667763046236481, score: 35.0
+Scores: (min: 8.0, avg: 17.763440860215052, max: 41.0)
+
+Episode: 94, exploration: 0.663118645505847, score: 22.0
+Scores: (min: 8.0, avg: 17.80851063829787, max: 41.0)
+
+Episode: 95, exploration: 0.6593161805309498, score: 23.0
+Scores: (min: 8.0, avg: 17.86315789473684, max: 41.0)
+
+Episode: 96, exploration: 0.6571766141661259, score: 13.0
+Scores: (min: 8.0, avg: 17.8125, max: 41.0)
+
+Episode: 97, exploration: 0.6517765380081108, score: 33.0
+Scores: (min: 8.0, avg: 17.969072164948454, max: 41.0)
+
+Episode: 98, exploration: 0.6499863913309165, score: 11.0
+Scores: (min: 8.0, avg: 17.897959183673468, max: 41.0)
+
+Episode: 99, exploration: 0.6472294671520202, score: 17.0
+Scores: (min: 8.0, avg: 17.88888888888889, max: 41.0)
+
+Episode: 100, exploration: 0.644806599495631, score: 15.0
+Scores: (min: 8.0, avg: 17.86, max: 41.0)
+
+Episode: 101, exploration: 0.6409488624472279, score: 24.0
+Scores: (min: 8.0, avg: 17.9, max: 41.0)
+
+Episode: 102, exploration: 0.639028657571921, score: 12.0
+Scores: (min: 8.0, avg: 17.82, max: 41.0)
+
+Episode: 103, exploration: 0.6371142053969919, score: 12.0
+Scores: (min: 8.0, avg: 17.77, max: 41.0)
+
+Episode: 104, exploration: 0.6353643297704925, score: 11.0
+Scores: (min: 8.0, avg: 17.77, max: 41.0)
+
+Episode: 105, exploration: 0.6328276321289608, score: 16.0
+Scores: (min: 8.0, avg: 17.8, max: 41.0)
+
+Episode: 106, exploration: 0.6293562013918421, score: 22.0
+Scores: (min: 8.0, avg: 17.83, max: 41.0)
+
+Episode: 107, exploration: 0.6274707267198021, score: 12.0
+Scores: (min: 8.0, avg: 17.77, max: 41.0)
+
+Episode: 108, exploration: 0.6248093029713736, score: 17.0
+Scores: (min: 8.0, avg: 17.81, max: 41.0)
+
+Episode: 109, exploration: 0.622470363957608, score: 15.0
+Scores: (min: 8.0, avg: 17.79, max: 41.0)
+
+Episode: 110, exploration: 0.6196751917635926, score: 18.0
+Scores: (min: 8.0, avg: 17.73, max: 41.0)
+
+Episode: 111, exploration: 0.6179732135229132, score: 11.0
+Scores: (min: 8.0, avg: 17.73, max: 41.0)
+
+Episode: 112, exploration: 0.6139689151468019, score: 26.0
+Scores: (min: 8.0, avg: 17.89, max: 41.0)
+
+Episode: 113, exploration: 0.6110591153060513, score: 19.0
+Scores: (min: 8.0, avg: 17.98, max: 41.0)
+
+Episode: 114, exploration: 0.6048269746155708, score: 41.0
+Scores: (min: 8.0, avg: 18.21, max: 41.0)
+
+Episode: 115, exploration: 0.6027135167202451, score: 14.0
+Scores: (min: 8.0, avg: 18.22, max: 41.0)
+
+Episode: 116, exploration: 0.5991076133922649, score: 24.0
+Scores: (min: 8.0, avg: 18.32, max: 41.0)
+
+Episode: 117, exploration: 0.5950767525850705, score: 27.0
+Scores: (min: 8.0, avg: 18.27, max: 41.0)
+
+Episode: 118, exploration: 0.59299736506788, score: 14.0
+Scores: (min: 8.0, avg: 18.3, max: 41.0)
+
+Episode: 119, exploration: 0.5912208170495252, score: 12.0
+Scores: (min: 8.0, avg: 18.26, max: 41.0)
+
+Episode: 120, exploration: 0.5882717231915396, score: 20.0
+Scores: (min: 8.0, avg: 18.34, max: 41.0)
+
+Episode: 121, exploration: 0.586362705288621, score: 13.0
+Scores: (min: 8.0, avg: 18.33, max: 41.0)
+
+Episode: 122, exploration: 0.5835837403208864, score: 19.0
+Scores: (min: 8.0, avg: 18.33, max: 41.0)
+
+Episode: 123, exploration: 0.5799472631952786, score: 25.0
+Scores: (min: 8.0, avg: 18.32, max: 41.0)
+
+Episode: 124, exploration: 0.5733152478197877, score: 46.0
+Scores: (min: 8.0, avg: 18.37, max: 46.0)
+
+Episode: 125, exploration: 0.5710262816804327, score: 16.0
+Scores: (min: 8.0, avg: 18.39, max: 46.0)
+
+Episode: 126, exploration: 0.5690309341610479, score: 14.0
+Scores: (min: 8.0, avg: 18.37, max: 46.0)
+
+Episode: 127, exploration: 0.5659094657312127, score: 22.0
+Scores: (min: 8.0, avg: 18.4, max: 46.0)
+
+Episode: 128, exploration: 0.5629458568507748, score: 21.0
+Scores: (min: 8.0, avg: 18.49, max: 46.0)
+
+Episode: 129, exploration: 0.5613996894201989, score: 11.0
+Scores: (min: 8.0, avg: 18.5, max: 46.0)
+
+Episode: 130, exploration: 0.558878752051198, score: 18.0
+Scores: (min: 8.0, avg: 18.41, max: 46.0)
+
+Episode: 131, exploration: 0.5547023205327658, score: 30.0
+Scores: (min: 8.0, avg: 18.44, max: 46.0)
+
+Episode: 132, exploration: 0.5517974023034758, score: 21.0
+Scores: (min: 8.0, avg: 18.3, max: 46.0)
+
+Episode: 133, exploration: 0.5505570989684857, score: 9.0
+Scores: (min: 8.0, avg: 18.15, max: 46.0)
+
+Episode: 134, exploration: 0.547536970360213, score: 22.0
+Scores: (min: 8.0, avg: 18.24, max: 46.0)
+
+Episode: 135, exploration: 0.5454872960430026, score: 15.0
+Scores: (min: 8.0, avg: 18.25, max: 46.0)
+
+Episode: 136, exploration: 0.5429020530315093, score: 19.0
+Scores: (min: 8.0, avg: 18.25, max: 46.0)
+
+Episode: 137, exploration: 0.5405993282102862, score: 17.0
+Scores: (min: 8.0, avg: 18.26, max: 46.0)
+
+Episode: 138, exploration: 0.5361571775305761, score: 33.0
+Scores: (min: 8.0, avg: 18.41, max: 46.0)
+
+Weights of target Q-network updated
+Episode: 139, exploration: 0.5340165653117198, score: 16.0
+Scores: (min: 8.0, avg: 18.44, max: 46.0)
+
+Episode: 140, exploration: 0.5301584654440297, score: 29.0
+Scores: (min: 8.0, avg: 18.53, max: 46.0)
+
+Episode: 141, exploration: 0.5281738465972744, score: 15.0
+Scores: (min: 8.0, avg: 18.43, max: 46.0)
+
+Episode: 142, exploration: 0.5231793322251056, score: 38.0
+Scores: (min: 8.0, avg: 18.62, max: 46.0)
+
+Episode: 143, exploration: 0.5201793093787286, score: 23.0
+Scores: (min: 8.0, avg: 18.6, max: 46.0)
+
+Episode: 144, exploration: 0.5186209154031327, score: 12.0
+Scores: (min: 8.0, avg: 18.62, max: 46.0)
+
+Episode: 145, exploration: 0.5174551845601006, score: 9.0
+Scores: (min: 8.0, avg: 18.45, max: 46.0)
+
+Episode: 146, exploration: 0.5157759754933717, score: 13.0
+Scores: (min: 8.0, avg: 18.35, max: 46.0)
+
+Episode: 147, exploration: 0.5143593632116106, score: 11.0
+Scores: (min: 8.0, avg: 18.14, max: 46.0)
+
+Episode: 148, exploration: 0.5130749104752889, score: 10.0
+Scores: (min: 8.0, avg: 18.14, max: 46.0)
+
+Episode: 149, exploration: 0.5110264544094564, score: 16.0
+Scores: (min: 8.0, avg: 18.03, max: 46.0)
+
+Episode: 150, exploration: 0.5084773814835607, score: 20.0
+Scores: (min: 8.0, avg: 18.12, max: 46.0)
+
+Episode: 151, exploration: 0.5070808152652169, score: 11.0
+Scores: (min: 8.0, avg: 18.08, max: 46.0)
+
+Episode: 152, exploration: 0.5041731047784799, score: 23.0
+Scores: (min: 8.0, avg: 18.22, max: 46.0)
+
+Episode: 153, exploration: 0.49406502559870213, score: 81.0
+Scores: (min: 8.0, avg: 18.74, max: 81.0)
+
+Episode: 154, exploration: 0.49209246666444095, score: 16.0
+Scores: (min: 8.0, avg: 18.68, max: 81.0)
+
+Episode: 155, exploration: 0.4898827499303626, score: 18.0
+Scores: (min: 8.0, avg: 18.71, max: 81.0)
+
+Episode: 156, exploration: 0.487439144821594, score: 20.0
+Scores: (min: 8.0, avg: 18.69, max: 81.0)
+
+Episode: 157, exploration: 0.4857358773544497, score: 14.0
+Scores: (min: 8.0, avg: 18.68, max: 81.0)
+
+Episode: 158, exploration: 0.48355470456835165, score: 18.0
+Scores: (min: 8.0, avg: 18.76, max: 81.0)
+
+Episode: 159, exploration: 0.48198550694815434, score: 13.0
+Scores: (min: 8.0, avg: 18.75, max: 81.0)
+
+Episode: 160, exploration: 0.4749275190743145, score: 59.0
+Scores: (min: 8.0, avg: 19.15, max: 81.0)
+
+Episode: 161, exploration: 0.4737415351201766, score: 10.0
+Scores: (min: 8.0, avg: 19.03, max: 81.0)
+
+Episode: 162, exploration: 0.47196810992681876, score: 15.0
+Scores: (min: 8.0, avg: 19.01, max: 81.0)
+
+Episode: 163, exploration: 0.4698487606152436, score: 18.0
+Scores: (min: 8.0, avg: 19.06, max: 81.0)
+
+Episode: 164, exploration: 0.4679728853306491, score: 16.0
+Scores: (min: 8.0, avg: 19.05, max: 81.0)
+
+Episode: 165, exploration: 0.46680426841399725, score: 10.0
+Scores: (min: 8.0, avg: 18.86, max: 81.0)
+
+Episode: 166, exploration: 0.4648243131540612, score: 17.0
+Scores: (min: 8.0, avg: 18.77, max: 81.0)
+
+Episode: 167, exploration: 0.46331589807895124, score: 13.0
+Scores: (min: 8.0, avg: 18.8, max: 81.0)
+
+Episode: 168, exploration: 0.46158150068031906, score: 15.0
+Scores: (min: 8.0, avg: 18.85, max: 81.0)
+
+Episode: 169, exploration: 0.4579031219935789, score: 32.0
+Scores: (min: 8.0, avg: 19.04, max: 81.0)
+
+Episode: 170, exploration: 0.4566454612701373, score: 11.0
+Scores: (min: 8.0, avg: 19.03, max: 81.0)
+
+Episode: 171, exploration: 0.45493603428218377, score: 15.0
+Scores: (min: 8.0, avg: 19.03, max: 81.0)
+
+Episode: 172, exploration: 0.45357310122751554, score: 12.0
+Scores: (min: 8.0, avg: 18.96, max: 81.0)
+
+Episode: 173, exploration: 0.4510849867312594, score: 22.0
+Scores: (min: 8.0, avg: 19.08, max: 81.0)
+
+Episode: 174, exploration: 0.4474902555761866, score: 32.0
+Scores: (min: 8.0, avg: 19.28, max: 81.0)
+
+Episode: 175, exploration: 0.4444794927474684, score: 27.0
+Scores: (min: 9.0, avg: 19.47, max: 81.0)
+
+Episode: 176, exploration: 0.4403865050503335, score: 37.0
+Scores: (min: 9.0, avg: 19.73, max: 81.0)
+
+Episode: 177, exploration: 0.43862825807866745, score: 16.0
+Scores: (min: 9.0, avg: 19.74, max: 81.0)
+
+Episode: 178, exploration: 0.4372048525937746, score: 13.0
+Scores: (min: 9.0, avg: 19.6, max: 81.0)
+
+Episode: 179, exploration: 0.4360040410142173, score: 11.0
+Scores: (min: 9.0, avg: 19.54, max: 81.0)
+
+Episode: 180, exploration: 0.4344805041655821, score: 14.0
+Scores: (min: 9.0, avg: 19.52, max: 81.0)
+
+Episode: 181, exploration: 0.4329622910394603, score: 14.0
+Scores: (min: 9.0, avg: 19.47, max: 81.0)
+
+Episode: 182, exploration: 0.4318811022068561, score: 10.0
+Scores: (min: 9.0, avg: 19.44, max: 81.0)
+
+Episode: 183, exploration: 0.4305872389260257, score: 12.0
+Scores: (min: 9.0, avg: 19.37, max: 81.0)
+
+Episode: 184, exploration: 0.428653708356487, score: 18.0
+Scores: (min: 9.0, avg: 19.37, max: 81.0)
+
+Episode: 185, exploration: 0.42555682162502434, score: 29.0
+Scores: (min: 9.0, avg: 19.53, max: 81.0)
+
+Episode: 186, exploration: 0.42375181784851457, score: 17.0
+Scores: (min: 9.0, avg: 19.51, max: 81.0)
+
+Episode: 187, exploration: 0.4214272905827875, score: 22.0
+Scores: (min: 9.0, avg: 19.6, max: 81.0)
+
+Episode: 188, exploration: 0.4200597044643585, score: 13.0
+Scores: (min: 9.0, avg: 19.57, max: 81.0)
+
+Episode: 189, exploration: 0.4165038861201996, score: 34.0
+Scores: (min: 9.0, avg: 19.76, max: 81.0)
+
+Episode: 190, exploration: 0.4153599310922154, score: 11.0
+Scores: (min: 9.0, avg: 19.72, max: 81.0)
+
+Episode: 191, exploration: 0.41266851168894925, score: 26.0
+Scores: (min: 9.0, avg: 19.81, max: 81.0)
+
+Episode: 192, exploration: 0.4079494206815646, score: 46.0
+Scores: (min: 9.0, avg: 20.0, max: 81.0)
+
+Episode: 193, exploration: 0.40662557199589044, score: 13.0
+Scores: (min: 9.0, avg: 19.78, max: 81.0)
+
+Episode: 194, exploration: 0.4039907488644049, score: 26.0
+Scores: (min: 9.0, avg: 19.82, max: 81.0)
+
+Episode: 195, exploration: 0.40167417899693036, score: 23.0
+Scores: (min: 9.0, avg: 19.82, max: 81.0)
+
+Episode: 196, exploration: 0.39997047370265876, score: 17.0
+Scores: (min: 9.0, avg: 19.86, max: 81.0)
+
+Episode: 197, exploration: 0.39688229863077346, score: 31.0
+Scores: (min: 9.0, avg: 19.84, max: 81.0)
+
+Episode: 198, exploration: 0.3956932875108473, score: 12.0
+Scores: (min: 9.0, avg: 19.85, max: 81.0)
+
+Episode: 199, exploration: 0.39470516643784104, score: 10.0
+Scores: (min: 9.0, avg: 19.78, max: 81.0)
+
+Episode: 200, exploration: 0.3936210830120561, score: 11.0
+Scores: (min: 9.0, avg: 19.74, max: 81.0)
+
+Episode: 201, exploration: 0.39244184209767596, score: 12.0
+Scores: (min: 9.0, avg: 19.62, max: 81.0)
+
+Episode: 202, exploration: 0.39116831751220993, score: 13.0
+Scores: (min: 9.0, avg: 19.63, max: 81.0)
+
+Episode: 203, exploration: 0.3894117956477178, score: 18.0
+Scores: (min: 9.0, avg: 19.69, max: 81.0)
+
+Episode: 204, exploration: 0.38824516524658137, score: 12.0
+Scores: (min: 9.0, avg: 19.7, max: 81.0)
+
+Episode: 205, exploration: 0.3850549216878189, score: 33.0
+Scores: (min: 9.0, avg: 19.87, max: 81.0)
+
+Episode: 206, exploration: 0.3840933666289044, score: 10.0
+Scores: (min: 9.0, avg: 19.75, max: 81.0)
+
+Episode: 207, exploration: 0.3831342127550658, score: 10.0
+Scores: (min: 9.0, avg: 19.73, max: 81.0)
+
+Episode: 208, exploration: 0.38150914492442406, score: 17.0
+Scores: (min: 9.0, avg: 19.73, max: 81.0)
+
+Episode: 209, exploration: 0.37913185237346114, score: 25.0
+Scores: (min: 9.0, avg: 19.83, max: 81.0)
+
+Episode: 210, exploration: 0.3776181651381504, score: 16.0
+Scores: (min: 9.0, avg: 19.81, max: 81.0)
+
+Episode: 211, exploration: 0.3749837399121712, score: 28.0
+Scores: (min: 9.0, avg: 19.98, max: 81.0)
+
+Episode: 212, exploration: 0.3730199891553474, score: 21.0
+Scores: (min: 9.0, avg: 19.93, max: 81.0)
+
+Episode: 213, exploration: 0.37180949099714805, score: 13.0
+Scores: (min: 9.0, avg: 19.87, max: 81.0)
+
+Episode: 214, exploration: 0.369677455385674, score: 23.0
+Scores: (min: 9.0, avg: 19.69, max: 81.0)
+
+Episode: 215, exploration: 0.3678334514506396, score: 20.0
+Scores: (min: 9.0, avg: 19.75, max: 81.0)
+
+Episode: 216, exploration: 0.3663648731797939, score: 16.0
+Scores: (min: 9.0, avg: 19.67, max: 81.0)
+
+Episode: 217, exploration: 0.3649021582205342, score: 16.0
+Scores: (min: 9.0, avg: 19.56, max: 81.0)
+
+Episode: 218, exploration: 0.363718003474701, score: 13.0
+Scores: (min: 9.0, avg: 19.55, max: 81.0)
+
+Episode: 219, exploration: 0.3627190283085409, score: 11.0
+Scores: (min: 9.0, avg: 19.54, max: 81.0)
+
+Episode: 220, exploration: 0.3612708694168049, score: 16.0
+Scores: (min: 9.0, avg: 19.5, max: 81.0)
+
+Episode: 221, exploration: 0.3595586884050912, score: 19.0
+Scores: (min: 9.0, avg: 19.56, max: 81.0)
+
+Episode: 222, exploration: 0.3573181754240755, score: 25.0
+Scores: (min: 9.0, avg: 19.62, max: 81.0)
+
+Episode: 223, exploration: 0.35509162371998054, score: 25.0
+Scores: (min: 9.0, avg: 19.62, max: 81.0)
+
+Episode: 224, exploration: 0.35340872817810254, score: 19.0
+Scores: (min: 9.0, avg: 19.35, max: 81.0)
+
+Episode: 225, exploration: 0.3525261996573539, score: 10.0
+Scores: (min: 9.0, avg: 19.29, max: 81.0)
+
+Episode: 226, exploration: 0.3512065373574619, score: 15.0
+Scores: (min: 9.0, avg: 19.3, max: 81.0)
+
+Episode: 227, exploration: 0.3502419257471994, score: 11.0
+Scores: (min: 9.0, avg: 19.19, max: 81.0)
+
+Episode: 228, exploration: 0.34936730533183125, score: 10.0
+Scores: (min: 9.0, avg: 19.08, max: 81.0)
+
+Episode: 229, exploration: 0.34858201451289905, score: 9.0
+Scores: (min: 9.0, avg: 19.06, max: 81.0)
+
+Episode: 230, exploration: 0.34710350019789743, score: 17.0
+Scores: (min: 9.0, avg: 19.05, max: 81.0)
+
+Episode: 231, exploration: 0.34580413747303623, score: 15.0
+Scores: (min: 9.0, avg: 18.9, max: 81.0)
+
+Episode: 232, exploration: 0.3443374055529884, score: 17.0
+Scores: (min: 9.0, avg: 18.86, max: 81.0)
+
+Episode: 233, exploration: 0.34279117556825184, score: 18.0
+Scores: (min: 9.0, avg: 18.95, max: 81.0)
+
+Episode: 234, exploration: 0.34193516108706024, score: 10.0
+Scores: (min: 9.0, avg: 18.83, max: 81.0)
+
+Episode: 235, exploration: 0.3401444822924898, score: 21.0
+Scores: (min: 9.0, avg: 18.89, max: 81.0)
+
+Episode: 236, exploration: 0.3367595671244832, score: 40.0
+Scores: (min: 9.0, avg: 19.1, max: 81.0)
+
+Episode: 237, exploration: 0.3345774567056688, score: 26.0
+Scores: (min: 9.0, avg: 19.19, max: 81.0)
+
+Episode: 238, exploration: 0.3331583428712747, score: 17.0
+Scores: (min: 9.0, avg: 19.03, max: 81.0)
+
+Episode: 239, exploration: 0.3311651292731441, score: 24.0
+Scores: (min: 9.0, avg: 19.11, max: 81.0)
+
+Episode: 240, exploration: 0.3303381472312244, score: 10.0
+Scores: (min: 9.0, avg: 18.92, max: 81.0)
+
+Episode: 241, exploration: 0.3293484942994893, score: 12.0
+Scores: (min: 9.0, avg: 18.89, max: 81.0)
+
+Episode: 242, exploration: 0.32623411103566746, score: 38.0
+Scores: (min: 9.0, avg: 18.89, max: 81.0)
+
+Episode: 243, exploration: 0.3253380878194243, score: 11.0
+Scores: (min: 9.0, avg: 18.77, max: 81.0)
+
+Episode: 244, exploration: 0.32460680870568215, score: 9.0
+Scores: (min: 9.0, avg: 18.74, max: 81.0)
+
+Episode: 245, exploration: 0.3238771733255273, score: 9.0
+Scores: (min: 9.0, avg: 18.74, max: 81.0)
+
+Episode: 246, exploration: 0.32266475706866843, score: 15.0
+Scores: (min: 9.0, avg: 18.76, max: 81.0)
+
+Episode: 247, exploration: 0.3216176681578787, score: 13.0
+Scores: (min: 9.0, avg: 18.78, max: 81.0)
+
+Episode: 248, exploration: 0.32065414072134724, score: 12.0
+Scores: (min: 9.0, avg: 18.8, max: 81.0)
+
+Episode: 249, exploration: 0.3191344556939972, score: 19.0
+Scores: (min: 9.0, avg: 18.83, max: 81.0)
+
+Episode: 250, exploration: 0.31722514394980034, score: 24.0
+Scores: (min: 9.0, avg: 18.87, max: 81.0)
+
+Episode: 251, exploration: 0.31643297269110626, score: 10.0
+Scores: (min: 9.0, avg: 18.86, max: 81.0)
+
+Episode: 252, exploration: 0.3146184779491546, score: 23.0
+Scores: (min: 9.0, avg: 18.86, max: 81.0)
+
+Episode: 253, exploration: 0.3125016908083541, score: 27.0
+Scores: (min: 9.0, avg: 18.32, max: 59.0)
+
+Episode: 254, exploration: 0.3115654737317832, score: 12.0
+Scores: (min: 9.0, avg: 18.28, max: 59.0)
+
+Episode: 255, exploration: 0.31070973888248365, score: 11.0
+Scores: (min: 9.0, avg: 18.21, max: 59.0)
+
+Episode: 256, exploration: 0.3093918602266096, score: 17.0
+Scores: (min: 9.0, avg: 18.18, max: 59.0)
+
+Episode: 257, exploration: 0.308619250160794, score: 10.0
+Scores: (min: 9.0, avg: 18.14, max: 59.0)
+
+Episode: 258, exploration: 0.30731023833502497, score: 17.0
+Scores: (min: 9.0, avg: 18.13, max: 59.0)
+
+Episode: 259, exploration: 0.30600677869681103, score: 17.0
+Scores: (min: 9.0, avg: 18.17, max: 59.0)
+
+Episode: 260, exploration: 0.30448037318886517, score: 20.0
+Scores: (min: 9.0, avg: 17.78, max: 46.0)
+
+Episode: 261, exploration: 0.30265873361960344, score: 24.0
+Scores: (min: 9.0, avg: 17.92, max: 46.0)
+
+Episode: 262, exploration: 0.30069758732874713, score: 26.0
+Scores: (min: 9.0, avg: 18.03, max: 46.0)
+
+Episode: 263, exploration: 0.2994970495823699, score: 16.0
+Scores: (min: 9.0, avg: 18.01, max: 46.0)
+
+Episode: 264, exploration: 0.29852514288180265, score: 13.0
+Scores: (min: 9.0, avg: 17.98, max: 46.0)
+
+Episode: 265, exploration: 0.29785413260022275, score: 9.0
+Scores: (min: 9.0, avg: 17.97, max: 46.0)
+
+Episode: 266, exploration: 0.2970360568416317, score: 11.0
+Scores: (min: 9.0, avg: 17.91, max: 46.0)
+
+Episode: 267, exploration: 0.2962943015567385, score: 10.0
+Scores: (min: 9.0, avg: 17.88, max: 46.0)
+
+Episode: 268, exploration: 0.2954066398481234, score: 12.0
+Scores: (min: 9.0, avg: 17.85, max: 46.0)
+
+Episode: 269, exploration: 0.294595286287651, score: 11.0
+Scores: (min: 9.0, avg: 17.64, max: 46.0)
+
+Episode: 270, exploration: 0.29290601353763795, score: 23.0
+Scores: (min: 9.0, avg: 17.76, max: 46.0)
+
+Episode: 271, exploration: 0.2921015281100601, score: 11.0
+Scores: (min: 9.0, avg: 17.72, max: 46.0)
+
+Episode: 272, exploration: 0.2889778659780195, score: 43.0
+Scores: (min: 9.0, avg: 18.03, max: 46.0)
+
+Episode: 273, exploration: 0.28804009539012465, score: 13.0
+Scores: (min: 9.0, avg: 17.94, max: 46.0)
+
+Episode: 274, exploration: 0.2868900927909754, score: 16.0
+Scores: (min: 9.0, avg: 17.78, max: 46.0)
+
+Weights of target Q-network updated
+Episode: 275, exploration: 0.2855304266487303, score: 19.0
+Scores: (min: 9.0, avg: 17.7, max: 46.0)
+
+Episode: 276, exploration: 0.28488862525761244, score: 9.0
+Scores: (min: 9.0, avg: 17.42, max: 46.0)
+
+Episode: 277, exploration: 0.28403513356866483, score: 12.0
+Scores: (min: 9.0, avg: 17.38, max: 46.0)
+
+Episode: 278, exploration: 0.28156035971744253, score: 35.0
+Scores: (min: 9.0, avg: 17.6, max: 46.0)
+
+Episode: 279, exploration: 0.2800858574640482, score: 21.0
+Scores: (min: 9.0, avg: 17.7, max: 46.0)
+
+Episode: 280, exploration: 0.27931658342942167, score: 11.0
+Scores: (min: 9.0, avg: 17.67, max: 46.0)
+
+Episode: 281, exploration: 0.2786887492125527, score: 9.0
+Scores: (min: 9.0, avg: 17.62, max: 46.0)
+
+Episode: 282, exploration: 0.2778538315985517, score: 12.0
+Scores: (min: 9.0, avg: 17.64, max: 46.0)
+
+Episode: 283, exploration: 0.27639874004653964, score: 21.0
+Scores: (min: 9.0, avg: 17.73, max: 46.0)
+
+Episode: 284, exploration: 0.2740590161936813, score: 34.0
+Scores: (min: 9.0, avg: 17.89, max: 46.0)
+
+Episode: 285, exploration: 0.27153534479854924, score: 37.0
+Scores: (min: 9.0, avg: 17.97, max: 46.0)
+
+Episode: 286, exploration: 0.268900411980111, score: 39.0
+Scores: (min: 9.0, avg: 18.19, max: 46.0)
+
+Episode: 287, exploration: 0.2663576375111193, score: 38.0
+Scores: (min: 9.0, avg: 18.35, max: 46.0)
+
+Episode: 288, exploration: 0.2644332882815404, score: 29.0
+Scores: (min: 9.0, avg: 18.51, max: 46.0)
+
+Episode: 289, exploration: 0.26350927423395143, score: 14.0
+Scores: (min: 9.0, avg: 18.31, max: 46.0)
+
+Episode: 290, exploration: 0.2629169709170659, score: 9.0
+Scores: (min: 9.0, avg: 18.29, max: 46.0)
+
+Episode: 291, exploration: 0.26186727261202425, score: 16.0
+Scores: (min: 9.0, avg: 18.19, max: 46.0)
+
+Episode: 292, exploration: 0.2586785705982685, score: 49.0
+Scores: (min: 9.0, avg: 18.22, max: 49.0)
+
+Episode: 293, exploration: 0.2561683977307113, score: 39.0
+Scores: (min: 9.0, avg: 18.48, max: 49.0)
+
+Episode: 294, exploration: 0.2552732638404594, score: 14.0
+Scores: (min: 9.0, avg: 18.36, max: 49.0)
+
+Episode: 295, exploration: 0.25419051958197353, score: 17.0
+Scores: (min: 9.0, avg: 18.3, max: 49.0)
+
+Episode: 296, exploration: 0.25266975322270996, score: 24.0
+Scores: (min: 9.0, avg: 18.37, max: 49.0)
+
+Episode: 297, exploration: 0.24878308569118046, score: 62.0
+Scores: (min: 9.0, avg: 18.68, max: 62.0)
+
+Episode: 298, exploration: 0.24630734469246143, score: 40.0
+Scores: (min: 9.0, avg: 18.96, max: 62.0)
+
+Episode: 299, exploration: 0.24489496538809344, score: 23.0
+Scores: (min: 9.0, avg: 19.09, max: 62.0)
+
+Episode: 300, exploration: 0.24282192195863733, score: 34.0
+Scores: (min: 9.0, avg: 19.32, max: 62.0)
+
+Episode: 301, exploration: 0.24130882914300614, score: 25.0
+Scores: (min: 9.0, avg: 19.45, max: 62.0)
+
+Episode: 302, exploration: 0.24070623529897447, score: 10.0
+Scores: (min: 9.0, avg: 19.42, max: 62.0)
+
+Episode: 303, exploration: 0.23429332916012416, score: 108.0
+Scores: (min: 9.0, avg: 20.32, max: 108.0)
+
+Episode: 304, exploration: 0.2315561527880237, score: 47.0
+Scores: (min: 9.0, avg: 20.67, max: 108.0)
+
+Episode: 305, exploration: 0.230458732316262, score: 19.0
+Scores: (min: 9.0, avg: 20.53, max: 108.0)
+
+Episode: 306, exploration: 0.22862218885020918, score: 32.0
+Scores: (min: 9.0, avg: 20.75, max: 108.0)
+
+Episode: 307, exploration: 0.22719757863111187, score: 25.0
+Scores: (min: 9.0, avg: 20.9, max: 108.0)
+
+Episode: 308, exploration: 0.22459944957631792, score: 46.0
+Scores: (min: 9.0, avg: 21.19, max: 108.0)
+
+Episode: 309, exploration: 0.22370273431023516, score: 16.0
+Scores: (min: 9.0, avg: 21.1, max: 108.0)
+
+Episode: 310, exploration: 0.22280959918769214, score: 16.0
+Scores: (min: 9.0, avg: 21.1, max: 108.0)
+
+Episode: 311, exploration: 0.22203103155377193, score: 14.0
+Scores: (min: 9.0, avg: 20.96, max: 108.0)
+
+Episode: 312, exploration: 0.22136585357431332, score: 12.0
+Scores: (min: 9.0, avg: 20.87, max: 108.0)
+
+Episode: 313, exploration: 0.21877970489408632, score: 47.0
+Scores: (min: 9.0, avg: 21.21, max: 108.0)
+
+Episode: 314, exploration: 0.2162778388473206, score: 46.0
+Scores: (min: 9.0, avg: 21.44, max: 108.0)
+
+Episode: 315, exploration: 0.21519901410406142, score: 20.0
+Scores: (min: 9.0, avg: 21.44, max: 108.0)
+
+Episode: 316, exploration: 0.21412557069267082, score: 20.0
+Scores: (min: 9.0, avg: 21.48, max: 108.0)
+
+Episode: 317, exploration: 0.20712209802976692, score: 133.0
+Scores: (min: 9.0, avg: 22.65, max: 133.0)
+
+Episode: 318, exploration: 0.20531746088585356, score: 35.0
+Scores: (min: 9.0, avg: 22.87, max: 133.0)
+
+Episode: 319, exploration: 0.20226030282599786, score: 60.0
+Scores: (min: 9.0, avg: 23.36, max: 133.0)
+
+Episode: 320, exploration: 0.19850278922576378, score: 75.0
+Scores: (min: 9.0, avg: 23.95, max: 133.0)
+
+Episode: 321, exploration: 0.1976114223286304, score: 18.0
+Scores: (min: 9.0, avg: 23.94, max: 133.0)
+
+Episode: 322, exploration: 0.1945716841358792, score: 62.0
+Scores: (min: 9.0, avg: 24.31, max: 133.0)
+
+Episode: 323, exploration: 0.1935043443254953, score: 22.0
+Scores: (min: 9.0, avg: 24.28, max: 133.0)
+
+Episode: 324, exploration: 0.1908615401484535, score: 55.0
+Scores: (min: 9.0, avg: 24.64, max: 133.0)
+
+Episode: 325, exploration: 0.18783168028156344, score: 64.0
+Scores: (min: 9.0, avg: 25.18, max: 133.0)
+
+Episode: 326, exploration: 0.1846651377639336, score: 68.0
+Scores: (min: 9.0, avg: 25.71, max: 133.0)
+
+Episode: 327, exploration: 0.18411190345990563, score: 12.0
+Scores: (min: 9.0, avg: 25.72, max: 133.0)
+
+Episode: 328, exploration: 0.18164278814356957, score: 54.0
+Scores: (min: 9.0, avg: 26.16, max: 133.0)
+
+Episode: 329, exploration: 0.17889340924181293, score: 61.0
+Scores: (min: 9.0, avg: 26.68, max: 133.0)
+
+Episode: 330, exploration: 0.17746779382441966, score: 32.0
+Scores: (min: 9.0, avg: 26.83, max: 133.0)
+
+Episode: 331, exploration: 0.17565781467274774, score: 41.0
+Scores: (min: 9.0, avg: 27.09, max: 133.0)
+
+Episode: 332, exploration: 0.17417086585792463, score: 34.0
+Scores: (min: 9.0, avg: 27.26, max: 133.0)
+
+Episode: 333, exploration: 0.17369249424035696, score: 11.0
+Scores: (min: 9.0, avg: 27.19, max: 133.0)
+
+Episode: 334, exploration: 0.172523872356931, score: 27.0
+Scores: (min: 9.0, avg: 27.36, max: 133.0)
+
+Episode: 335, exploration: 0.17012506908912883, score: 56.0
+Scores: (min: 9.0, avg: 27.71, max: 133.0)
+
+Episode: 336, exploration: 0.16872713692041552, score: 33.0
+Scores: (min: 9.0, avg: 27.64, max: 133.0)
+
+Episode: 337, exploration: 0.16813755061780922, score: 14.0
+Scores: (min: 9.0, avg: 27.52, max: 133.0)
+
+Episode: 338, exploration: 0.1652203785336186, score: 70.0
+Scores: (min: 9.0, avg: 28.05, max: 133.0)
+
+Episode: 339, exploration: 0.16472539836445357, score: 12.0
+Scores: (min: 9.0, avg: 27.93, max: 133.0)
+
+Episode: 340, exploration: 0.16365802257737874, score: 26.0
+Scores: (min: 9.0, avg: 28.09, max: 133.0)
+
+Episode: 341, exploration: 0.16271957226697212, score: 23.0
+Scores: (min: 9.0, avg: 28.2, max: 133.0)
+
+Episode: 342, exploration: 0.16166519368755808, score: 26.0
+Scores: (min: 9.0, avg: 28.08, max: 133.0)
+
+Episode: 343, exploration: 0.1599763798339304, score: 42.0
+Scores: (min: 9.0, avg: 28.39, max: 133.0)
+
+Episode: 344, exploration: 0.15953699429595986, score: 11.0
+Scores: (min: 9.0, avg: 28.41, max: 133.0)
+
+Episode: 345, exploration: 0.15842399624382314, score: 28.0
+Scores: (min: 9.0, avg: 28.6, max: 133.0)
+
+Episode: 346, exploration: 0.15649490097807614, score: 49.0
+Scores: (min: 9.0, avg: 28.94, max: 133.0)
+
+Episode: 347, exploration: 0.15520896906052767, score: 33.0
+Scores: (min: 9.0, avg: 29.14, max: 133.0)
+
+Episode: 348, exploration: 0.15416470633322113, score: 27.0
+Scores: (min: 9.0, avg: 29.29, max: 133.0)
+
+Weights of target Q-network updated
+Episode: 349, exploration: 0.15297439946217764, score: 31.0
+Scores: (min: 9.0, avg: 29.41, max: 133.0)
+
+Episode: 350, exploration: 0.15259239341731914, score: 10.0
+Scores: (min: 9.0, avg: 29.27, max: 133.0)
+
+Episode: 351, exploration: 0.15198316695250136, score: 16.0
+Scores: (min: 9.0, avg: 29.33, max: 133.0)
+
+Episode: 352, exploration: 0.1497950397689456, score: 58.0
+Scores: (min: 9.0, avg: 29.68, max: 133.0)
+
+Episode: 353, exploration: 0.14878720254334618, score: 27.0
+Scores: (min: 9.0, avg: 29.68, max: 133.0)
+
+Episode: 354, exploration: 0.1470122055137056, score: 48.0
+Scores: (min: 9.0, avg: 30.04, max: 133.0)
+
+Episode: 355, exploration: 0.14446155635541771, score: 70.0
+Scores: (min: 9.0, avg: 30.63, max: 133.0)
+
+Episode: 356, exploration: 0.13987643059547045, score: 129.0
+Scores: (min: 9.0, avg: 31.75, max: 133.0)
+
+Episode: 357, exploration: 0.13942251346895204, score: 13.0
+Scores: (min: 9.0, avg: 31.78, max: 133.0)
+
+Episode: 358, exploration: 0.13662725566517248, score: 81.0
+Scores: (min: 9.0, avg: 32.42, max: 133.0)
+
+Episode: 359, exploration: 0.13574194820196742, score: 26.0
+Scores: (min: 9.0, avg: 32.51, max: 133.0)
+
+Episode: 360, exploration: 0.13449196899473442, score: 37.0
+Scores: (min: 9.0, avg: 32.68, max: 133.0)
+
+Episode: 361, exploration: 0.132920740991405, score: 47.0
+Scores: (min: 9.0, avg: 32.91, max: 133.0)
+
+Episode: 362, exploration: 0.1302884081990016, score: 80.0
+Scores: (min: 9.0, avg: 33.45, max: 133.0)
+
+Episode: 363, exploration: 0.12912092812591414, score: 36.0
+Scores: (min: 9.0, avg: 33.65, max: 133.0)
+
+Episode: 364, exploration: 0.12653220502090706, score: 81.0
+Scores: (min: 9.0, avg: 34.33, max: 133.0)
+
+Episode: 365, exploration: 0.1259955173300819, score: 17.0
+Scores: (min: 9.0, avg: 34.41, max: 133.0)
+
+Episode: 366, exploration: 0.1251791006401643, score: 26.0
+Scores: (min: 9.0, avg: 34.56, max: 133.0)
+
+Episode: 367, exploration: 0.12362390768330934, score: 50.0
+Scores: (min: 9.0, avg: 34.96, max: 133.0)
+
+Episode: 368, exploration: 0.12157019834290539, score: 67.0
+Scores: (min: 9.0, avg: 35.51, max: 133.0)
+
+Episode: 369, exploration: 0.12075226090250364, score: 27.0
+Scores: (min: 9.0, avg: 35.67, max: 133.0)
+
+Episode: 370, exploration: 0.12, score: 29.0
+Scores: (min: 9.0, avg: 35.73, max: 133.0)
+
+Episode: 371, exploration: 0.12, score: 103.0
+Scores: (min: 9.0, avg: 36.65, max: 133.0)
+
+Episode: 372, exploration: 0.12, score: 52.0
+Scores: (min: 9.0, avg: 36.74, max: 133.0)
+
+Episode: 373, exploration: 0.12, score: 144.0
+Scores: (min: 9.0, avg: 38.05, max: 144.0)
+
+Episode: 374, exploration: 0.12, score: 55.0
+Scores: (min: 9.0, avg: 38.44, max: 144.0)
+
+Episode: 375, exploration: 0.12, score: 69.0
+Scores: (min: 9.0, avg: 38.94, max: 144.0)
+
+Episode: 376, exploration: 0.12, score: 13.0
+Scores: (min: 9.0, avg: 38.98, max: 144.0)
+
+Episode: 377, exploration: 0.12, score: 91.0
+Scores: (min: 9.0, avg: 39.77, max: 144.0)
+
+Episode: 378, exploration: 0.12, score: 28.0
+Scores: (min: 9.0, avg: 39.7, max: 144.0)
+
+Episode: 379, exploration: 0.12, score: 93.0
+Scores: (min: 9.0, avg: 40.42, max: 144.0)
+
+Episode: 380, exploration: 0.12, score: 94.0
+Scores: (min: 9.0, avg: 41.25, max: 144.0)
+
+Episode: 381, exploration: 0.12, score: 135.0
+Scores: (min: 9.0, avg: 42.51, max: 144.0)
+
+Episode: 382, exploration: 0.12, score: 48.0
+Scores: (min: 9.0, avg: 42.87, max: 144.0)
+
+Episode: 383, exploration: 0.12, score: 28.0
+Scores: (min: 9.0, avg: 42.94, max: 144.0)
+
+Episode: 384, exploration: 0.12, score: 177.0
+Scores: (min: 9.0, avg: 44.37, max: 177.0)
+
+Episode: 385, exploration: 0.12, score: 53.0
+Scores: (min: 9.0, avg: 44.53, max: 177.0)
+
+Episode: 386, exploration: 0.12, score: 36.0
+Scores: (min: 9.0, avg: 44.5, max: 177.0)
+
+Episode: 387, exploration: 0.12, score: 47.0
+Scores: (min: 9.0, avg: 44.59, max: 177.0)
+
+Episode: 388, exploration: 0.12, score: 38.0
+Scores: (min: 9.0, avg: 44.68, max: 177.0)
+
+Episode: 389, exploration: 0.12, score: 42.0
+Scores: (min: 9.0, avg: 44.96, max: 177.0)
+
+Episode: 390, exploration: 0.12, score: 32.0
+Scores: (min: 10.0, avg: 45.19, max: 177.0)
+
+Episode: 391, exploration: 0.12, score: 36.0
+Scores: (min: 10.0, avg: 45.39, max: 177.0)
+
+Episode: 392, exploration: 0.12, score: 57.0
+Scores: (min: 10.0, avg: 45.47, max: 177.0)
+
+Weights of target Q-network updated
+Episode: 393, exploration: 0.12, score: 240.0
+Scores: (min: 10.0, avg: 47.48, max: 240.0)
+
+Episode: 394, exploration: 0.12, score: 100.0
+Scores: (min: 10.0, avg: 48.34, max: 240.0)
+
+Episode: 395, exploration: 0.12, score: 36.0
+Scores: (min: 10.0, avg: 48.53, max: 240.0)
+
+Episode: 396, exploration: 0.12, score: 12.0
+Scores: (min: 10.0, avg: 48.41, max: 240.0)
+
+Episode: 397, exploration: 0.12, score: 65.0
+Scores: (min: 10.0, avg: 48.44, max: 240.0)
+
+Episode: 398, exploration: 0.12, score: 28.0
+Scores: (min: 10.0, avg: 48.32, max: 240.0)
+
+Episode: 399, exploration: 0.12, score: 70.0
+Scores: (min: 10.0, avg: 48.79, max: 240.0)
+
+Episode: 400, exploration: 0.12, score: 73.0
+Scores: (min: 10.0, avg: 49.18, max: 240.0)
+
+Episode: 401, exploration: 0.12, score: 59.0
+Scores: (min: 10.0, avg: 49.52, max: 240.0)
+
+Episode: 402, exploration: 0.12, score: 274.0
+Scores: (min: 10.0, avg: 52.16, max: 274.0)
+
+Episode: 403, exploration: 0.12, score: 16.0
+Scores: (min: 10.0, avg: 51.24, max: 274.0)
+
+Episode: 404, exploration: 0.12, score: 20.0
+Scores: (min: 10.0, avg: 50.97, max: 274.0)
+
+Episode: 405, exploration: 0.12, score: 134.0
+Scores: (min: 10.0, avg: 52.12, max: 274.0)
+
+Episode: 406, exploration: 0.12, score: 30.0
+Scores: (min: 10.0, avg: 52.1, max: 274.0)
+
+Episode: 407, exploration: 0.12, score: 12.0
+Scores: (min: 10.0, avg: 51.97, max: 274.0)
+
+Episode: 408, exploration: 0.12, score: 18.0
+Scores: (min: 10.0, avg: 51.69, max: 274.0)
+
+Episode: 409, exploration: 0.12, score: 107.0
+Scores: (min: 10.0, avg: 52.6, max: 274.0)
+
+Episode: 410, exploration: 0.12, score: 31.0
+Scores: (min: 10.0, avg: 52.75, max: 274.0)
+
+Episode: 411, exploration: 0.12, score: 31.0
+Scores: (min: 10.0, avg: 52.92, max: 274.0)
+
+Episode: 412, exploration: 0.12, score: 164.0
+Scores: (min: 10.0, avg: 54.44, max: 274.0)
+
+Episode: 413, exploration: 0.12, score: 203.0
+Scores: (min: 10.0, avg: 56.0, max: 274.0)
+
+Episode: 414, exploration: 0.12, score: 53.0
+Scores: (min: 10.0, avg: 56.07, max: 274.0)
+
+Episode: 415, exploration: 0.12, score: 88.0
+Scores: (min: 10.0, avg: 56.75, max: 274.0)
+
+Episode: 416, exploration: 0.12, score: 13.0
+Scores: (min: 10.0, avg: 56.68, max: 274.0)
+
+Episode: 417, exploration: 0.12, score: 214.0
+Scores: (min: 10.0, avg: 57.49, max: 274.0)
+
+Episode: 418, exploration: 0.12, score: 330.0
+Scores: (min: 10.0, avg: 60.44, max: 330.0)
+
+Episode: 419, exploration: 0.12, score: 26.0
+Scores: (min: 10.0, avg: 60.1, max: 330.0)
+
+Episode: 420, exploration: 0.12, score: 19.0
+Scores: (min: 10.0, avg: 59.54, max: 330.0)
+
+Episode: 421, exploration: 0.12, score: 64.0
+Scores: (min: 10.0, avg: 60.0, max: 330.0)
+
+Weights of target Q-network updated
+Episode: 422, exploration: 0.12, score: 117.0
+Scores: (min: 10.0, avg: 60.55, max: 330.0)
+
+Episode: 423, exploration: 0.12, score: 63.0
+Scores: (min: 10.0, avg: 60.96, max: 330.0)
+
+Episode: 424, exploration: 0.12, score: 121.0
+Scores: (min: 10.0, avg: 61.62, max: 330.0)
+
+Episode: 425, exploration: 0.12, score: 14.0
+Scores: (min: 10.0, avg: 61.12, max: 330.0)
+
+Episode: 426, exploration: 0.12, score: 25.0
+Scores: (min: 10.0, avg: 60.69, max: 330.0)
+
+Episode: 427, exploration: 0.12, score: 95.0
+Scores: (min: 10.0, avg: 61.52, max: 330.0)
+
+Episode: 428, exploration: 0.12, score: 442.0
+Scores: (min: 10.0, avg: 65.4, max: 442.0)
+
+Best model replaced
+Episode: 429, exploration: 0.12, score: 197.0
+Scores: (min: 10.0, avg: 66.76, max: 442.0)
+
+Episode: 430, exploration: 0.12, score: 34.0
+Scores: (min: 10.0, avg: 66.78, max: 442.0)
+
+Episode: 431, exploration: 0.12, score: 98.0
+Scores: (min: 10.0, avg: 67.35, max: 442.0)
+
+Episode: 432, exploration: 0.12, score: 267.0
+Scores: (min: 10.0, avg: 69.68, max: 442.0)
+
+Episode: 433, exploration: 0.12, score: 47.0
+Scores: (min: 10.0, avg: 70.04, max: 442.0)
+
+Episode: 434, exploration: 0.12, score: 100.0
+Scores: (min: 10.0, avg: 70.77, max: 442.0)
+
+Episode: 435, exploration: 0.12, score: 166.0
+Scores: (min: 10.0, avg: 71.87, max: 442.0)
+
+Episode: 436, exploration: 0.12, score: 117.0
+Scores: (min: 10.0, avg: 72.71, max: 442.0)
+
+Episode: 437, exploration: 0.12, score: 129.0
+Scores: (min: 10.0, avg: 73.86, max: 442.0)
+
+Episode: 438, exploration: 0.12, score: 66.0
+Scores: (min: 10.0, avg: 73.82, max: 442.0)
+
+Episode: 439, exploration: 0.12, score: 236.0
+Scores: (min: 10.0, avg: 76.06, max: 442.0)
+
+Episode: 440, exploration: 0.12, score: 73.0
+Scores: (min: 10.0, avg: 76.53, max: 442.0)
+
+Weights of target Q-network updated
+Episode: 441, exploration: 0.12, score: 136.0
+Scores: (min: 10.0, avg: 77.66, max: 442.0)
+
+Episode: 442, exploration: 0.12, score: 231.0
+Scores: (min: 10.0, avg: 79.71, max: 442.0)
+
+Episode: 443, exploration: 0.12, score: 172.0
+Scores: (min: 10.0, avg: 81.01, max: 442.0)
+
+Episode: 444, exploration: 0.12, score: 24.0
+Scores: (min: 10.0, avg: 81.14, max: 442.0)
+
+Episode: 445, exploration: 0.12, score: 77.0
+Scores: (min: 10.0, avg: 81.63, max: 442.0)
+
+Episode: 446, exploration: 0.12, score: 293.0
+Scores: (min: 10.0, avg: 84.07, max: 442.0)
+
+Episode: 447, exploration: 0.12, score: 43.0
+Scores: (min: 10.0, avg: 84.17, max: 442.0)
+
+Episode: 448, exploration: 0.12, score: 41.0
+Scores: (min: 10.0, avg: 84.31, max: 442.0)
+
+Episode: 449, exploration: 0.12, score: 55.0
+Scores: (min: 10.0, avg: 84.55, max: 442.0)
+
+Episode: 450, exploration: 0.12, score: 68.0
+Scores: (min: 12.0, avg: 85.13, max: 442.0)
+
+Episode: 451, exploration: 0.12, score: 189.0
+Scores: (min: 12.0, avg: 86.86, max: 442.0)
+
+Episode: 452, exploration: 0.12, score: 17.0
+Scores: (min: 12.0, avg: 86.45, max: 442.0)
+
+Episode: 453, exploration: 0.12, score: 196.0
+Scores: (min: 12.0, avg: 88.14, max: 442.0)
+
+Episode: 454, exploration: 0.12, score: 135.0
+Scores: (min: 12.0, avg: 89.01, max: 442.0)
+
+Episode: 455, exploration: 0.12, score: 33.0
+Scores: (min: 12.0, avg: 88.64, max: 442.0)
+
+Episode: 456, exploration: 0.12, score: 60.0
+Scores: (min: 12.0, avg: 87.95, max: 442.0)
+
+Episode: 457, exploration: 0.12, score: 267.0
+Scores: (min: 12.0, avg: 90.49, max: 442.0)
+
+Episode: 458, exploration: 0.12, score: 96.0
+Scores: (min: 12.0, avg: 90.64, max: 442.0)
+
+Episode: 459, exploration: 0.12, score: 83.0
+Scores: (min: 12.0, avg: 91.21, max: 442.0)
+
+Episode: 460, exploration: 0.12, score: 45.0
+Scores: (min: 12.0, avg: 91.29, max: 442.0)
+
+Episode: 461, exploration: 0.12, score: 179.0
+Scores: (min: 12.0, avg: 92.61, max: 442.0)
+
+Episode: 462, exploration: 0.12, score: 132.0
+Scores: (min: 12.0, avg: 93.13, max: 442.0)
+
+Weights of target Q-network updated
+Episode: 463, exploration: 0.12, score: 122.0
+Scores: (min: 12.0, avg: 93.99, max: 442.0)
+
+Episode: 464, exploration: 0.12, score: 184.0
+Scores: (min: 12.0, avg: 95.02, max: 442.0)
+
+Episode: 465, exploration: 0.12, score: 323.0
+Scores: (min: 12.0, avg: 98.08, max: 442.0)
+
+Episode: 466, exploration: 0.12, score: 89.0
+Scores: (min: 12.0, avg: 98.71, max: 442.0)
+
+Episode: 467, exploration: 0.12, score: 95.0
+Scores: (min: 12.0, avg: 99.16, max: 442.0)
+
+Episode: 468, exploration: 0.12, score: 397.0
+Scores: (min: 12.0, avg: 102.46, max: 442.0)
+
+Episode: 469, exploration: 0.12, score: 265.0
+Scores: (min: 12.0, avg: 104.84, max: 442.0)
+
+Episode: 470, exploration: 0.12, score: 113.0
+Scores: (min: 12.0, avg: 105.68, max: 442.0)
+
+Episode: 471, exploration: 0.12, score: 30.0
+Scores: (min: 12.0, avg: 104.95, max: 442.0)
+
+Episode: 472, exploration: 0.12, score: 49.0
+Scores: (min: 12.0, avg: 104.92, max: 442.0)
+
+Episode: 473, exploration: 0.12, score: 155.0
+Scores: (min: 12.0, avg: 105.03, max: 442.0)
+
+Episode: 474, exploration: 0.12, score: 195.0
+Scores: (min: 12.0, avg: 106.43, max: 442.0)
+
+Episode: 475, exploration: 0.12, score: 14.0
+Scores: (min: 12.0, avg: 105.88, max: 442.0)
+
+Episode: 476, exploration: 0.12, score: 85.0
+Scores: (min: 12.0, avg: 106.6, max: 442.0)
+
+Episode: 477, exploration: 0.12, score: 151.0
+Scores: (min: 12.0, avg: 107.2, max: 442.0)
+
+Episode: 478, exploration: 0.12, score: 161.0
+Scores: (min: 12.0, avg: 108.53, max: 442.0)
+
+Weights of target Q-network updated
+Episode: 479, exploration: 0.12, score: 264.0
+Scores: (min: 12.0, avg: 110.24, max: 442.0)
+
+Episode: 480, exploration: 0.12, score: 103.0
+Scores: (min: 12.0, avg: 110.33, max: 442.0)
+
+Episode: 481, exploration: 0.12, score: 181.0
+Scores: (min: 12.0, avg: 110.79, max: 442.0)
+
+Episode: 482, exploration: 0.12, score: 73.0
+Scores: (min: 12.0, avg: 111.04, max: 442.0)
+
+Episode: 483, exploration: 0.12, score: 270.0
+Scores: (min: 12.0, avg: 113.46, max: 442.0)
+
+Episode: 484, exploration: 0.12, score: 243.0
+Scores: (min: 12.0, avg: 114.12, max: 442.0)
+
+Episode: 485, exploration: 0.12, score: 134.0
+Scores: (min: 12.0, avg: 114.93, max: 442.0)
+
+Episode: 486, exploration: 0.12, score: 199.0
+Scores: (min: 12.0, avg: 116.56, max: 442.0)
+
+Episode: 487, exploration: 0.12, score: 22.0
+Scores: (min: 12.0, avg: 116.31, max: 442.0)
+
+Episode: 488, exploration: 0.12, score: 154.0
+Scores: (min: 12.0, avg: 117.47, max: 442.0)
+
+Episode: 489, exploration: 0.12, score: 32.0
+Scores: (min: 12.0, avg: 117.37, max: 442.0)
+
+Episode: 490, exploration: 0.12, score: 142.0
+Scores: (min: 12.0, avg: 118.47, max: 442.0)
+
+Episode: 491, exploration: 0.12, score: 29.0
+Scores: (min: 12.0, avg: 118.4, max: 442.0)
+
+Episode: 492, exploration: 0.12, score: 205.0
+Scores: (min: 12.0, avg: 119.88, max: 442.0)
+
+Episode: 493, exploration: 0.12, score: 221.0
+Scores: (min: 12.0, avg: 119.69, max: 442.0)
+
+Episode: 494, exploration: 0.12, score: 135.0
+Scores: (min: 12.0, avg: 120.04, max: 442.0)
+
+Episode: 495, exploration: 0.12, score: 183.0
+Scores: (min: 12.0, avg: 121.51, max: 442.0)
+
+Weights of target Q-network updated
+Episode: 496, exploration: 0.12, score: 198.0
+Scores: (min: 12.0, avg: 123.37, max: 442.0)
+
+Episode: 497, exploration: 0.12, score: 337.0
+Scores: (min: 12.0, avg: 126.09, max: 442.0)
+
+Episode: 498, exploration: 0.12, score: 64.0
+Scores: (min: 12.0, avg: 126.45, max: 442.0)
+
+Episode: 499, exploration: 0.12, score: 69.0
+Scores: (min: 12.0, avg: 126.44, max: 442.0)
+
+Episode: 500, exploration: 0.12, score: 29.0
+Scores: (min: 12.0, avg: 126.0, max: 442.0)
+
+Episode: 501, exploration: 0.12, score: 90.0
+Scores: (min: 12.0, avg: 126.31, max: 442.0)
+
+Episode: 502, exploration: 0.12, score: 163.0
+Scores: (min: 12.0, avg: 125.2, max: 442.0)
+
+Episode: 503, exploration: 0.12, score: 149.0
+Scores: (min: 12.0, avg: 126.53, max: 442.0)
+
+Episode: 504, exploration: 0.12, score: 287.0
+Scores: (min: 12.0, avg: 129.2, max: 442.0)
+
+Episode: 505, exploration: 0.12, score: 58.0
+Scores: (min: 12.0, avg: 128.44, max: 442.0)
+
+Episode: 506, exploration: 0.12, score: 87.0
+Scores: (min: 12.0, avg: 129.01, max: 442.0)
+
+Episode: 507, exploration: 0.12, score: 149.0
+Scores: (min: 13.0, avg: 130.38, max: 442.0)
+
+Episode: 508, exploration: 0.12, score: 115.0
+Scores: (min: 13.0, avg: 131.35, max: 442.0)
+
+Episode: 509, exploration: 0.12, score: 52.0
+Scores: (min: 13.0, avg: 130.8, max: 442.0)
+
+Episode: 510, exploration: 0.12, score: 291.0
+Scores: (min: 13.0, avg: 133.4, max: 442.0)
+
+Episode: 511, exploration: 0.12, score: 88.0
+Scores: (min: 13.0, avg: 133.97, max: 442.0)
+
+Episode: 512, exploration: 0.12, score: 55.0
+Scores: (min: 13.0, avg: 132.88, max: 442.0)
+
+Episode: 513, exploration: 0.12, score: 45.0
+Scores: (min: 13.0, avg: 131.3, max: 442.0)
+
+Episode: 514, exploration: 0.12, score: 137.0
+Scores: (min: 13.0, avg: 132.14, max: 442.0)
+
+Weights of target Q-network updated
+Episode: 515, exploration: 0.12, score: 292.0
+Scores: (min: 13.0, avg: 134.18, max: 442.0)
+
+Episode: 516, exploration: 0.12, score: 208.0
+Scores: (min: 14.0, avg: 136.13, max: 442.0)
+
+Episode: 517, exploration: 0.12, score: 152.0
+Scores: (min: 14.0, avg: 135.51, max: 442.0)
+
+Episode: 518, exploration: 0.12, score: 280.0
+Scores: (min: 14.0, avg: 135.01, max: 442.0)
+
+Episode: 519, exploration: 0.12, score: 40.0
+Scores: (min: 14.0, avg: 135.15, max: 442.0)
+
+Episode: 520, exploration: 0.12, score: 95.0
+Scores: (min: 14.0, avg: 135.91, max: 442.0)
+
+Episode: 521, exploration: 0.12, score: 168.0
+Scores: (min: 14.0, avg: 136.95, max: 442.0)
+
+Episode: 522, exploration: 0.12, score: 68.0
+Scores: (min: 14.0, avg: 136.46, max: 442.0)
+
+Episode: 523, exploration: 0.12, score: 34.0
+Scores: (min: 14.0, avg: 136.17, max: 442.0)
+
+Episode: 524, exploration: 0.12, score: 148.0
+Scores: (min: 14.0, avg: 136.44, max: 442.0)
+
+Episode: 525, exploration: 0.12, score: 154.0
+Scores: (min: 14.0, avg: 137.84, max: 442.0)
+
+Episode: 526, exploration: 0.12, score: 145.0
+Scores: (min: 14.0, avg: 139.04, max: 442.0)
+
+Episode: 527, exploration: 0.12, score: 152.0
+Scores: (min: 14.0, avg: 139.61, max: 442.0)
+
+Episode: 528, exploration: 0.12, score: 124.0
+Scores: (min: 14.0, avg: 136.43, max: 397.0)
+
+Episode: 529, exploration: 0.12, score: 351.0
+Scores: (min: 14.0, avg: 137.97, max: 397.0)
+
+Episode: 530, exploration: 0.12, score: 139.0
+Scores: (min: 14.0, avg: 139.02, max: 397.0)
+
+Weights of target Q-network updated
+Episode: 531, exploration: 0.12, score: 325.0
+Scores: (min: 14.0, avg: 141.29, max: 397.0)
+
+Episode: 532, exploration: 0.12, score: 412.0
+Scores: (min: 14.0, avg: 142.74, max: 412.0)
+
+Episode: 533, exploration: 0.12, score: 188.0
+Scores: (min: 14.0, avg: 144.15, max: 412.0)
+
+Episode: 534, exploration: 0.12, score: 299.0
+Scores: (min: 14.0, avg: 146.14, max: 412.0)
+
+Episode: 535, exploration: 0.12, score: 212.0
+Scores: (min: 14.0, avg: 146.6, max: 412.0)
+
+Episode: 536, exploration: 0.12, score: 177.0
+Scores: (min: 14.0, avg: 147.2, max: 412.0)
+
+Episode: 537, exploration: 0.12, score: 181.0
+Scores: (min: 14.0, avg: 147.72, max: 412.0)
+
+Episode: 538, exploration: 0.12, score: 353.0
+Scores: (min: 14.0, avg: 150.59, max: 412.0)
+
+Episode: 539, exploration: 0.12, score: 159.0
+Scores: (min: 14.0, avg: 149.82, max: 412.0)
+
+Episode: 540, exploration: 0.12, score: 30.0
+Scores: (min: 14.0, avg: 149.39, max: 412.0)
+
+Episode: 541, exploration: 0.12, score: 118.0
+Scores: (min: 14.0, avg: 149.21, max: 412.0)
+
+Weights of target Q-network updated
+Episode: 542, exploration: 0.12, score: 500.0
+Scores: (min: 14.0, avg: 151.9, max: 500.0)
+
+Best model replaced
+Episode: 543, exploration: 0.12, score: 168.0
+Scores: (min: 14.0, avg: 151.86, max: 500.0)
+
+Episode: 544, exploration: 0.12, score: 54.0
+Scores: (min: 14.0, avg: 152.16, max: 500.0)
+
+Episode: 545, exploration: 0.12, score: 221.0
+Scores: (min: 14.0, avg: 153.6, max: 500.0)
+
+Episode: 546, exploration: 0.12, score: 381.0
+Scores: (min: 14.0, avg: 154.48, max: 500.0)
+
+Episode: 547, exploration: 0.12, score: 168.0
+Scores: (min: 14.0, avg: 155.73, max: 500.0)
+
+Episode: 548, exploration: 0.12, score: 278.0
+Scores: (min: 14.0, avg: 158.1, max: 500.0)
+
+Episode: 549, exploration: 0.12, score: 168.0
+Scores: (min: 14.0, avg: 159.23, max: 500.0)
+
+Episode: 550, exploration: 0.12, score: 249.0
+Scores: (min: 14.0, avg: 161.04, max: 500.0)
+
+Episode: 551, exploration: 0.12, score: 244.0
+Scores: (min: 14.0, avg: 161.59, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 552, exploration: 0.12, score: 192.0
+Scores: (min: 14.0, avg: 163.34, max: 500.0)
+
+Episode: 553, exploration: 0.12, score: 468.0
+Scores: (min: 14.0, avg: 166.06, max: 500.0)
+
+Best model replaced
+Episode: 554, exploration: 0.12, score: 29.0
+Scores: (min: 14.0, avg: 165.0, max: 500.0)
+
+Episode: 555, exploration: 0.12, score: 206.0
+Scores: (min: 14.0, avg: 166.73, max: 500.0)
+
+Episode: 556, exploration: 0.12, score: 455.0
+Scores: (min: 14.0, avg: 170.68, max: 500.0)
+
+Best model replaced
+Episode: 557, exploration: 0.12, score: 209.0
+Scores: (min: 14.0, avg: 170.1, max: 500.0)
+
+Episode: 558, exploration: 0.12, score: 411.0
+Scores: (min: 14.0, avg: 173.25, max: 500.0)
+
+Episode: 559, exploration: 0.12, score: 164.0
+Scores: (min: 14.0, avg: 174.06, max: 500.0)
+
+Episode: 560, exploration: 0.12, score: 369.0
+Scores: (min: 14.0, avg: 177.3, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 561, exploration: 0.12, score: 261.0
+Scores: (min: 14.0, avg: 178.12, max: 500.0)
+
+Episode: 562, exploration: 0.12, score: 146.0
+Scores: (min: 14.0, avg: 178.26, max: 500.0)
+
+Episode: 563, exploration: 0.12, score: 287.0
+Scores: (min: 14.0, avg: 179.91, max: 500.0)
+
+Episode: 564, exploration: 0.12, score: 191.0
+Scores: (min: 14.0, avg: 179.98, max: 500.0)
+
+Episode: 565, exploration: 0.12, score: 141.0
+Scores: (min: 14.0, avg: 178.16, max: 500.0)
+
+Episode: 566, exploration: 0.12, score: 12.0
+Scores: (min: 12.0, avg: 177.39, max: 500.0)
+
+Episode: 567, exploration: 0.12, score: 137.0
+Scores: (min: 12.0, avg: 177.81, max: 500.0)
+
+Episode: 568, exploration: 0.12, score: 122.0
+Scores: (min: 12.0, avg: 175.06, max: 500.0)
+
+Episode: 569, exploration: 0.12, score: 202.0
+Scores: (min: 12.0, avg: 174.43, max: 500.0)
+
+Episode: 570, exploration: 0.12, score: 172.0
+Scores: (min: 12.0, avg: 175.02, max: 500.0)
+
+Episode: 571, exploration: 0.12, score: 248.0
+Scores: (min: 12.0, avg: 177.2, max: 500.0)
+
+Episode: 572, exploration: 0.12, score: 126.0
+Scores: (min: 12.0, avg: 177.97, max: 500.0)
+
+Episode: 573, exploration: 0.12, score: 141.0
+Scores: (min: 12.0, avg: 177.83, max: 500.0)
+
+Episode: 574, exploration: 0.12, score: 149.0
+Scores: (min: 12.0, avg: 177.37, max: 500.0)
+
+Episode: 575, exploration: 0.12, score: 26.0
+Scores: (min: 12.0, avg: 177.49, max: 500.0)
+
+Episode: 576, exploration: 0.12, score: 180.0
+Scores: (min: 12.0, avg: 178.44, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 577, exploration: 0.12, score: 156.0
+Scores: (min: 12.0, avg: 178.49, max: 500.0)
+
+Episode: 578, exploration: 0.12, score: 142.0
+Scores: (min: 12.0, avg: 178.3, max: 500.0)
+
+Episode: 579, exploration: 0.12, score: 130.0
+Scores: (min: 12.0, avg: 176.96, max: 500.0)
+
+Episode: 580, exploration: 0.12, score: 180.0
+Scores: (min: 12.0, avg: 177.73, max: 500.0)
+
+Episode: 581, exploration: 0.12, score: 140.0
+Scores: (min: 12.0, avg: 177.32, max: 500.0)
+
+Episode: 582, exploration: 0.12, score: 163.0
+Scores: (min: 12.0, avg: 178.22, max: 500.0)
+
+Episode: 583, exploration: 0.12, score: 136.0
+Scores: (min: 12.0, avg: 176.88, max: 500.0)
+
+Episode: 584, exploration: 0.12, score: 164.0
+Scores: (min: 12.0, avg: 176.09, max: 500.0)
+
+Episode: 585, exploration: 0.12, score: 139.0
+Scores: (min: 12.0, avg: 176.14, max: 500.0)
+
+Episode: 586, exploration: 0.12, score: 26.0
+Scores: (min: 12.0, avg: 174.41, max: 500.0)
+
+Episode: 587, exploration: 0.12, score: 157.0
+Scores: (min: 12.0, avg: 175.76, max: 500.0)
+
+Episode: 588, exploration: 0.12, score: 146.0
+Scores: (min: 12.0, avg: 175.68, max: 500.0)
+
+Episode: 589, exploration: 0.12, score: 128.0
+Scores: (min: 12.0, avg: 176.64, max: 500.0)
+
+Episode: 590, exploration: 0.12, score: 165.0
+Scores: (min: 12.0, avg: 176.87, max: 500.0)
+
+Episode: 591, exploration: 0.12, score: 126.0
+Scores: (min: 12.0, avg: 177.84, max: 500.0)
+
+Episode: 592, exploration: 0.12, score: 153.0
+Scores: (min: 12.0, avg: 177.32, max: 500.0)
+
+Episode: 593, exploration: 0.12, score: 114.0
+Scores: (min: 12.0, avg: 176.25, max: 500.0)
+
+Episode: 594, exploration: 0.12, score: 115.0
+Scores: (min: 12.0, avg: 176.05, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 595, exploration: 0.12, score: 124.0
+Scores: (min: 12.0, avg: 175.46, max: 500.0)
+
+Episode: 596, exploration: 0.12, score: 137.0
+Scores: (min: 12.0, avg: 174.85, max: 500.0)
+
+Episode: 597, exploration: 0.12, score: 152.0
+Scores: (min: 12.0, avg: 173.0, max: 500.0)
+
+Episode: 598, exploration: 0.12, score: 142.0
+Scores: (min: 12.0, avg: 173.78, max: 500.0)
+
+Episode: 599, exploration: 0.12, score: 136.0
+Scores: (min: 12.0, avg: 174.45, max: 500.0)
+
+Episode: 600, exploration: 0.12, score: 153.0
+Scores: (min: 12.0, avg: 175.69, max: 500.0)
+
+Episode: 601, exploration: 0.12, score: 151.0
+Scores: (min: 12.0, avg: 176.3, max: 500.0)
+
+Episode: 602, exploration: 0.12, score: 132.0
+Scores: (min: 12.0, avg: 175.99, max: 500.0)
+
+Episode: 603, exploration: 0.12, score: 80.0
+Scores: (min: 12.0, avg: 175.3, max: 500.0)
+
+Episode: 604, exploration: 0.12, score: 122.0
+Scores: (min: 12.0, avg: 173.65, max: 500.0)
+
+Episode: 605, exploration: 0.12, score: 147.0
+Scores: (min: 12.0, avg: 174.54, max: 500.0)
+
+Episode: 606, exploration: 0.12, score: 168.0
+Scores: (min: 12.0, avg: 175.35, max: 500.0)
+
+Episode: 607, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 175.17, max: 500.0)
+
+Episode: 608, exploration: 0.12, score: 153.0
+Scores: (min: 12.0, avg: 175.55, max: 500.0)
+
+Episode: 609, exploration: 0.12, score: 169.0
+Scores: (min: 12.0, avg: 176.72, max: 500.0)
+
+Episode: 610, exploration: 0.12, score: 160.0
+Scores: (min: 12.0, avg: 175.41, max: 500.0)
+
+Episode: 611, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 175.84, max: 500.0)
+
+Episode: 612, exploration: 0.12, score: 128.0
+Scores: (min: 12.0, avg: 176.57, max: 500.0)
+
+Episode: 613, exploration: 0.12, score: 45.0
+Scores: (min: 12.0, avg: 176.57, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 614, exploration: 0.12, score: 180.0
+Scores: (min: 12.0, avg: 177.0, max: 500.0)
+
+Episode: 615, exploration: 0.12, score: 107.0
+Scores: (min: 12.0, avg: 175.15, max: 500.0)
+
+Episode: 616, exploration: 0.12, score: 142.0
+Scores: (min: 12.0, avg: 174.49, max: 500.0)
+
+Episode: 617, exploration: 0.12, score: 179.0
+Scores: (min: 12.0, avg: 174.76, max: 500.0)
+
+Episode: 618, exploration: 0.12, score: 104.0
+Scores: (min: 12.0, avg: 173.0, max: 500.0)
+
+Episode: 619, exploration: 0.12, score: 125.0
+Scores: (min: 12.0, avg: 173.85, max: 500.0)
+
+Episode: 620, exploration: 0.12, score: 123.0
+Scores: (min: 12.0, avg: 174.13, max: 500.0)
+
+Episode: 621, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 173.76, max: 500.0)
+
+Episode: 622, exploration: 0.12, score: 111.0
+Scores: (min: 12.0, avg: 174.19, max: 500.0)
+
+Episode: 623, exploration: 0.12, score: 121.0
+Scores: (min: 12.0, avg: 175.06, max: 500.0)
+
+Episode: 624, exploration: 0.12, score: 47.0
+Scores: (min: 12.0, avg: 174.05, max: 500.0)
+
+Episode: 625, exploration: 0.12, score: 161.0
+Scores: (min: 12.0, avg: 174.12, max: 500.0)
+
+Episode: 626, exploration: 0.12, score: 138.0
+Scores: (min: 12.0, avg: 174.05, max: 500.0)
+
+Episode: 627, exploration: 0.12, score: 145.0
+Scores: (min: 12.0, avg: 173.98, max: 500.0)
+
+Episode: 628, exploration: 0.12, score: 93.0
+Scores: (min: 12.0, avg: 173.67, max: 500.0)
+
+Episode: 629, exploration: 0.12, score: 75.0
+Scores: (min: 12.0, avg: 170.91, max: 500.0)
+
+Episode: 630, exploration: 0.12, score: 74.0
+Scores: (min: 12.0, avg: 170.26, max: 500.0)
+
+Episode: 631, exploration: 0.12, score: 109.0
+Scores: (min: 12.0, avg: 168.1, max: 500.0)
+
+Episode: 632, exploration: 0.12, score: 61.0
+Scores: (min: 12.0, avg: 164.59, max: 500.0)
+
+Episode: 633, exploration: 0.12, score: 13.0
+Scores: (min: 12.0, avg: 162.84, max: 500.0)
+
+Episode: 634, exploration: 0.12, score: 146.0
+Scores: (min: 12.0, avg: 161.31, max: 500.0)
+
+Episode: 635, exploration: 0.12, score: 106.0
+Scores: (min: 12.0, avg: 160.25, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 636, exploration: 0.12, score: 113.0
+Scores: (min: 12.0, avg: 159.61, max: 500.0)
+
+Episode: 637, exploration: 0.12, score: 111.0
+Scores: (min: 12.0, avg: 158.91, max: 500.0)
+
+Episode: 638, exploration: 0.12, score: 109.0
+Scores: (min: 12.0, avg: 156.47, max: 500.0)
+
+Episode: 639, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 156.17, max: 500.0)
+
+Episode: 640, exploration: 0.12, score: 56.0
+Scores: (min: 12.0, avg: 156.43, max: 500.0)
+
+Episode: 641, exploration: 0.12, score: 106.0
+Scores: (min: 12.0, avg: 156.31, max: 500.0)
+
+Episode: 642, exploration: 0.12, score: 89.0
+Scores: (min: 12.0, avg: 152.2, max: 468.0)
+
+Episode: 643, exploration: 0.12, score: 130.0
+Scores: (min: 12.0, avg: 151.82, max: 468.0)
+
+Episode: 644, exploration: 0.12, score: 108.0
+Scores: (min: 12.0, avg: 152.36, max: 468.0)
+
+Episode: 645, exploration: 0.12, score: 149.0
+Scores: (min: 12.0, avg: 151.64, max: 468.0)
+
+Episode: 646, exploration: 0.12, score: 14.0
+Scores: (min: 12.0, avg: 147.97, max: 468.0)
+
+Episode: 647, exploration: 0.12, score: 123.0
+Scores: (min: 12.0, avg: 147.52, max: 468.0)
+
+Episode: 648, exploration: 0.12, score: 12.0
+Scores: (min: 12.0, avg: 144.86, max: 468.0)
+
+Episode: 649, exploration: 0.12, score: 115.0
+Scores: (min: 12.0, avg: 144.33, max: 468.0)
+
+Episode: 650, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 143.15, max: 468.0)
+
+Episode: 651, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 142.02, max: 468.0)
+
+Episode: 652, exploration: 0.12, score: 15.0
+Scores: (min: 12.0, avg: 140.25, max: 468.0)
+
+Episode: 653, exploration: 0.12, score: 98.0
+Scores: (min: 12.0, avg: 136.55, max: 455.0)
+
+Episode: 654, exploration: 0.12, score: 115.0
+Scores: (min: 12.0, avg: 137.41, max: 455.0)
+
+Episode: 655, exploration: 0.12, score: 111.0
+Scores: (min: 12.0, avg: 136.46, max: 455.0)
+
+Episode: 656, exploration: 0.12, score: 123.0
+Scores: (min: 12.0, avg: 133.14, max: 411.0)
+
+Episode: 657, exploration: 0.12, score: 114.0
+Scores: (min: 12.0, avg: 132.19, max: 411.0)
+
+Episode: 658, exploration: 0.12, score: 117.0
+Scores: (min: 12.0, avg: 129.25, max: 369.0)
+
+Episode: 659, exploration: 0.12, score: 19.0
+Scores: (min: 12.0, avg: 127.8, max: 369.0)
+
+Episode: 660, exploration: 0.12, score: 110.0
+Scores: (min: 12.0, avg: 125.21, max: 287.0)
+
+Weights of target Q-network updated
+Episode: 661, exploration: 0.12, score: 116.0
+Scores: (min: 12.0, avg: 123.76, max: 287.0)
+
+Episode: 662, exploration: 0.12, score: 141.0
+Scores: (min: 12.0, avg: 123.71, max: 287.0)
+
+Episode: 663, exploration: 0.12, score: 115.0
+Scores: (min: 12.0, avg: 121.99, max: 248.0)
+
+Episode: 664, exploration: 0.12, score: 230.0
+Scores: (min: 12.0, avg: 122.38, max: 248.0)
+
+Episode: 665, exploration: 0.12, score: 195.0
+Scores: (min: 12.0, avg: 122.92, max: 248.0)
+
+Episode: 666, exploration: 0.12, score: 189.0
+Scores: (min: 12.0, avg: 124.69, max: 248.0)
+
+Episode: 667, exploration: 0.12, score: 150.0
+Scores: (min: 12.0, avg: 124.82, max: 248.0)
+
+Episode: 668, exploration: 0.12, score: 146.0
+Scores: (min: 12.0, avg: 125.06, max: 248.0)
+
+Episode: 669, exploration: 0.12, score: 61.0
+Scores: (min: 12.0, avg: 123.65, max: 248.0)
+
+Episode: 670, exploration: 0.12, score: 165.0
+Scores: (min: 12.0, avg: 123.58, max: 248.0)
+
+Episode: 671, exploration: 0.12, score: 71.0
+Scores: (min: 12.0, avg: 121.81, max: 230.0)
+
+Episode: 672, exploration: 0.12, score: 121.0
+Scores: (min: 12.0, avg: 121.76, max: 230.0)
+
+Episode: 673, exploration: 0.12, score: 147.0
+Scores: (min: 12.0, avg: 121.82, max: 230.0)
+
+Episode: 674, exploration: 0.12, score: 202.0
+Scores: (min: 12.0, avg: 122.35, max: 230.0)
+
+Episode: 675, exploration: 0.12, score: 36.0
+Scores: (min: 12.0, avg: 122.45, max: 230.0)
+
+Episode: 676, exploration: 0.12, score: 29.0
+Scores: (min: 12.0, avg: 120.94, max: 230.0)
+
+Episode: 677, exploration: 0.12, score: 113.0
+Scores: (min: 12.0, avg: 120.51, max: 230.0)
+
+Episode: 678, exploration: 0.12, score: 58.0
+Scores: (min: 12.0, avg: 119.67, max: 230.0)
+
+Episode: 679, exploration: 0.12, score: 127.0
+Scores: (min: 12.0, avg: 119.64, max: 230.0)
+
+Episode: 680, exploration: 0.12, score: 132.0
+Scores: (min: 12.0, avg: 119.16, max: 230.0)
+
+Weights of target Q-network updated
+Episode: 681, exploration: 0.12, score: 94.0
+Scores: (min: 12.0, avg: 118.7, max: 230.0)
+
+Episode: 682, exploration: 0.12, score: 124.0
+Scores: (min: 12.0, avg: 118.31, max: 230.0)
+
+Episode: 683, exploration: 0.12, score: 103.0
+Scores: (min: 12.0, avg: 117.98, max: 230.0)
+
+Episode: 684, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 117.63, max: 230.0)
+
+Episode: 685, exploration: 0.12, score: 134.0
+Scores: (min: 12.0, avg: 117.58, max: 230.0)
+
+Episode: 686, exploration: 0.12, score: 153.0
+Scores: (min: 12.0, avg: 118.85, max: 230.0)
+
+Episode: 687, exploration: 0.12, score: 136.0
+Scores: (min: 12.0, avg: 118.64, max: 230.0)
+
+Episode: 688, exploration: 0.12, score: 167.0
+Scores: (min: 12.0, avg: 118.85, max: 230.0)
+
+Episode: 689, exploration: 0.12, score: 152.0
+Scores: (min: 12.0, avg: 119.09, max: 230.0)
+
+Episode: 690, exploration: 0.12, score: 11.0
+Scores: (min: 11.0, avg: 117.55, max: 230.0)
+
+Episode: 691, exploration: 0.12, score: 220.0
+Scores: (min: 11.0, avg: 118.49, max: 230.0)
+
+Episode: 692, exploration: 0.12, score: 176.0
+Scores: (min: 11.0, avg: 118.72, max: 230.0)
+
+Episode: 693, exploration: 0.12, score: 147.0
+Scores: (min: 11.0, avg: 119.05, max: 230.0)
+
+Episode: 694, exploration: 0.12, score: 162.0
+Scores: (min: 11.0, avg: 119.52, max: 230.0)
+
+Episode: 695, exploration: 0.12, score: 204.0
+Scores: (min: 11.0, avg: 120.32, max: 230.0)
+
+Episode: 696, exploration: 0.12, score: 153.0
+Scores: (min: 11.0, avg: 120.48, max: 230.0)
+
+Episode: 697, exploration: 0.12, score: 188.0
+Scores: (min: 11.0, avg: 120.84, max: 230.0)
+
+Weights of target Q-network updated
+Episode: 698, exploration: 0.12, score: 320.0
+Scores: (min: 11.0, avg: 122.62, max: 320.0)
+
+Episode: 699, exploration: 0.12, score: 185.0
+Scores: (min: 11.0, avg: 123.11, max: 320.0)
+
+Episode: 700, exploration: 0.12, score: 168.0
+Scores: (min: 11.0, avg: 123.26, max: 320.0)
+
+Episode: 701, exploration: 0.12, score: 250.0
+Scores: (min: 11.0, avg: 124.25, max: 320.0)
+
+Episode: 702, exploration: 0.12, score: 142.0
+Scores: (min: 11.0, avg: 124.35, max: 320.0)
+
+Episode: 703, exploration: 0.12, score: 353.0
+Scores: (min: 11.0, avg: 127.08, max: 353.0)
+
+Episode: 704, exploration: 0.12, score: 274.0
+Scores: (min: 11.0, avg: 128.6, max: 353.0)
+
+Episode: 705, exploration: 0.12, score: 99.0
+Scores: (min: 11.0, avg: 128.12, max: 353.0)
+
+Episode: 706, exploration: 0.12, score: 175.0
+Scores: (min: 11.0, avg: 128.19, max: 353.0)
+
+Episode: 707, exploration: 0.12, score: 55.0
+Scores: (min: 11.0, avg: 127.43, max: 353.0)
+
+Episode: 708, exploration: 0.12, score: 129.0
+Scores: (min: 11.0, avg: 127.19, max: 353.0)
+
+Episode: 709, exploration: 0.12, score: 138.0
+Scores: (min: 11.0, avg: 126.88, max: 353.0)
+
+Episode: 710, exploration: 0.12, score: 39.0
+Scores: (min: 11.0, avg: 125.67, max: 353.0)
+
+Episode: 711, exploration: 0.12, score: 194.0
+Scores: (min: 11.0, avg: 126.3, max: 353.0)
+
+Weights of target Q-network updated
+Episode: 712, exploration: 0.12, score: 132.0
+Scores: (min: 11.0, avg: 126.34, max: 353.0)
+
+Episode: 713, exploration: 0.12, score: 169.0
+Scores: (min: 11.0, avg: 127.58, max: 353.0)
+
+Episode: 714, exploration: 0.12, score: 155.0
+Scores: (min: 11.0, avg: 127.33, max: 353.0)
+
+Episode: 715, exploration: 0.12, score: 204.0
+Scores: (min: 11.0, avg: 128.3, max: 353.0)
+
+Episode: 716, exploration: 0.12, score: 225.0
+Scores: (min: 11.0, avg: 129.13, max: 353.0)
+
+Episode: 717, exploration: 0.12, score: 35.0
+Scores: (min: 11.0, avg: 127.69, max: 353.0)
+
+Episode: 718, exploration: 0.12, score: 192.0
+Scores: (min: 11.0, avg: 128.57, max: 353.0)
+
+Episode: 719, exploration: 0.12, score: 169.0
+Scores: (min: 11.0, avg: 129.01, max: 353.0)
+
+Episode: 720, exploration: 0.12, score: 68.0
+Scores: (min: 11.0, avg: 128.46, max: 353.0)
+
+Episode: 721, exploration: 0.12, score: 119.0
+Scores: (min: 11.0, avg: 128.34, max: 353.0)
+
+Episode: 722, exploration: 0.12, score: 143.0
+Scores: (min: 11.0, avg: 128.66, max: 353.0)
+
+Episode: 723, exploration: 0.12, score: 137.0
+Scores: (min: 11.0, avg: 128.82, max: 353.0)
+
+Episode: 724, exploration: 0.12, score: 130.0
+Scores: (min: 11.0, avg: 129.65, max: 353.0)
+
+Episode: 725, exploration: 0.12, score: 150.0
+Scores: (min: 11.0, avg: 129.54, max: 353.0)
+
+Episode: 726, exploration: 0.12, score: 125.0
+Scores: (min: 11.0, avg: 129.41, max: 353.0)
+
+Episode: 727, exploration: 0.12, score: 140.0
+Scores: (min: 11.0, avg: 129.36, max: 353.0)
+
+Episode: 728, exploration: 0.12, score: 133.0
+Scores: (min: 11.0, avg: 129.76, max: 353.0)
+
+Episode: 729, exploration: 0.12, score: 105.0
+Scores: (min: 11.0, avg: 130.06, max: 353.0)
+
+Weights of target Q-network updated
+Episode: 730, exploration: 0.12, score: 112.0
+Scores: (min: 11.0, avg: 130.44, max: 353.0)
+
+Episode: 731, exploration: 0.12, score: 153.0
+Scores: (min: 11.0, avg: 130.88, max: 353.0)
+
+Episode: 732, exploration: 0.12, score: 137.0
+Scores: (min: 11.0, avg: 131.64, max: 353.0)
+
+Episode: 733, exploration: 0.12, score: 500.0
+Scores: (min: 11.0, avg: 136.51, max: 500.0)
+
+Episode: 734, exploration: 0.12, score: 135.0
+Scores: (min: 11.0, avg: 136.4, max: 500.0)
+
+Episode: 735, exploration: 0.12, score: 130.0
+Scores: (min: 11.0, avg: 136.64, max: 500.0)
+
+Episode: 736, exploration: 0.12, score: 111.0
+Scores: (min: 11.0, avg: 136.62, max: 500.0)
+
+Episode: 737, exploration: 0.12, score: 181.0
+Scores: (min: 11.0, avg: 137.32, max: 500.0)
+
+Episode: 738, exploration: 0.12, score: 149.0
+Scores: (min: 11.0, avg: 137.72, max: 500.0)
+
+Episode: 739, exploration: 0.12, score: 330.0
+Scores: (min: 11.0, avg: 139.73, max: 500.0)
+
+Episode: 740, exploration: 0.12, score: 100.0
+Scores: (min: 11.0, avg: 140.17, max: 500.0)
+
+Episode: 741, exploration: 0.12, score: 403.0
+Scores: (min: 11.0, avg: 143.14, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 742, exploration: 0.12, score: 137.0
+Scores: (min: 11.0, avg: 143.62, max: 500.0)
+
+Episode: 743, exploration: 0.12, score: 111.0
+Scores: (min: 11.0, avg: 143.43, max: 500.0)
+
+Episode: 744, exploration: 0.12, score: 203.0
+Scores: (min: 11.0, avg: 144.38, max: 500.0)
+
+Episode: 745, exploration: 0.12, score: 158.0
+Scores: (min: 11.0, avg: 144.47, max: 500.0)
+
+Episode: 746, exploration: 0.12, score: 35.0
+Scores: (min: 11.0, avg: 144.68, max: 500.0)
+
+Episode: 747, exploration: 0.12, score: 176.0
+Scores: (min: 11.0, avg: 145.21, max: 500.0)
+
+Episode: 748, exploration: 0.12, score: 45.0
+Scores: (min: 11.0, avg: 145.54, max: 500.0)
+
+Episode: 749, exploration: 0.12, score: 115.0
+Scores: (min: 11.0, avg: 145.54, max: 500.0)
+
+Episode: 750, exploration: 0.12, score: 218.0
+Scores: (min: 11.0, avg: 146.41, max: 500.0)
+
+Episode: 751, exploration: 0.12, score: 139.0
+Scores: (min: 11.0, avg: 146.49, max: 500.0)
+
+Episode: 752, exploration: 0.12, score: 92.0
+Scores: (min: 11.0, avg: 147.26, max: 500.0)
+
+Episode: 753, exploration: 0.12, score: 377.0
+Scores: (min: 11.0, avg: 150.05, max: 500.0)
+
+Episode: 754, exploration: 0.12, score: 500.0
+Scores: (min: 11.0, avg: 153.9, max: 500.0)
+
+Episode: 755, exploration: 0.12, score: 133.0
+Scores: (min: 11.0, avg: 154.12, max: 500.0)
+
+Episode: 756, exploration: 0.12, score: 27.0
+Scores: (min: 11.0, avg: 153.16, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 757, exploration: 0.12, score: 191.0
+Scores: (min: 11.0, avg: 153.93, max: 500.0)
+
+Episode: 758, exploration: 0.12, score: 173.0
+Scores: (min: 11.0, avg: 154.49, max: 500.0)
+
+Episode: 759, exploration: 0.12, score: 91.0
+Scores: (min: 11.0, avg: 155.21, max: 500.0)
+
+Episode: 760, exploration: 0.12, score: 345.0
+Scores: (min: 11.0, avg: 157.56, max: 500.0)
+
+Episode: 761, exploration: 0.12, score: 432.0
+Scores: (min: 11.0, avg: 160.72, max: 500.0)
+
+Episode: 762, exploration: 0.12, score: 143.0
+Scores: (min: 11.0, avg: 160.74, max: 500.0)
+
+Episode: 763, exploration: 0.12, score: 110.0
+Scores: (min: 11.0, avg: 160.69, max: 500.0)
+
+Episode: 764, exploration: 0.12, score: 178.0
+Scores: (min: 11.0, avg: 160.17, max: 500.0)
+
+Episode: 765, exploration: 0.12, score: 144.0
+Scores: (min: 11.0, avg: 159.66, max: 500.0)
+
+Episode: 766, exploration: 0.12, score: 159.0
+Scores: (min: 11.0, avg: 159.36, max: 500.0)
+
+Episode: 767, exploration: 0.12, score: 262.0
+Scores: (min: 11.0, avg: 160.48, max: 500.0)
+
+Episode: 768, exploration: 0.12, score: 130.0
+Scores: (min: 11.0, avg: 160.32, max: 500.0)
+
+Episode: 769, exploration: 0.12, score: 117.0
+Scores: (min: 11.0, avg: 160.88, max: 500.0)
+
+Episode: 770, exploration: 0.12, score: 133.0
+Scores: (min: 11.0, avg: 160.56, max: 500.0)
+
+Episode: 771, exploration: 0.12, score: 47.0
+Scores: (min: 11.0, avg: 160.32, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 772, exploration: 0.12, score: 32.0
+Scores: (min: 11.0, avg: 159.43, max: 500.0)
+
+Episode: 773, exploration: 0.12, score: 327.0
+Scores: (min: 11.0, avg: 161.23, max: 500.0)
+
+Episode: 774, exploration: 0.12, score: 47.0
+Scores: (min: 11.0, avg: 159.68, max: 500.0)
+
+Episode: 775, exploration: 0.12, score: 122.0
+Scores: (min: 11.0, avg: 160.54, max: 500.0)
+
+Episode: 776, exploration: 0.12, score: 103.0
+Scores: (min: 11.0, avg: 161.28, max: 500.0)
+
+Episode: 777, exploration: 0.12, score: 24.0
+Scores: (min: 11.0, avg: 160.39, max: 500.0)
+
+Episode: 778, exploration: 0.12, score: 154.0
+Scores: (min: 11.0, avg: 161.35, max: 500.0)
+
+Episode: 779, exploration: 0.12, score: 120.0
+Scores: (min: 11.0, avg: 161.28, max: 500.0)
+
+Episode: 780, exploration: 0.12, score: 39.0
+Scores: (min: 11.0, avg: 160.35, max: 500.0)
+
+Episode: 781, exploration: 0.12, score: 134.0
+Scores: (min: 11.0, avg: 160.75, max: 500.0)
+
+Episode: 782, exploration: 0.12, score: 144.0
+Scores: (min: 11.0, avg: 160.95, max: 500.0)
+
+Episode: 783, exploration: 0.12, score: 114.0
+Scores: (min: 11.0, avg: 161.06, max: 500.0)
+
+Episode: 784, exploration: 0.12, score: 116.0
+Scores: (min: 11.0, avg: 160.93, max: 500.0)
+
+Episode: 785, exploration: 0.12, score: 251.0
+Scores: (min: 11.0, avg: 162.1, max: 500.0)
+
+Episode: 786, exploration: 0.12, score: 127.0
+Scores: (min: 11.0, avg: 161.84, max: 500.0)
+
+Episode: 787, exploration: 0.12, score: 316.0
+Scores: (min: 11.0, avg: 163.64, max: 500.0)
+
+Episode: 788, exploration: 0.12, score: 151.0
+Scores: (min: 11.0, avg: 163.48, max: 500.0)
+
+Episode: 789, exploration: 0.12, score: 174.0
+Scores: (min: 11.0, avg: 163.7, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 790, exploration: 0.12, score: 141.0
+Scores: (min: 24.0, avg: 165.0, max: 500.0)
+
+Episode: 791, exploration: 0.12, score: 213.0
+Scores: (min: 24.0, avg: 164.93, max: 500.0)
+
+Episode: 792, exploration: 0.12, score: 126.0
+Scores: (min: 24.0, avg: 164.43, max: 500.0)
+
+Episode: 793, exploration: 0.12, score: 102.0
+Scores: (min: 24.0, avg: 163.98, max: 500.0)
+
+Episode: 794, exploration: 0.12, score: 431.0
+Scores: (min: 24.0, avg: 166.67, max: 500.0)
+
+Episode: 795, exploration: 0.12, score: 178.0
+Scores: (min: 24.0, avg: 166.41, max: 500.0)
+
+Episode: 796, exploration: 0.12, score: 137.0
+Scores: (min: 24.0, avg: 166.25, max: 500.0)
+
+Episode: 797, exploration: 0.12, score: 122.0
+Scores: (min: 24.0, avg: 165.59, max: 500.0)
+
+Episode: 798, exploration: 0.12, score: 186.0
+Scores: (min: 24.0, avg: 164.25, max: 500.0)
+
+Episode: 799, exploration: 0.12, score: 173.0
+Scores: (min: 24.0, avg: 164.13, max: 500.0)
+
+Episode: 800, exploration: 0.12, score: 176.0
+Scores: (min: 24.0, avg: 164.21, max: 500.0)
+
+Episode: 801, exploration: 0.12, score: 128.0
+Scores: (min: 24.0, avg: 162.99, max: 500.0)
+
+Episode: 802, exploration: 0.12, score: 118.0
+Scores: (min: 24.0, avg: 162.75, max: 500.0)
+
+Episode: 803, exploration: 0.12, score: 109.0
+Scores: (min: 24.0, avg: 160.31, max: 500.0)
+
+Episode: 804, exploration: 0.12, score: 160.0
+Scores: (min: 24.0, avg: 159.17, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 805, exploration: 0.12, score: 122.0
+Scores: (min: 24.0, avg: 159.4, max: 500.0)
+
+Episode: 806, exploration: 0.12, score: 157.0
+Scores: (min: 24.0, avg: 159.22, max: 500.0)
+
+Episode: 807, exploration: 0.12, score: 24.0
+Scores: (min: 24.0, avg: 158.91, max: 500.0)
+
+Episode: 808, exploration: 0.12, score: 70.0
+Scores: (min: 24.0, avg: 158.32, max: 500.0)
+
+Episode: 809, exploration: 0.12, score: 131.0
+Scores: (min: 24.0, avg: 158.25, max: 500.0)
+
+Episode: 810, exploration: 0.12, score: 165.0
+Scores: (min: 24.0, avg: 159.51, max: 500.0)
+
+Episode: 811, exploration: 0.12, score: 123.0
+Scores: (min: 24.0, avg: 158.8, max: 500.0)
+
+Episode: 812, exploration: 0.12, score: 130.0
+Scores: (min: 24.0, avg: 158.78, max: 500.0)
+
+Episode: 813, exploration: 0.12, score: 179.0
+Scores: (min: 24.0, avg: 158.88, max: 500.0)
+
+Episode: 814, exploration: 0.12, score: 194.0
+Scores: (min: 24.0, avg: 159.27, max: 500.0)
+
+Episode: 815, exploration: 0.12, score: 140.0
+Scores: (min: 24.0, avg: 158.63, max: 500.0)
+
+Episode: 816, exploration: 0.12, score: 128.0
+Scores: (min: 24.0, avg: 157.66, max: 500.0)
+
+Episode: 817, exploration: 0.12, score: 16.0
+Scores: (min: 16.0, avg: 157.47, max: 500.0)
+
+Episode: 818, exploration: 0.12, score: 161.0
+Scores: (min: 16.0, avg: 157.16, max: 500.0)
+
+Episode: 819, exploration: 0.12, score: 126.0
+Scores: (min: 16.0, avg: 156.73, max: 500.0)
+
+Episode: 820, exploration: 0.12, score: 135.0
+Scores: (min: 16.0, avg: 157.4, max: 500.0)
+
+Episode: 821, exploration: 0.12, score: 155.0
+Scores: (min: 16.0, avg: 157.76, max: 500.0)
+
+Episode: 822, exploration: 0.12, score: 185.0
+Scores: (min: 16.0, avg: 158.18, max: 500.0)
+
+Episode: 823, exploration: 0.12, score: 98.0
+Scores: (min: 16.0, avg: 157.79, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 824, exploration: 0.12, score: 137.0
+Scores: (min: 16.0, avg: 157.86, max: 500.0)
+
+Episode: 825, exploration: 0.12, score: 185.0
+Scores: (min: 16.0, avg: 158.21, max: 500.0)
+
+Episode: 826, exploration: 0.12, score: 63.0
+Scores: (min: 16.0, avg: 157.59, max: 500.0)
+
+Episode: 827, exploration: 0.12, score: 181.0
+Scores: (min: 16.0, avg: 158.0, max: 500.0)
+
+Episode: 828, exploration: 0.12, score: 85.0
+Scores: (min: 16.0, avg: 157.52, max: 500.0)
+
+Episode: 829, exploration: 0.12, score: 137.0
+Scores: (min: 16.0, avg: 157.84, max: 500.0)
+
+Episode: 830, exploration: 0.12, score: 166.0
+Scores: (min: 16.0, avg: 158.38, max: 500.0)
+
+Episode: 831, exploration: 0.12, score: 161.0
+Scores: (min: 16.0, avg: 158.46, max: 500.0)
+
+Episode: 832, exploration: 0.12, score: 199.0
+Scores: (min: 16.0, avg: 159.08, max: 500.0)
+
+Episode: 833, exploration: 0.12, score: 120.0
+Scores: (min: 16.0, avg: 155.28, max: 500.0)
+
+Episode: 834, exploration: 0.12, score: 117.0
+Scores: (min: 16.0, avg: 155.1, max: 500.0)
+
+Episode: 835, exploration: 0.12, score: 144.0
+Scores: (min: 16.0, avg: 155.24, max: 500.0)
+
+Episode: 836, exploration: 0.12, score: 127.0
+Scores: (min: 16.0, avg: 155.4, max: 500.0)
+
+Episode: 837, exploration: 0.12, score: 303.0
+Scores: (min: 16.0, avg: 156.62, max: 500.0)
+
+Episode: 838, exploration: 0.12, score: 215.0
+Scores: (min: 16.0, avg: 157.28, max: 500.0)
+
+Episode: 839, exploration: 0.12, score: 141.0
+Scores: (min: 16.0, avg: 155.39, max: 500.0)
+
+Weights of target Q-network updated
+Episode: 840, exploration: 0.12, score: 152.0
+Scores: (min: 16.0, avg: 155.91, max: 500.0)
+
+Episode: 841, exploration: 0.12, score: 120.0
+Scores: (min: 16.0, avg: 153.08, max: 500.0)
+
+Episode: 842, exploration: 0.12, score: 167.0
+Scores: (min: 16.0, avg: 153.38, max: 500.0)
+
+Episode: 843, exploration: 0.12, score: 120.0
+Scores: (min: 16.0, avg: 153.47, max: 500.0)
+
+Episode: 844, exploration: 0.12, score: 104.0
+Scores: (min: 16.0, avg: 152.48, max: 500.0)
+
+Episode: 845, exploration: 0.12, score: 93.0
+Scores: (min: 16.0, avg: 151.83, max: 500.0)
+
+Episode: 846, exploration: 0.12, score: 92.0
+Scores: (min: 16.0, avg: 152.4, max: 500.0)
+
+Episode: 847, exploration: 0.12, score: 99.0
+Scores: (min: 16.0, avg: 151.63, max: 500.0)
+
+Episode: 848, exploration: 0.12, score: 94.0
+Scores: (min: 16.0, avg: 152.12, max: 500.0)
+
+Episode: 849, exploration: 0.12, score: 104.0
+Scores: (min: 16.0, avg: 152.01, max: 500.0)
+
+Episode: 850, exploration: 0.12, score: 98.0
+Scores: (min: 16.0, avg: 150.81, max: 500.0)
+
+Episode: 851, exploration: 0.12, score: 103.0
+Scores: (min: 16.0, avg: 150.45, max: 500.0)
+
+Episode: 852, exploration: 0.12, score: 100.0
+Scores: (min: 16.0, avg: 150.53, max: 500.0)
+
+Episode: 853, exploration: 0.12, score: 99.0
+Scores: (min: 16.0, avg: 147.75, max: 500.0)
+
+Episode: 854, exploration: 0.12, score: 126.0
+Scores: (min: 16.0, avg: 144.01, max: 432.0)
+
+Episode: 855, exploration: 0.12, score: 94.0
+Scores: (min: 16.0, avg: 143.62, max: 432.0)
+
+Episode: 856, exploration: 0.12, score: 22.0
+Scores: (min: 16.0, avg: 143.57, max: 432.0)
+
+Episode: 857, exploration: 0.12, score: 99.0
+Scores: (min: 16.0, avg: 142.65, max: 432.0)
+
+Episode: 858, exploration: 0.12, score: 139.0
+Scores: (min: 16.0, avg: 142.31, max: 432.0)
+
+Episode: 859, exploration: 0.12, score: 126.0
+Scores: (min: 16.0, avg: 142.66, max: 432.0)
+
+Episode: 860, exploration: 0.12, score: 94.0
+Scores: (min: 16.0, avg: 140.15, max: 432.0)
+
+Episode: 861, exploration: 0.12, score: 97.0
+Scores: (min: 16.0, avg: 136.8, max: 431.0)
+
+Episode: 862, exploration: 0.12, score: 64.0
+Scores: (min: 16.0, avg: 136.01, max: 431.0)
+
+Episode: 863, exploration: 0.12, score: 97.0
+Scores: (min: 16.0, avg: 135.88, max: 431.0)
+
+Episode: 864, exploration: 0.12, score: 96.0
+Scores: (min: 16.0, avg: 135.06, max: 431.0)
+
+Weights of target Q-network updated
+Episode: 865, exploration: 0.12, score: 96.0
+Scores: (min: 16.0, avg: 134.58, max: 431.0)
+
+Episode: 866, exploration: 0.12, score: 98.0
+Scores: (min: 16.0, avg: 133.97, max: 431.0)
+
+Episode: 867, exploration: 0.12, score: 123.0
+Scores: (min: 16.0, avg: 132.58, max: 431.0)
+
+Episode: 868, exploration: 0.12, score: 117.0
+Scores: (min: 16.0, avg: 132.45, max: 431.0)
+
+Episode: 869, exploration: 0.12, score: 97.0
+Scores: (min: 16.0, avg: 132.25, max: 431.0)
+
+Episode: 870, exploration: 0.12, score: 112.0
+Scores: (min: 16.0, avg: 132.04, max: 431.0)
+
+Episode: 871, exploration: 0.12, score: 131.0
+Scores: (min: 16.0, avg: 132.88, max: 431.0)
+
+Episode: 872, exploration: 0.12, score: 98.0
+Scores: (min: 16.0, avg: 133.54, max: 431.0)
+
+Episode: 873, exploration: 0.12, score: 98.0
+Scores: (min: 16.0, avg: 131.25, max: 431.0)
+
+Episode: 874, exploration: 0.12, score: 12.0
+Scores: (min: 12.0, avg: 130.9, max: 431.0)
+
+Episode: 875, exploration: 0.12, score: 110.0
+Scores: (min: 12.0, avg: 130.78, max: 431.0)
+
+Episode: 876, exploration: 0.12, score: 95.0
+Scores: (min: 12.0, avg: 130.7, max: 431.0)
+
+Episode: 877, exploration: 0.12, score: 90.0
+Scores: (min: 12.0, avg: 131.36, max: 431.0)
+
+Episode: 878, exploration: 0.12, score: 107.0
+Scores: (min: 12.0, avg: 130.89, max: 431.0)
+
+Episode: 879, exploration: 0.12, score: 127.0
+Scores: (min: 12.0, avg: 130.96, max: 431.0)
+
+Episode: 880, exploration: 0.12, score: 101.0
+Scores: (min: 12.0, avg: 131.58, max: 431.0)
+
+Episode: 881, exploration: 0.12, score: 102.0
+Scores: (min: 12.0, avg: 131.26, max: 431.0)
+
+Episode: 882, exploration: 0.12, score: 141.0
+Scores: (min: 12.0, avg: 131.23, max: 431.0)
+
+Episode: 883, exploration: 0.12, score: 99.0
+Scores: (min: 12.0, avg: 131.08, max: 431.0)
+
+Episode: 884, exploration: 0.12, score: 26.0
+Scores: (min: 12.0, avg: 130.18, max: 431.0)
+
+Episode: 885, exploration: 0.12, score: 99.0
+Scores: (min: 12.0, avg: 128.66, max: 431.0)
+
+Episode: 886, exploration: 0.12, score: 145.0
+Scores: (min: 12.0, avg: 128.84, max: 431.0)
+
+Episode: 887, exploration: 0.12, score: 105.0
+Scores: (min: 12.0, avg: 126.73, max: 431.0)
+
+Episode: 888, exploration: 0.12, score: 115.0
+Scores: (min: 12.0, avg: 126.37, max: 431.0)
+
+Weights of target Q-network updated
+Episode: 889, exploration: 0.12, score: 158.0
+Scores: (min: 12.0, avg: 126.21, max: 431.0)
+
+Episode: 890, exploration: 0.12, score: 96.0
+Scores: (min: 12.0, avg: 125.76, max: 431.0)
+
+Episode: 891, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 124.92, max: 431.0)
+
+Episode: 892, exploration: 0.12, score: 106.0
+Scores: (min: 12.0, avg: 124.72, max: 431.0)
+
+Episode: 893, exploration: 0.12, score: 39.0
+Scores: (min: 12.0, avg: 124.09, max: 431.0)
+
+Episode: 894, exploration: 0.12, score: 102.0
+Scores: (min: 12.0, avg: 120.8, max: 303.0)
+
+Episode: 895, exploration: 0.12, score: 109.0
+Scores: (min: 12.0, avg: 120.11, max: 303.0)
+
+Episode: 896, exploration: 0.12, score: 102.0
+Scores: (min: 12.0, avg: 119.76, max: 303.0)
+
+Episode: 897, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 119.83, max: 303.0)
+
+Episode: 898, exploration: 0.12, score: 87.0
+Scores: (min: 12.0, avg: 118.84, max: 303.0)
+
+Episode: 899, exploration: 0.12, score: 138.0
+Scores: (min: 12.0, avg: 118.49, max: 303.0)
+
+Episode: 900, exploration: 0.12, score: 121.0
+Scores: (min: 12.0, avg: 117.94, max: 303.0)
+
+Episode: 901, exploration: 0.12, score: 88.0
+Scores: (min: 12.0, avg: 117.54, max: 303.0)
+
+Episode: 902, exploration: 0.12, score: 131.0
+Scores: (min: 12.0, avg: 117.67, max: 303.0)
+
+Episode: 903, exploration: 0.12, score: 95.0
+Scores: (min: 12.0, avg: 117.53, max: 303.0)
+
+Episode: 904, exploration: 0.12, score: 141.0
+Scores: (min: 12.0, avg: 117.34, max: 303.0)
+
+Episode: 905, exploration: 0.12, score: 156.0
+Scores: (min: 12.0, avg: 117.68, max: 303.0)
+
+Episode: 906, exploration: 0.12, score: 44.0
+Scores: (min: 12.0, avg: 116.55, max: 303.0)
+
+Episode: 907, exploration: 0.12, score: 120.0
+Scores: (min: 12.0, avg: 117.51, max: 303.0)
+
+Episode: 908, exploration: 0.12, score: 134.0
+Scores: (min: 12.0, avg: 118.15, max: 303.0)
+
+Episode: 909, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 118.13, max: 303.0)
+
+Episode: 910, exploration: 0.12, score: 121.0
+Scores: (min: 12.0, avg: 117.69, max: 303.0)
+
+Weights of target Q-network updated
+Episode: 911, exploration: 0.12, score: 96.0
+Scores: (min: 12.0, avg: 117.42, max: 303.0)
+
+Episode: 912, exploration: 0.12, score: 187.0
+Scores: (min: 12.0, avg: 117.99, max: 303.0)
+
+Episode: 913, exploration: 0.12, score: 166.0
+Scores: (min: 12.0, avg: 117.86, max: 303.0)
+
+Episode: 914, exploration: 0.12, score: 214.0
+Scores: (min: 12.0, avg: 118.06, max: 303.0)
+
+Episode: 915, exploration: 0.12, score: 25.0
+Scores: (min: 12.0, avg: 116.91, max: 303.0)
+
+Episode: 916, exploration: 0.12, score: 182.0
+Scores: (min: 12.0, avg: 117.45, max: 303.0)
+
+Episode: 917, exploration: 0.12, score: 173.0
+Scores: (min: 12.0, avg: 119.02, max: 303.0)
+
+Episode: 918, exploration: 0.12, score: 120.0
+Scores: (min: 12.0, avg: 118.61, max: 303.0)
+
+Episode: 919, exploration: 0.12, score: 80.0
+Scores: (min: 12.0, avg: 118.15, max: 303.0)
+
+Episode: 920, exploration: 0.12, score: 130.0
+Scores: (min: 12.0, avg: 118.1, max: 303.0)
+
+Episode: 921, exploration: 0.12, score: 197.0
+Scores: (min: 12.0, avg: 118.52, max: 303.0)
+
+Episode: 922, exploration: 0.12, score: 130.0
+Scores: (min: 12.0, avg: 117.97, max: 303.0)
+
+Episode: 923, exploration: 0.12, score: 119.0
+Scores: (min: 12.0, avg: 118.18, max: 303.0)
+
+Episode: 924, exploration: 0.12, score: 175.0
+Scores: (min: 12.0, avg: 118.56, max: 303.0)
+
+Episode: 925, exploration: 0.12, score: 143.0
+Scores: (min: 12.0, avg: 118.14, max: 303.0)
+
+Episode: 926, exploration: 0.12, score: 175.0
+Scores: (min: 12.0, avg: 119.26, max: 303.0)
+
+Episode: 927, exploration: 0.12, score: 70.0
+Scores: (min: 12.0, avg: 118.15, max: 303.0)
+
+Weights of target Q-network updated
+Episode: 928, exploration: 0.12, score: 242.0
+Scores: (min: 12.0, avg: 119.72, max: 303.0)
+
+Episode: 929, exploration: 0.12, score: 196.0
+Scores: (min: 12.0, avg: 120.31, max: 303.0)
+
+Episode: 930, exploration: 0.12, score: 181.0
+Scores: (min: 12.0, avg: 120.46, max: 303.0)
+
+Episode: 931, exploration: 0.12, score: 128.0
+Scores: (min: 12.0, avg: 120.13, max: 303.0)
+
+Episode: 932, exploration: 0.12, score: 120.0
+Scores: (min: 12.0, avg: 119.34, max: 303.0)
+
+Episode: 933, exploration: 0.12, score: 176.0
+Scores: (min: 12.0, avg: 119.9, max: 303.0)
+
+Episode: 934, exploration: 0.12, score: 128.0
+Scores: (min: 12.0, avg: 120.01, max: 303.0)
+
+Episode: 935, exploration: 0.12, score: 65.0
+Scores: (min: 12.0, avg: 119.22, max: 303.0)
+
+Episode: 936, exploration: 0.12, score: 129.0
+Scores: (min: 12.0, avg: 119.24, max: 303.0)
+
+Episode: 937, exploration: 0.12, score: 122.0
+Scores: (min: 12.0, avg: 117.43, max: 242.0)
+
+Episode: 938, exploration: 0.12, score: 137.0
+Scores: (min: 12.0, avg: 116.65, max: 242.0)
+
+Episode: 939, exploration: 0.12, score: 111.0
+Scores: (min: 12.0, avg: 116.35, max: 242.0)
+
+Episode: 940, exploration: 0.12, score: 226.0
+Scores: (min: 12.0, avg: 117.09, max: 242.0)
+
+Episode: 941, exploration: 0.12, score: 217.0
+Scores: (min: 12.0, avg: 118.06, max: 242.0)
+
+Episode: 942, exploration: 0.12, score: 80.0
+Scores: (min: 12.0, avg: 117.19, max: 242.0)
+
+Episode: 943, exploration: 0.12, score: 55.0
+Scores: (min: 12.0, avg: 116.54, max: 242.0)
+
+Episode: 944, exploration: 0.12, score: 158.0
+Scores: (min: 12.0, avg: 117.08, max: 242.0)
+
+Episode: 945, exploration: 0.12, score: 101.0
+Scores: (min: 12.0, avg: 117.16, max: 242.0)
+
+Episode: 946, exploration: 0.12, score: 105.0
+Scores: (min: 12.0, avg: 117.29, max: 242.0)
+
+Weights of target Q-network updated
+Episode: 947, exploration: 0.12, score: 136.0
+Scores: (min: 12.0, avg: 117.66, max: 242.0)
+
+Episode: 948, exploration: 0.12, score: 109.0
+Scores: (min: 12.0, avg: 117.81, max: 242.0)
+
+Episode: 949, exploration: 0.12, score: 155.0
+Scores: (min: 12.0, avg: 118.32, max: 242.0)
+
+Episode: 950, exploration: 0.12, score: 53.0
+Scores: (min: 12.0, avg: 117.87, max: 242.0)
+
+Episode: 951, exploration: 0.12, score: 93.0
+Scores: (min: 12.0, avg: 117.77, max: 242.0)
+
+Episode: 952, exploration: 0.12, score: 133.0
+Scores: (min: 12.0, avg: 118.1, max: 242.0)
+
+Episode: 953, exploration: 0.12, score: 127.0
+Scores: (min: 12.0, avg: 118.38, max: 242.0)
+
+Episode: 954, exploration: 0.12, score: 122.0
+Scores: (min: 12.0, avg: 118.34, max: 242.0)
+
+Episode: 955, exploration: 0.12, score: 23.0
+Scores: (min: 12.0, avg: 117.63, max: 242.0)
+
+Episode: 956, exploration: 0.12, score: 145.0
+Scores: (min: 12.0, avg: 118.86, max: 242.0)
+
+Episode: 957, exploration: 0.12, score: 103.0
+Scores: (min: 12.0, avg: 118.9, max: 242.0)
+
+Episode: 958, exploration: 0.12, score: 112.0
+Scores: (min: 12.0, avg: 118.63, max: 242.0)
+
+Episode: 959, exploration: 0.12, score: 117.0
+Scores: (min: 12.0, avg: 118.54, max: 242.0)
+
+Episode: 960, exploration: 0.12, score: 99.0
+Scores: (min: 12.0, avg: 118.59, max: 242.0)
+
+Episode: 961, exploration: 0.12, score: 182.0
+Scores: (min: 12.0, avg: 119.44, max: 242.0)
+
+Episode: 962, exploration: 0.12, score: 124.0
+Scores: (min: 12.0, avg: 120.04, max: 242.0)
+
+Episode: 963, exploration: 0.12, score: 133.0
+Scores: (min: 12.0, avg: 120.4, max: 242.0)
+
+Episode: 964, exploration: 0.12, score: 147.0
+Scores: (min: 12.0, avg: 120.91, max: 242.0)
+
+Episode: 965, exploration: 0.12, score: 148.0
+Scores: (min: 12.0, avg: 121.43, max: 242.0)
+
+Episode: 966, exploration: 0.12, score: 137.0
+Scores: (min: 12.0, avg: 121.82, max: 242.0)
+
+Episode: 967, exploration: 0.12, score: 110.0
+Scores: (min: 12.0, avg: 121.69, max: 242.0)
+
+Weights of target Q-network updated
+Episode: 968, exploration: 0.12, score: 117.0
+Scores: (min: 12.0, avg: 121.69, max: 242.0)
+
+Episode: 969, exploration: 0.12, score: 143.0
+Scores: (min: 12.0, avg: 122.15, max: 242.0)
+
+Episode: 970, exploration: 0.12, score: 177.0
+Scores: (min: 12.0, avg: 122.8, max: 242.0)
+
+Episode: 971, exploration: 0.12, score: 140.0
+Scores: (min: 12.0, avg: 122.89, max: 242.0)
+
+Episode: 972, exploration: 0.12, score: 117.0
+Scores: (min: 12.0, avg: 123.08, max: 242.0)
+
+Episode: 973, exploration: 0.12, score: 30.0
+Scores: (min: 12.0, avg: 122.4, max: 242.0)
+
+Episode: 974, exploration: 0.12, score: 98.0
+Scores: (min: 23.0, avg: 123.26, max: 242.0)
+
+Episode: 975, exploration: 0.12, score: 190.0
+Scores: (min: 23.0, avg: 124.06, max: 242.0)
+
+Episode: 976, exploration: 0.12, score: 143.0
+Scores: (min: 23.0, avg: 124.54, max: 242.0)
+
+Episode: 977, exploration: 0.12, score: 177.0
+Scores: (min: 23.0, avg: 125.41, max: 242.0)
+
+Episode: 978, exploration: 0.12, score: 295.0
+Scores: (min: 23.0, avg: 127.29, max: 295.0)
+
+Episode: 979, exploration: 0.12, score: 158.0
+Scores: (min: 23.0, avg: 127.6, max: 295.0)
+
+Episode: 980, exploration: 0.12, score: 168.0
+Scores: (min: 23.0, avg: 128.27, max: 295.0)
+
+Episode: 981, exploration: 0.12, score: 124.0
+Scores: (min: 23.0, avg: 128.49, max: 295.0)
+
+Episode: 982, exploration: 0.12, score: 188.0
+Scores: (min: 23.0, avg: 128.96, max: 295.0)
+
+Episode: 983, exploration: 0.12, score: 189.0
+Scores: (min: 23.0, avg: 129.86, max: 295.0)
+
+Weights of target Q-network updated
+Episode: 984, exploration: 0.12, score: 119.0
+Scores: (min: 23.0, avg: 130.79, max: 295.0)
+
+Episode: 985, exploration: 0.12, score: 147.0
+Scores: (min: 23.0, avg: 131.27, max: 295.0)
+
+Episode: 986, exploration: 0.12, score: 121.0
+Scores: (min: 23.0, avg: 131.03, max: 295.0)
+
+Episode: 987, exploration: 0.12, score: 33.0
+Scores: (min: 23.0, avg: 130.31, max: 295.0)
+
+Episode: 988, exploration: 0.12, score: 150.0
+Scores: (min: 23.0, avg: 130.66, max: 295.0)
+
+Episode: 989, exploration: 0.12, score: 102.0
+Scores: (min: 23.0, avg: 130.1, max: 295.0)
+
+Episode: 990, exploration: 0.12, score: 139.0
+Scores: (min: 23.0, avg: 130.53, max: 295.0)
+
+Episode: 991, exploration: 0.12, score: 112.0
+Scores: (min: 23.0, avg: 130.36, max: 295.0)
+
+Episode: 992, exploration: 0.12, score: 102.0
+Scores: (min: 23.0, avg: 130.32, max: 295.0)
+
+Episode: 993, exploration: 0.12, score: 15.0
+Scores: (min: 15.0, avg: 130.08, max: 295.0)
+
+Episode: 994, exploration: 0.12, score: 152.0
+Scores: (min: 15.0, avg: 130.58, max: 295.0)
+
+Episode: 995, exploration: 0.12, score: 117.0
+Scores: (min: 15.0, avg: 130.66, max: 295.0)
+
+Episode: 996, exploration: 0.12, score: 113.0
+Scores: (min: 15.0, avg: 130.77, max: 295.0)
+
+Episode: 997, exploration: 0.12, score: 121.0
+Scores: (min: 15.0, avg: 130.69, max: 295.0)
+
+Episode: 998, exploration: 0.12, score: 162.0
+Scores: (min: 15.0, avg: 131.44, max: 295.0)
+
+Episode: 999, exploration: 0.12, score: 125.0
+Scores: (min: 15.0, avg: 131.31, max: 295.0)
+
+Episode: 1000, exploration: 0.12, score: 110.0
+Scores: (min: 15.0, avg: 131.2, max: 295.0)
+
+Episode: 1001, exploration: 0.12, score: 101.0
+Scores: (min: 15.0, avg: 131.33, max: 295.0)
+
+Episode: 1002, exploration: 0.12, score: 112.0
+Scores: (min: 15.0, avg: 131.14, max: 295.0)
+
+Episode: 1003, exploration: 0.12, score: 128.0
+Scores: (min: 15.0, avg: 131.47, max: 295.0)
+
+Episode: 1004, exploration: 0.12, score: 153.0
+Scores: (min: 15.0, avg: 131.59, max: 295.0)
+
+Episode: 1005, exploration: 0.12, score: 108.0
+Scores: (min: 15.0, avg: 131.11, max: 295.0)
+
+Weights of target Q-network updated
+Episode: 1006, exploration: 0.12, score: 127.0
+Scores: (min: 15.0, avg: 131.94, max: 295.0)
+
+Episode: 1007, exploration: 0.12, score: 161.0
+Scores: (min: 15.0, avg: 132.35, max: 295.0)
+
+Episode: 1008, exploration: 0.12, score: 50.0
+Scores: (min: 15.0, avg: 131.51, max: 295.0)
+
+Episode: 1009, exploration: 0.12, score: 149.0
+Scores: (min: 15.0, avg: 131.71, max: 295.0)
+
+Episode: 1010, exploration: 0.12, score: 172.0
+Scores: (min: 15.0, avg: 132.22, max: 295.0)
+
+Episode: 1011, exploration: 0.12, score: 114.0
+Scores: (min: 15.0, avg: 132.4, max: 295.0)
+
+Episode: 1012, exploration: 0.12, score: 118.0
+Scores: (min: 15.0, avg: 131.71, max: 295.0)
+
+Episode: 1013, exploration: 0.12, score: 115.0
+Scores: (min: 15.0, avg: 131.2, max: 295.0)
+
+Episode: 1014, exploration: 0.12, score: 191.0
+Scores: (min: 15.0, avg: 130.97, max: 295.0)
+
+Episode: 1015, exploration: 0.12, score: 134.0
+Scores: (min: 15.0, avg: 132.06, max: 295.0)
+
+Episode: 1016, exploration: 0.12, score: 131.0
+Scores: (min: 15.0, avg: 131.55, max: 295.0)
+
+Episode: 1017, exploration: 0.12, score: 132.0
+Scores: (min: 15.0, avg: 131.14, max: 295.0)
+
+Episode: 1018, exploration: 0.12, score: 127.0
+Scores: (min: 15.0, avg: 131.21, max: 295.0)
+
+Episode: 1019, exploration: 0.12, score: 64.0
+Scores: (min: 15.0, avg: 131.05, max: 295.0)
+
+Episode: 1020, exploration: 0.12, score: 110.0
+Scores: (min: 15.0, avg: 130.85, max: 295.0)
+
+Episode: 1021, exploration: 0.12, score: 14.0
+Scores: (min: 14.0, avg: 129.02, max: 295.0)
+
+Episode: 1022, exploration: 0.12, score: 132.0
+Scores: (min: 14.0, avg: 129.04, max: 295.0)
+
+Episode: 1023, exploration: 0.12, score: 107.0
+Scores: (min: 14.0, avg: 128.92, max: 295.0)
+
+Episode: 1024, exploration: 0.12, score: 109.0
+Scores: (min: 14.0, avg: 128.26, max: 295.0)
+
+Episode: 1025, exploration: 0.12, score: 127.0
+Scores: (min: 14.0, avg: 128.1, max: 295.0)
+
+Episode: 1026, exploration: 0.12, score: 136.0
+Scores: (min: 14.0, avg: 127.71, max: 295.0)
+
+Weights of target Q-network updated
+Episode: 1027, exploration: 0.12, score: 162.0
+Scores: (min: 14.0, avg: 128.63, max: 295.0)
+
+Episode: 1028, exploration: 0.12, score: 147.0
+Scores: (min: 14.0, avg: 127.68, max: 295.0)
+
+Episode: 1029, exploration: 0.12, score: 160.0
+Scores: (min: 14.0, avg: 127.32, max: 295.0)
+
+Episode: 1030, exploration: 0.12, score: 175.0
+Scores: (min: 14.0, avg: 127.26, max: 295.0)
+
+Episode: 1031, exploration: 0.12, score: 215.0
+Scores: (min: 14.0, avg: 128.13, max: 295.0)
+
+Episode: 1032, exploration: 0.12, score: 177.0
+Scores: (min: 14.0, avg: 128.7, max: 295.0)
+
+Episode: 1033, exploration: 0.12, score: 31.0
+Scores: (min: 14.0, avg: 127.25, max: 295.0)
+
+Episode: 1034, exploration: 0.12, score: 260.0
+Scores: (min: 14.0, avg: 128.57, max: 295.0)
+
+Episode: 1035, exploration: 0.12, score: 106.0
+Scores: (min: 14.0, avg: 128.98, max: 295.0)
+
+Episode: 1036, exploration: 0.12, score: 137.0
+Scores: (min: 14.0, avg: 129.06, max: 295.0)
+
+Episode: 1037, exploration: 0.12, score: 165.0
+Scores: (min: 14.0, avg: 129.49, max: 295.0)
+
+Episode: 1038, exploration: 0.12, score: 246.0
+Scores: (min: 14.0, avg: 130.58, max: 295.0)
+
+Episode: 1039, exploration: 0.12, score: 135.0
+Scores: (min: 14.0, avg: 130.82, max: 295.0)
+
+Episode: 1040, exploration: 0.12, score: 127.0
+Scores: (min: 14.0, avg: 129.83, max: 295.0)
+
+Episode: 1041, exploration: 0.12, score: 71.0
+Scores: (min: 14.0, avg: 128.37, max: 295.0)
+

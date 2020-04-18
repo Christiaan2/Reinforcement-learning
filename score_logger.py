@@ -17,22 +17,23 @@ class ScoreLogger:
         self.avg_score_max = -np.inf
         self.save_best_model = False
         
-    def add_score(self, score, episode):
+    def add_score(self, score, episode, j):
         self.scores.append(score)
         score_min = np.min(self.scores)
         score_avg = np.mean(self.scores)
         score_max = np.max(self.scores)
-        self.log(f"Scores: (min: {score_min}, avg: {score_avg}, max: {score_max})\n")
+        self.log(f"Scores: (min: {score_min}, avg: {score_avg}, max: {score_max})")
         
         self._save_csv(score, score_min, score_avg, score_max)
-        self._save_png(input_path=self.scores_csv_path,
-                       output_path=self.scores_png_path,
-                       x_label="episode",
-                       y_label="scores",
-                       average_of_n_last=self.window_size,
-                       show_goal=True,
-                       show_trend=True,
-                       show_legend=True)
+        if j%16 == 0:
+            self._save_png(input_path=self.scores_csv_path,
+                        output_path=self.scores_png_path,
+                        x_label="episode",
+                        y_label="scores",
+                        average_of_n_last=self.window_size,
+                        show_goal=True,
+                        show_trend=True,
+                        show_legend=True)
 
         if score_avg >= self.avg_score_max and len(self.scores) >= self.window_size:
             self.avg_score_max = score_avg
