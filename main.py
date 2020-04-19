@@ -12,30 +12,31 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DIR_PATH = "./experiments/CartPole-v1_10"
+DIR_PATH = "./experiments/CartPole-v1_13"
 DO_TRAINING = True
 
 ENV_NAME = "CartPole-v1"
 
 MEMORY_SIZE = 1000000
-MEMORY_MIN = 500000
+MEMORY_MIN = 20000
 
 FRAMES_PER_STEP = 4
 
 EXPLORATION_MAX = 1.0
 EXPLORATION_MIN = 0.1
-EXPLORATION_DECAY = 0.999982
+EXPLORATION_DECAY = 0.99988
 
-BATCH_SIZE = 32
+MINIBATCH_SIZE = 32
+BATCH_SIZE = 4
 LEARNING_RATE = 0.00025
 GAMMA = 0.98
 
 WINDOW_SIZE = 100
-AVG_SCORE_TO_SOLVE = 480
 
 SEED = 0
 
-UPDATE_TARGET_Q_AFTER_N_STEPS = 1250
+UPDATE_TARGET_Q_AFTER_N_STEPS = 1000
+TAU = 1.0
 
 class DQNAgent:
     def __init__(self, dir_path=None):
@@ -47,12 +48,14 @@ class DQNAgent:
                 self.env.seed(self.seed)
             self.observation_space_size = self.env.observation_space.shape[0]
             self.action_space_size = self.env.action_space.n
+            self.reward_threshold = self.env.spec.reward_threshold
+            self.max_episode_steps = self.env.spec.max_episode_steps
             self.exploration_rate = self.exloration_max
             self.memory = deque(maxlen=self.memory_size)
             self.tnet_counter = 0
 
             # create ScoreLogger
-            self.score_logger = ScoreLogger(self.dir_path, self.window_size, self.avg_score_to_solve)
+            self.score_logger = ScoreLogger(self.dir_path, self.window_size, self.reward_threshold)
 
         if dir_path is None:
             # settings
@@ -61,13 +64,14 @@ class DQNAgent:
             self.exploration_min = EXPLORATION_MIN
             self.exploration_decay = EXPLORATION_DECAY
             self.memory_size = MEMORY_SIZE
+            self.minibatch_size = MINIBATCH_SIZE
             self.batch_size = BATCH_SIZE
             self.learning_rate = LEARNING_RATE
             self.gamma = GAMMA
             self.window_size = WINDOW_SIZE
-            self.avg_score_to_solve = AVG_SCORE_TO_SOLVE
             self.seed = SEED
             self.update_target_q_after_n_steps = UPDATE_TARGET_Q_AFTER_N_STEPS
+            self.tau = TAU
             self.memory_min = MEMORY_MIN
             self.frames_per_step = FRAMES_PER_STEP
 
@@ -92,7 +96,7 @@ class DQNAgent:
             self.qnet = Sequential()
             self.qnet.add(Dense(256, input_shape=(self.observation_space_size,), activation='relu'))
             self.qnet.add(Dense(self.action_space_size, activation='linear'))
-            self.qnet.compile(loss='mse', optimizer=Adam(learning_rate=self.learning_rate))
+            self.qnet.compile(loss="huber_loss", optimizer=Adam(learning_rate=self.learning_rate))
             
             self.qnet.save(os.path.join(self.dir_path, "model.HDF5"))
             plot_model(self.qnet, to_file=os.path.join(self.dir_path, "model.png"), show_shapes=True)
@@ -105,7 +109,7 @@ class DQNAgent:
             
             initialize()
 
-            model_name = "model_best.HDF5"
+            model_name = "model.HDF5"
             self.qnet = load_model(os.path.join(self.dir_path, model_name))
             self.score_logger.log(f"{os.path.join(self.dir_path, model_name)} loaded")
 
@@ -119,12 +123,17 @@ class DQNAgent:
             state = np.reshape(state, (1, self.observation_space_size))
             score = 0
             done = False
+            step = 0
             while not done:
-                action = self.act(state, off_policy=True)
+                action = self.act(state)
                 state_new, reward, done, info = self.env.step(action)
+                step += 1
                 score += reward
                 state_new = np.reshape(state_new, (1, self.observation_space_size))
-                self.memory.append((state, action, reward, state_new, done))
+                if step >= self.max_episode_steps:
+                    self.memory.append((state, action, reward, state_new, not done))
+                else:
+                    self.memory.append((state, action, reward, state_new, done))
                 state = state_new
                 
                 if len(self.memory) >= self.memory_min:
@@ -134,7 +143,7 @@ class DQNAgent:
 
                     if done:
                         j += 1
-                        self.score_logger.log(f"\nEpisode: {episode}, exploration: {self.exploration_rate}, score: {score}")
+                        self.score_logger.log(f"\nEpisode: {j} ({episode}), exploration: {self.exploration_rate}, score: {score}")
                         if j%64 == 0:
                             self.qnet.save(os.path.join(self.dir_path, "model.HDF5"))
                             self.score_logger.log("Model Saved")
@@ -145,46 +154,57 @@ class DQNAgent:
                             self.score_logger.log("Best model replaced")
         self.env.close()
     
-    def act(self, state, off_policy=False):
-        if off_policy:
-            if np.random.rand() < self.exploration_rate:
-                return self.env.action_space.sample()
+    def act(self, state, exploration_rate=None):
+        if exploration_rate == None:
+            exploration_rate = self.exploration_rate
+        if np.random.rand() < exploration_rate:
+            return self.env.action_space.sample()
         q_values = self.qnet.predict(state)
         return np.argmax(q_values[0])
     
     def experience_replay(self):
-        self.tnet_counter += 1
-        if self.tnet_counter > self.update_target_q_after_n_steps:
-            self.tnet.set_weights(self.qnet.get_weights())
-            self.score_logger.log("Weights of target Q-network updated")
-            self.tnet_counter = 0
-
-        batch = random.sample(self.memory, self.batch_size)
-        for state, action, reward, state_new, done in batch:
+        batch = random.sample(self.memory, self.minibatch_size)
+        x = np.zeros((self.minibatch_size, self.observation_space_size))
+        y = np.zeros((self.minibatch_size, self.action_space_size))
+        for i, (state, action, reward, state_new, done) in enumerate(batch):
             target = self.qnet.predict(state)
             if done:
                 target[0][action] = reward
             else:
                 target[0][action] = reward + \
                     self.gamma*self.tnet.predict(state_new)[0][np.argmax(self.qnet.predict(state_new)[0])]
-            self.qnet.fit(state, target, verbose=0)
-        
+            x[i, :] = state[0]
+            y[i, :] = target[0]
+        self.qnet.fit(x, y, batch_size=self.batch_size, verbose=0)
+
+        if self.tnet_counter >= self.update_target_q_after_n_steps:
+            w_qnet = self.qnet.get_weights()
+            w_tnet = self.tnet.get_weights()
+
+            for i in range(len(w_tnet)):
+                w_tnet[i] = w_qnet[i]*self.tau + w_tnet[i]*(1-self.tau)
+            #self.tnet.set_weights(self.qnet.get_weights())
+            #self.score_logger.log("Weights of target Q-network updated")
+            self.tnet.set_weights(w_tnet)
+            self.tnet_counter = 0
+        self.tnet_counter += 1
+
         self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
 
-    def simulate(self, verbose=False):
+    def simulate(self, exploration_rate=0.0, verbose=False):
         state = self.env.reset()
         state = np.reshape(state, (1, self.observation_space_size))
         score = 0
         while True:
             self.env.render()
-            action = self.act(state, off_policy=False)
+            action = self.act(state, exploration_rate)
             if verbose:
                 with np.printoptions(precision=5, sign=' ', floatmode='fixed', suppress=True):
                     self.score_logger.log(f"State: {state[0]}, Output model: {self.qnet.predict(state)[0]}, Action: {action}, score: {score}")
             state, reward, done, info = self.env.step(action)
             score += reward
             state = np.reshape(state, (1, self.observation_space_size))
-            time.sleep(0.05)
+            time.sleep(0.02)
             if done:
                 self.score_logger.log(f"Episode finished, score: {score}")
                 break
@@ -196,13 +216,13 @@ def train_model():
 
 def simulate_model():
     dqn_agent = DQNAgent(DIR_PATH)
-    dqn_agent.simulate(verbose=True)
+    dqn_agent.simulate(exploration_rate=0.25, verbose=True)
 
 if __name__ == "__main__":
     if DO_TRAINING:
         train_model()
     
-    simulate_model()
+    #simulate_model()
 
 
 # ToDo:

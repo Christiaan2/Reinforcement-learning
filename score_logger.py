@@ -7,12 +7,12 @@ import os
 import csv
 
 class ScoreLogger:
-    def __init__(self, dir_path, window_size, avg_score_to_solve):
+    def __init__(self, dir_path, window_size, reward_threshold):
         self.log_path = os.path.join(dir_path, "logs.txt")
         self.scores_csv_path = os.path.join(dir_path, "scores.csv")
         self.scores_png_path = os.path.join(dir_path, "scores.png")
         self.window_size = window_size
-        self.avg_score_to_solve = avg_score_to_solve
+        self.reward_threshold = reward_threshold
         self.scores = deque(maxlen=self.window_size)
         self.avg_score_max = -np.inf
         self.save_best_model = False
@@ -37,10 +37,10 @@ class ScoreLogger:
 
         if score_avg >= self.avg_score_max and len(self.scores) >= self.window_size:
             self.avg_score_max = score_avg
-            if score >= self.avg_score_to_solve:
+            if score >= self.reward_threshold:
                 self.save_best_model = True
         
-        if score_avg >= self.avg_score_to_solve and len(self.scores) >= self.window_size:
+        if score_avg >= self.reward_threshold and len(self.scores) >= self.window_size:
             self.log(f"Solved in {episode} episodes.")
             exit()
 
@@ -60,7 +60,7 @@ class ScoreLogger:
         plt.plot(x, y[:,2], label=f"last {self.window_size} episodes avg")
 
         if show_goal:
-            plt.plot(x, [self.avg_score_to_solve] * len(x), linestyle=":", label=f"{self.avg_score_to_solve} score avg goal")
+            plt.plot(x, [self.reward_threshold] * len(x), linestyle=":", label=f"reward threshold: {self.reward_threshold}")
 
         if show_trend and len(x) > 1:
             z = np.polyfit(x, y[:,0], 1)

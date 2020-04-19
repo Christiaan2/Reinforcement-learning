@@ -1,0 +1,1 @@
+{"env_name": "CartPole-v1", "exloration_max": 1.0, "exploration_min": 0.1, "exploration_decay": 0.999982, "memory_size": 1000000, "batch_size": 32, "learning_rate": 0.00025, "gamma": 0.98, "window_size": 100, "avg_score_to_solve": 480, "seed": 0, "update_target_q_after_n_steps": 1250, "memory_min": 500000, "frames_per_step": 4, "dir_path": "./experiments/CartPole-v1_10"}
