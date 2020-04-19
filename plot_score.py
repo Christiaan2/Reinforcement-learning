@@ -1,9 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 import os
 import csv
 
-DIR_PATH = "./experiments/CartPole-v1_17"
+sns.set()
+
+DIR_PATH = "./experiments/CartPole-v1_15"
 FILE_NAME = "scores.csv"
 REWARD_THRESHOLD = 475
 

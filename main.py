@@ -12,31 +12,27 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 from score_logger import ScoreLogger
 
-DIR_PATH = "./experiments/CartPole-v1_13"
-DO_TRAINING = True
+DIR_PATH = "./experiments/CartPole-v1_15"
+DO_TRAINING = False
 
 ENV_NAME = "CartPole-v1"
-
 MEMORY_SIZE = 1000000
 MEMORY_MIN = 20000
-
 FRAMES_PER_STEP = 4
-
 EXPLORATION_MAX = 1.0
 EXPLORATION_MIN = 0.1
 EXPLORATION_DECAY = 0.99988
-
 MINIBATCH_SIZE = 32
 BATCH_SIZE = 4
 LEARNING_RATE = 0.00025
 GAMMA = 0.98
-
 WINDOW_SIZE = 100
-
 SEED = 0
-
 UPDATE_TARGET_Q_AFTER_N_STEPS = 1000
 TAU = 1.0
+NUM_EPISODES_EVAL = 100
+EXPLORATION_RATE_EVAL = 0.2
+SEED_EVAL = 0
 
 class DQNAgent:
     def __init__(self, dir_path=None):
@@ -44,8 +40,8 @@ class DQNAgent:
         def initialize():
             # create environment and initial parameters
             self.env = gym.make(self.env_name)
-            if DO_TRAINING:
-                self.env.seed(self.seed)
+            self.env.seed(self.seed)
+            self.env_eval = gym.make(self.env_name)
             self.observation_space_size = self.env.observation_space.shape[0]
             self.action_space_size = self.env.action_space.n
             self.reward_threshold = self.env.spec.reward_threshold
@@ -64,6 +60,7 @@ class DQNAgent:
             self.exploration_min = EXPLORATION_MIN
             self.exploration_decay = EXPLORATION_DECAY
             self.memory_size = MEMORY_SIZE
+            self.memory_min = MEMORY_MIN
             self.minibatch_size = MINIBATCH_SIZE
             self.batch_size = BATCH_SIZE
             self.learning_rate = LEARNING_RATE
@@ -72,7 +69,9 @@ class DQNAgent:
             self.seed = SEED
             self.update_target_q_after_n_steps = UPDATE_TARGET_Q_AFTER_N_STEPS
             self.tau = TAU
-            self.memory_min = MEMORY_MIN
+            self.num_episodes_eval = NUM_EPISODES_EVAL
+            self.exploration_rate_eval = EXPLORATION_RATE_EVAL
+            self.seed_eval = SEED_EVAL
             self.frames_per_step = FRAMES_PER_STEP
 
             # create new directory to store settings and results
@@ -109,7 +108,7 @@ class DQNAgent:
             
             initialize()
 
-            model_name = "model.HDF5"
+            model_name = "model_5824.HDF5"
             self.qnet = load_model(os.path.join(self.dir_path, model_name))
             self.score_logger.log(f"{os.path.join(self.dir_path, model_name)} loaded")
 
@@ -191,6 +190,10 @@ class DQNAgent:
 
         self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
 
+    def evaluate(self):
+        self.env_eval.seed(self.seed_eval)
+
+    
     def simulate(self, exploration_rate=0.0, verbose=False):
         state = self.env.reset()
         state = np.reshape(state, (1, self.observation_space_size))
@@ -216,13 +219,13 @@ def train_model():
 
 def simulate_model():
     dqn_agent = DQNAgent(DIR_PATH)
-    dqn_agent.simulate(exploration_rate=0.25, verbose=True)
+    dqn_agent.simulate(exploration_rate=0.35, verbose=True)
 
 if __name__ == "__main__":
     if DO_TRAINING:
         train_model()
     
-    #simulate_model()
+    simulate_model()
 
 
 # ToDo:
