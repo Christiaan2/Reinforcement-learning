@@ -31,6 +31,7 @@ SEED = 0
 UPDATE_TARGET_Q_AFTER_N_STEPS = 1000
 TAU = 1.0
 NUM_EPISODES_EVAL = 100
+STEPS_PER_EVAL = 125
 EXPLORATION_RATE_EVAL = 0.2
 SEED_EVAL = 0
 
@@ -45,10 +46,11 @@ class DQNAgent:
             self.observation_space_size = self.env.observation_space.shape[0]
             self.action_space_size = self.env.action_space.n
             self.reward_threshold = self.env.spec.reward_threshold
-            self.max_episode_steps = self.env.spec.max_episode_steps
+            self.score_max = self.env.spec.max_episode_steps
             self.exploration_rate = self.exloration_max
             self.memory = deque(maxlen=self.memory_size)
             self.tnet_counter = 0
+            self.step_counter = 0
 
             # create ScoreLogger
             self.score_logger = ScoreLogger(self.dir_path, self.window_size, self.reward_threshold)
@@ -70,6 +72,7 @@ class DQNAgent:
             self.update_target_q_after_n_steps = UPDATE_TARGET_Q_AFTER_N_STEPS
             self.tau = TAU
             self.num_episodes_eval = NUM_EPISODES_EVAL
+            self.steps_per_eval = STEPS_PER_EVAL
             self.exploration_rate_eval = EXPLORATION_RATE_EVAL
             self.seed_eval = SEED_EVAL
             self.frames_per_step = FRAMES_PER_STEP
@@ -108,50 +111,55 @@ class DQNAgent:
             
             initialize()
 
-            model_name = "model_5824.HDF5"
+            model_name = "model_best_5840.HDF5"
             self.qnet = load_model(os.path.join(self.dir_path, model_name))
             self.score_logger.log(f"{os.path.join(self.dir_path, model_name)} loaded")
 
     def train(self):        
         episode = 0
-        i = 0
-        j = 0
+        episode_train = 0
+        frame = 0
+        temp = True
         while True:
-            episode += 1
             state = self.env.reset()
             state = np.reshape(state, (1, self.observation_space_size))
+            episode += 1
             score = 0
             done = False
-            step = 0
             while not done:
                 action = self.act(state)
                 state_new, reward, done, info = self.env.step(action)
-                step += 1
-                score += reward
                 state_new = np.reshape(state_new, (1, self.observation_space_size))
-                if step >= self.max_episode_steps:
+                score += reward
+                frame += 1
+                if score >= self.score_max:
                     self.memory.append((state, action, reward, state_new, not done))
                 else:
                     self.memory.append((state, action, reward, state_new, done))
                 state = state_new
                 
                 if len(self.memory) >= self.memory_min:
-                    i += 1
-                    if i%self.frames_per_step == 0:
+                    if frame % self.frames_per_step == 0:
+                        temp = True
                         self.experience_replay()
 
-                    if done:
-                        j += 1
-                        self.score_logger.log(f"\nEpisode: {j} ({episode}), exploration: {self.exploration_rate}, score: {score}")
-                        if j%64 == 0:
-                            self.qnet.save(os.path.join(self.dir_path, "model.HDF5"))
-                            self.score_logger.log("Model Saved")
-                        self.score_logger.add_score(score, episode, j)
-                        if self.score_logger.save_best_model:
-                            self.qnet.save(os.path.join(self.dir_path, "model_best.HDF5"))
-                            self.score_logger.save_best_model = False
-                            self.score_logger.log("Best model replaced")
-        self.env.close()
+                    if self.step_counter % self.steps_per_eval == 0 and temp:
+                        temp = False
+                        self.evaluate()
+
+            if len(self.memory) >= self.memory_min:
+                episode_train += 1
+                self.score_logger.log(f"\nEpisode: {episode_train} ({episode}), exploration: {self.exploration_rate}, score: {score}")
+                self.score_logger.add_score(score, episode, episode_train)
+                if episode_train % 64 == 0:
+                    self.qnet.save(os.path.join(self.dir_path, "model.HDF5"))
+                    self.score_logger.log("Model Saved")
+                
+                if self.score_logger.save_best_model:
+                    self.qnet.save(os.path.join(self.dir_path, "model_best.HDF5"))
+                    self.score_logger.save_best_model = False
+                    self.score_logger.log("Best model replaced")
+                    self.score_logger.solved()
     
     def act(self, state, exploration_rate=None):
         if exploration_rate == None:
@@ -182,17 +190,28 @@ class DQNAgent:
 
             for i in range(len(w_tnet)):
                 w_tnet[i] = w_qnet[i]*self.tau + w_tnet[i]*(1-self.tau)
-            #self.tnet.set_weights(self.qnet.get_weights())
-            #self.score_logger.log("Weights of target Q-network updated")
             self.tnet.set_weights(w_tnet)
             self.tnet_counter = 0
         self.tnet_counter += 1
 
         self.exploration_rate = np.amax((self.exploration_rate*self.exploration_decay, self.exploration_min))
+        self.step_counter += 1
 
     def evaluate(self):
         self.env_eval.seed(self.seed_eval)
-
+        scores = []
+        for i in range(self.num_episodes_eval):
+            state = self.env_eval.reset()
+            state = np.reshape(state, (1, self.observation_space_size))
+            score = 0
+            done = False
+            while not done:
+                action = self.act(state, self.exploration_rate_eval)
+                state, reward, done, info = self.env_eval.step(action)
+                state = np.reshape(state, (1, self.observation_space_size))
+                score += reward
+            scores.append(score)
+        self.score_logger.add_evaluation(scores, self.step_counter)
     
     def simulate(self, exploration_rate=0.0, verbose=False):
         state = self.env.reset()
@@ -219,7 +238,7 @@ def train_model():
 
 def simulate_model():
     dqn_agent = DQNAgent(DIR_PATH)
-    dqn_agent.simulate(exploration_rate=0.35, verbose=True)
+    dqn_agent.simulate(exploration_rate=0.02, verbose=True)
 
 if __name__ == "__main__":
     if DO_TRAINING:

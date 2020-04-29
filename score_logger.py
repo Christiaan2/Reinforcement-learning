@@ -10,6 +10,7 @@ class ScoreLogger:
     def __init__(self, dir_path, window_size, reward_threshold):
         self.log_path = os.path.join(dir_path, "logs.txt")
         self.scores_csv_path = os.path.join(dir_path, "scores.csv")
+        self.evaluation_csv_path = os.path.join(dir_path, "evaluation.csv")
         self.scores_png_path = os.path.join(dir_path, "scores.png")
         self.window_size = window_size
         self.reward_threshold = reward_threshold
@@ -17,7 +18,7 @@ class ScoreLogger:
         self.avg_score_max = -np.inf
         self.save_best_model = False
         
-    def add_score(self, score, episode, j):
+    def add_score(self, score, episode, counter):
         self.scores.append(score)
         score_min = np.min(self.scores)
         score_avg = np.mean(self.scores)
@@ -25,7 +26,7 @@ class ScoreLogger:
         self.log(f"Scores: (min: {score_min}, avg: {score_avg}, max: {score_max})")
         
         self._save_csv(score, score_min, score_avg, score_max)
-        if j%16 == 0:
+        if counter % 10 == 0:
             self._save_png(input_path=self.scores_csv_path,
                         output_path=self.scores_png_path,
                         x_label="episode",
@@ -39,9 +40,15 @@ class ScoreLogger:
             self.avg_score_max = score_avg
             if score >= self.reward_threshold:
                 self.save_best_model = True
-        
-        if score_avg >= self.reward_threshold and len(self.scores) >= self.window_size:
-            self.log(f"Solved in {episode} episodes.")
+
+    def add_evaluation(self, scores, step_counter):
+        with open(self.evaluation_csv_path, "a") as evaluation_file:
+            writer = csv.writer(evaluation_file)
+            writer.writerow([step_counter] + scores)
+
+    def solved(self):
+        if np.mean(self.scores) >= self.reward_threshold and len(self.scores) >= self.window_size:
+            self.log(f"Solved!")
             exit()
 
     def _save_png(self, input_path, output_path, x_label, y_label, average_of_n_last, show_goal, show_trend, show_legend):
